@@ -2,7 +2,7 @@
 # sass [ only one image ]
 
 # product_video [ video type mp4 ]
-product_video_name: 'CARSMOS: <br>Open-Source Smart Mobility' 
+product_video_name: 'CARSMOS: <br>Open-Source Smart Mobility'
 product_video_text: 'CARSMOS (CARS Mobility Operating System) is a project group in autonomous driving to provide a technologically advanced, standard, and open-sourced platform to solve the existing problems in smart car research, education and industrial cooperation, including closed sources and fragmentation.'
 product_video_image: 'img/whitepaper2022.png'
 product_video_video: 'vdo/app-bv.mp4'
@@ -12,14 +12,12 @@ product_video_btn_one_text:  'Carsmos Challenge 2023'
 # hero-section-blog
 
 blog_slider:
-  - image: 'img/hero/hero-blog.jpg'
-    author: 'Sir Alex James'
-    title: 'The Idea Of God Is <br /> Not Henceforth Relevant'
-    category: 'Technical'
+  - image: 'img/hero/hero-blog2.png'
+    author: 'CARSMOS工作组'
+    title: '项目进展'
+    category: '基金会'
 
-  - image: 'img/hero/hero-blog.jpg'
-    author: 'Sir Alex James'
-    title: 'The Idea Of God Is <br /> Not Henceforth Relevant'
-    category: 'Art &amp; Fantacy'
-
-
+  - image: 'img/hero/hero-blog3.png'
+    author: 'CARSMOS社区'
+    title: '技术交流'
+    category: '算法大赛'
