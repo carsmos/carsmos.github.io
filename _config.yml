@@ -3,19 +3,19 @@
 ######     Global start     ######
 ####################################
 name                : 'Ducor'
-title               : 'Carsmos - Build Your Green Future'
+title               : 'Carsmos: Open-Source Smart Mobility'
 email               : demo@example.com
 address             : '2216 Park Avenue, California 95630 '
 phone               : 0185612012035
-tagline             : 'Build Your Green Future' 
+tagline             : 'Open-Source Smart Mobility' 
 description: >- # this means to ignore newlines until "baseurl:"
-  CARSMOS based on the Open Atom Open Source Foundation, aims to provide a technologically advanced, standard and open source platform to solve problems in smart car research, education and industrial cooperation. platform closure and fragmentation issues.
+  CARSMOS based on the Open Atom Open Source Foundation, aims to provide a technically advanced, standard and open source platform to solve the current problems in smart car research, education, industrial cooperation. platform closure, and fragmentation.
 
 baseurl             : "" # the subpath of your site, e.g. /blog
-url                 : "https://ymote.github.io" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
+url                 : "https://carsmos.github.io" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
 favicon: 'img/carsmos-favicon.png'
 
-repository: ymote/ymote.github.io
+repository: carsmos/carsmos.github.io
 
 paginate: 12
 paginate_path: "/blog/page:num/"
