@@ -1,0 +1,32 @@
+<!-- Start client-review section -->
+<section class="client-review-section section-gap">
+    <div class="container">
+        <div class="active-review-carusel">
+            {% for testimonial in site.data.clientreview %}
+            <div class="single-review">
+                <div class="quote-wrap">
+                    <p>“{{ testimonial.quotes }}”</p>
+                    <div class="star">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="userinfo-wrap aquablue-bg d-flex flex-row align-items-center relative">
+                    <div class="overlay overlay-bg"></div>
+                    <div class="thumb relative">
+                        <img src="{{ testimonial.avatar | relative_url }}" alt="">
+                    </div>
+                    <div class="details relative">
+                        <h4>{{ testimonial.author }}</h4>
+                        <p>{{ testimonial.position }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- End client-review section -->

@@ -1,0 +1,106 @@
+---
+layout: blog
+name: 'blog'
+hero: blog_details
+---
+
+{% include hero_blog.html %}
+<!-- Start blog posts -->
+<section class="blog-post section-gap">
+    <div class="container">
+        <div class="row">
+
+           {% for post in paginator.posts %}
+           <div class="col-lg-4 col-md-6">
+            <div class="single-card card">
+               {% if post.image %}
+               <img class="card-top-img" src="{{ post.image | relative_url }}" alt="Card image cap">
+               {% endif %}
+               <div class="card-body">
+                <a href="#" class="genric-btn card-btn">{{ post.categories | first | default: 'Uncategorized' }}</a>
+                <p class="mt-25 post-info">
+                    <span class="author">
+                        <a href="#">{{ post.author }}</a>
+                    </span> on {{ post.date | date_to_long_string }}
+                </p>
+                <div class="mb-15">
+                    <a href="{{ post.url }}" class="card-link">
+                </div>
+                            <a href="{{ post.url }}">
+                                <h4 class="card-title mb-15">
+                                    {{ post.title | escape }}
+                                </h4>
+                            </a>
+                            <p>
+                                {%- if site.show_excerpts -%}
+                                {{ post.excerpt }}
+                                {%- endif -%}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+
+            </div>
+
+            <!-- Start Pagination -->
+            <nav aria-label="Page navigation" class="mt-0 mt-lg-3">
+
+                {% if paginator.total_pages > 1 %}
+                <ul class="pagination flex justify-content-center" id="blog-post-sidebar">
+                  {% if paginator.previous_page %}
+                  <li class="page-item">
+                    <a class="page-link border-0" href="{{ paginator.previous_page_path | relative_url }}" aria-label="Previous">
+                        <span class="fa fa-long-arrow-alt-left"></span>
+                    </a>
+                </li>
+                {% else %}
+                <li class="page-item">
+                    <a href="#" class="page-link border-0" aria-label="Previous">
+                        <span class="fa fa-long-arrow-alt-left"></span>
+                    </a>
+                </li>
+                {% endif %}
+
+                {% for page in (1..paginator.total_pages) %}
+                {% if page == paginator.page %}
+                <li class="page-item  border-0 active">
+                    <a href="#" class="page-link">{{ page }}</a>
+                </li>
+                {% elsif page == 1 %}
+                <li class="page-item">
+                    <a class="page-link border-0" href="{{ paginator.previous_page_path | relative_url }}">
+                        {{ page }}
+                    </a>
+                </li>
+                {% else %}
+                <li class="page-item">
+                    <a class="page-link border-0" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">
+                        {{ page }}
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+
+                {% if paginator.next_page %}
+                <li href="{{ paginator.next_page_path | relative_url }}" class="page-item">
+                    <a class="page-link border-0" aria-label="Next">
+                        <span class="fa fa-long-arrow-alt-right"></span>
+                    </a>
+                </li>
+                {% else %}
+                <li class="page-item">
+                    <p class="page-link border-0" aria-label="Next">
+                        <span class="fa fa-long-arrow-alt-right"></span>
+                    </p>
+                </li>
+                {% endif %}
+            </ul>
+            {% endif %}
+
+        </nav>
+        <!-- End Pagination -->
+    </div>
+</section>
+<!-- End blog posts -->
+

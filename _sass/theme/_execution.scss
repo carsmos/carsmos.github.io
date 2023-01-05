@@ -1,0 +1,16 @@
+/*--------------------------------------------------------------
+# Execution
+--------------------------------------------------------------*/
+
+.execution-section {
+  .section-title-wrap {
+    .title-img:before {
+      background: #dddddd;
+    }
+  }
+    @media(max-width: 991px) {
+        .single-ex-process {
+            margin-bottom:30px;
+        }
+    }
+}

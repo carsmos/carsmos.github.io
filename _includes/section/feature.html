@@ -1,0 +1,26 @@
+<!-- Start feature section -->
+<section id="features" class="feature-section pb-120 pt-90">
+    <div class="container">
+        <div class="row feature-left-wrapr">
+            {% for feature in site.data.feature %}
+            <div class="col-lg-4 col-md-6">
+                <div class="single-feature aquablue-bg">
+                    <div class="icon">
+                        <span>
+                            <img width="39" height="40" src="{{ feature.image | relative_url }}"
+                                class="attachment-image_icon_40x40 size-image_icon_40x40" alt=""> 
+                        </span>
+                    </div>
+                    <div class="desc">
+                        <h4>{{ feature.title }}</h4>
+                        <p class="mb-0">
+                            {{ feature.description }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- End feature Area -->

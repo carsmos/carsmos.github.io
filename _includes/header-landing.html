@@ -1,0 +1,98 @@
+{% if include.header_id == 'header7' %}
+
+{% assign header_id = include.header_id %}
+
+{% elsif page.hero == 'product_background_image' %}
+
+{% assign header_id = "header2" %}
+
+{% elsif page.hero == 'product_fixed_image' %}
+
+{% assign header_id = "header7" %}
+
+{% elsif page.hero == 'product' %}
+
+{% assign header_id = "header" %}
+
+{% elsif page.hero == 'product_slider' %}
+
+{% assign header_id = "header2" %}
+
+{% elsif page.hero == 'product_video' %}
+
+{% assign header_id = "header2" %}
+
+{% elsif page.hero == 'saas_video' %}
+
+{%- assign header_id = 'header2' -%}
+
+{% elsif page.hero == 'sass_background_image' %}
+
+{% assign header_id = "header2" %}
+
+{% elsif page.hero == 'sass_fixed_image' %}
+
+{% assign header_id = "header2" %} 
+
+{% elsif page.hero == 'sass_slider' %}
+
+
+{% assign header_id = "header2" %}
+
+{%- elsif page.hero == 'sass_video' -%}
+
+{% assign header_id = "header2" %}
+
+{% elsif page.hero == "sass" %}
+
+{% assign header_id = "header" %}
+
+{% else %}
+
+{% assign header_id = "header" %}
+
+{% endif %}
+
+    <!-- start Header Area -->
+    <header id="{{ header_id }}" >
+        <div class="container-fluid">
+            <div  class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <div id="logo"  class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                    <a href="/landing/">
+                        <img class="logo-1" src="{{ 'img/logo.png' | relative_url }}" alt="" title="" />
+                    </a>
+                    <a href="/landing/">
+                        <img class="logo-2" src="{{ 'img/logo.png' | relative_url }}" alt="" title="" />
+                    </a>
+                </div>
+                <div class="nav-wrap d-flex flex-row align-items-center">
+                    <nav id="nav-menu-container">
+                        <ul class="nav-menu">
+                            <li class="menu-has-children">
+                                <a href="{{ '/landing/#' | relative_url }}">Home</a>
+                            </li>
+                            <li>
+                                <a href="{{ '/landing/#features' | relative_url }}">Features</a>
+                            </li>
+                            <li>
+                                <a href="{{ '/landing/#pricing' | relative_url }}">Pricing</a>
+                            </li>
+                            <li class="menu-has-children">
+                                <a href="{{ 'blog' | relative_url }}">Blog</a>
+                            </li>
+                            <li>
+                                <a href="{{ '/landing/#contact' | relative_url }}">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <a class="genric-btn" href="{{ site.request-demo }}">Free trial</a>
+                </div>
+                <!-- #nav-menu-container -->
+            </div>
+        </div>
+    </header>
+    <!-- End Header Area -->
+
+

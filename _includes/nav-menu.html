@@ -1,0 +1,31 @@
+<div class="nav-wrap d-flex flex-row align-items-center">
+    <nav id="nav-menu-container">
+        <ul class="nav-menu px-3 nav-menu2 sf-js-enabled sf-arrows parent-active">
+            {%- for menu in site.data.menus.header -%}
+            {%- if menu.menu-has-children -%} 
+            <li  class="menu-has-children ">  <!-- parent-active -->
+                <a href="{{ menu.link }}" class="sf-with-ul">
+                    {{ menu.title }}
+                </a>
+                <ul style="display: none;">
+                    {%- for child in  menu.menu-has-children -%}
+                    <li>
+                        <a href="{{child.link}}">{{child.title}}</a>
+                    </li>
+                    {%- endfor -%}
+                </ul>
+            </li>
+            {%- else -%}
+            <li>
+                <a href="{{ menu.link }}">{{ menu.title }}</a>
+            </li>
+            {%- endif -%}
+            {%- endfor -%}
+        </ul>
+    </nav>
+    <a class="genric-btn ml-2" href="{{ 'request-demo' | relative_url }}.html">
+        Carsmos 大赛 2023
+    </a>
+</div>
+<!-- #nav-menu-container -->
+

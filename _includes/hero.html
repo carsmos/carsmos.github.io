@@ -1,0 +1,29 @@
+<!-- Start hero-section -->
+<section class="hero-section-bg relative">
+    <div class="vdo-section">
+        <div class="hero-vdo" data-vide-bg="{{ site.data.hero.product_video_video | absolute_url }}"
+            data-vide-options="loop: true, muted: true">
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="row align-items-center relative">
+                <div class="col-lg-6">
+                    <h1 class=" pt-5">
+                        {{ site.data.hero.product_video_name }}
+                    </h1>
+                    <p class="pt-20 pb-20 mw-510">
+                        {{ site.data.hero.product_video_text }}
+                    </p>
+                    <a href="{{ site.data.hero.product_video_btn_one_link | absolute_url }}" class="genric-btn2">{{
+                        site.data.hero.product_video_btn_one_text }}</a>
+                </div>
+
+                <div class="col-lg-6">
+                    <img class="hero-img9" src="{{ site.data.hero.product_video_image | absolute_url }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End hero-section -->

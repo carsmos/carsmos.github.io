@@ -1,0 +1,82 @@
+    <!-- Start contact section -->
+    <section id="contact" class="contact-section section-gap">
+        <div class="container">
+            <div class="row justify-content-center section-title-wrap">
+                <div class="col-lg-12">
+                    <div class="title-img">
+                        <img src="{{ site.contact_image | relative_url }}" alt="">
+                    </div>
+                    <h1>{{ site.data.contact.title }}</h1>
+                    <p>
+                       {{ site.data.contact.description }}
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-start">
+                <div class="col-lg-6 col-md-6 contact-left">
+                    <div class="map-wrap relative" id="map"></div>
+                    <span id="add-show" class="show-btn lnr lnr-chevron-right"></span>
+                    <!-- <div class="contact-info">
+                        <span id="add-hide" class="cross-btn lnr lnr-cross"></span>
+                        <div class="single-line d-flex flex-row">
+                            <div class="icon">
+                                <span class="lnr lnr-home"></span>
+                            </div>
+                            <div class="desc">
+                                <h4>{{ site.data.contact.address }}</h4>
+                                <p>Santa monica bullevard</p>
+                            </div>
+                        </div>
+                        <div class="single-line d-flex flex-row">
+                            <div class="icon">
+                                <span class="lnr lnr-phone-handset"></span>
+                            </div>
+                            <div class="desc">
+                                <a href="tel:{{ site.contact_phone }}"></a>
+                                <h4>{{ site.data.contact.phone }}</h4>
+                                <p>Mon to Fri 9am to 6 pm</p>
+                            </div>
+                        </div>
+                        <div class="single-line d-flex flex-row">
+                            <div class="icon">
+                                <span class="lnr lnr-envelope"></span>
+                            </div>
+                            <div class="desc">
+                                <h4>{{ site.data.contact.email }}</h4>
+                                <p class="mb-0">Send us your query anytime!</p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="col-lg-5 col-md-6 contact-right">
+                    <form id="myForm" class="form-area contact-form" action="getform.io/f/{{ site.getform_id }}" method="post">
+                        <label for="">Your Name</label>
+                        <input name="name" autocomplete="name" placeholder="Enter your name" onfocus="this.placeholder = ''"
+                            onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control"
+                            required="" type="text">
+
+                        <label for="">Email Address</label>
+                        <input name="email" autocomplete="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control"
+                            required="" type="email">
+
+                        <label for="">SUbject</label>
+                        <input name="subject" autocomplete="subject" placeholder="Enter subject" onfocus="this.placeholder = ''"
+                            onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control"
+                            required="" type="text">
+
+                        <label for="">Message</label>
+                        <textarea class="common-textarea form-control" cols="30" rows="7" name="message" autocomplete="message"
+                            placeholder="Enter Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'"
+                            required=""></textarea>
+                        <div class="">
+                            <button class="genric-btn mt-30">Send Message</button>
+                            <div class="alert-msg"></div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End contact section -->

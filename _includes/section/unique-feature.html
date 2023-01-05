@@ -1,0 +1,44 @@
+    <!-- Start unique-feature Area -->
+    <section class="unique-feature-area section-gap">
+        <div class="container-fluid">
+            <div class="row justify-content-center section-title-wrap">
+                <div class="col-lg-12">
+                    <div class="title-img">
+                        <img src="{{ 'img/title-icon.png' | relative_url }}" alt="">
+                    </div>
+                    <h1>{{ site.data.unique_feature.title }}</h1>
+                    <p>
+                        {{ site.data.unique_feature.description }}
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 pr-5">
+                    <div class="active-execution-carusel">
+                        {% for carusel in site.data.unique_feature.main_image_slider %}
+                        <img class="img-fluid" src="{{ carusel['image'] | relative_url }}" alt="">
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="col-lg-6 pl-4">
+                    {% for item in site.data.unique_feature.sections %}
+                    <div class="feature-list d-flex flex-row">
+                        <div class="icon">
+                            <img class="img-fluid" src="{{ item.image | relative_url }}" alt="">
+                        </div>
+                        <div class="desc ml-40">
+                            <a href="{{ item.link }}">
+                                <h4 class="mb-20">{{ item.title }}</h4>
+                            </a>
+                            <p>
+                                {{ item.description }}
+                            </p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End unique-feature Area -->

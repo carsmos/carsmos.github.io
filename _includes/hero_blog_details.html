@@ -1,0 +1,32 @@
+
+<!-- Start hero-section -->
+<section class="hero-section-blog-details relative">
+    <div class="">
+        <img class="blog-img" src="{{ 'img/blog/blog-details-bg.jpg' | relative_url }}" alt="">
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <div class="row no-margin align-items-center justify-content-between content-wrap">
+                <div class="d-flex align-items-center content-wrap-child">
+                    <div class="text">
+                        <a href="#" class="genric-btn">
+                        {{ page.category | first | default: 'uncategorized' }}
+                        </a>
+                    </div>
+                    <div class="text">
+                        <div class="text-white">
+                            <p class="mb-0">
+                                {{ page.autor | default: site.author |  | escape }} on {{" "}}
+                            {%- assign date_format = site.minima.date_format | default: " %b %-d, %Y" -%}
+                                {{ page.date | date: date_format }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End hero-section -->

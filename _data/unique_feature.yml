@@ -1,0 +1,26 @@
+
+#####################################
+########## Unique Feature ###########
+#####################################
+
+title: 'Features that make us Stand Out'
+description: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools getting infected.'
+image: 'img/title-icon.png' 
+
+main_image_slider: 
+  - image: 'img/carusel/c1.png'
+  - image: 'img/carusel/c2.png'
+  - image: 'img/carusel/c3.png'
+
+sections:
+- title: 'Certifications'
+  description: 'We all live in an age that belongs to the young at heart. Life that is becoming extremely fast, day to day, also asks us to remain.'
+  image: http://127.0.0.1:4000/img/feature/f1.png
+  link: '#'
+
+- title: 'Page Builder'
+  description: 'Vera sought out counseling with me because her doctor advised her to discover the emotional causes of her chronic fatigue.'
+  image: http://127.0.0.1:4000/img/feature/f2.png
+  link: '#'
+
+

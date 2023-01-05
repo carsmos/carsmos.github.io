@@ -1,0 +1,124 @@
+/*--------------------------------------------------------------
+# Brands
+--------------------------------------------------------------*/
+
+.version1 {
+  .brands-section {
+    @extend .d1-gradient-bg;
+    img {
+      @include transition();
+      opacity: 1;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+  .signals-section {
+  }
+}
+
+.version2 {
+  .brands-section {
+    background: $white;
+    .brand-wrap {
+      border-bottom: 1px solid $aquablue-color;
+    }
+    img {
+      @include transition();
+      opacity: 0.5;
+      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+      &:hover {
+        opacity: 1;
+        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(0%);
+      }
+    }
+  }
+}
+
+.version3,
+.version1-1 {
+  .brands-section {
+    @extend .d1-gradient-bg;
+    img {
+      @include transition();
+      opacity: 0.3;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+// .version4{
+// 	.brands-section{
+// 		img{
+// 			@include transition();
+// 			&:hover{
+// 				color: $primary-color2;
+// 			}
+// 		}
+// 	}
+// }
+
+.version4 {
+  .brands-section {
+    img {
+      @include transition();
+      opacity: 0.5;
+      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+      &:hover {
+        opacity: 1;
+        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(0%);
+      }
+    }
+  }
+}
+
+.version7 {
+  .brands-section {
+    img {
+      @include transition();
+      opacity: 0.5;
+      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+      &:hover {
+        opacity: 1;
+        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(0%);
+      }
+    }
+  }
+}
+
+.version8 {
+  .brands-section {
+    @extend .d1-gradient-bg;
+    img {
+      @include transition();
+      opacity: 0.3;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.version9 {
+  .brands-section {
+    img {
+      @include transition();
+      opacity: 0.5;
+      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+      &:hover {
+        opacity: 1;
+        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(0%);
+      }
+    }
+  }
+}

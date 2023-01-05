@@ -1,0 +1,177 @@
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+
+.version2 {
+    .contact-section {
+        background: url(../img/contact/contact-bg.jpg) no-repeat left;
+    }
+}
+
+.version4 {
+    .contact-section {
+        background: url(../img/contact/contact-bg.jpg) no-repeat left;
+    }
+}
+
+.version9 {
+    .contact-section {
+        background: url(../img/contact/contact-bg.jpg) no-repeat left;
+    }
+}
+
+.map-wrap {
+    width: 100%;
+    height: 500px;
+}
+
+.map-wrap2 {
+    width: 100%;
+    height: 558px;
+}
+
+.contact-left {
+    .contact-info {
+        position: absolute;
+        top: 15%;
+        left: 17%;
+        padding: 60px 45px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 10px 30px 0px rgba(135, 170, 218, 0.3);
+        max-width: 400px;
+        @include transition();
+        .single-line {
+            margin-bottom: 20px;
+            &:last-child {
+                margin-bottom: 0px;
+			}
+			h4 {
+                font-size: 16px;
+                margin-bottom: 5px;
+			}
+            .icon .lnr {
+                font-size: 20px;
+                font-weight: 700;
+                color: $text-color;
+                margin-right: 20px;
+            }
+        }
+        @media(max-width:991px)and(min-width:768px) {
+            left: 0px;
+        }
+        @media(max-width:414px) {
+            left: 0px;
+            max-width: 100%;
+        }
+    }
+    @media(max-width:767px) {
+        margin-bottom: 50px;
+    }
+}
+
+.contact-right,
+.contact-form-section {
+    label {
+        font-size: 12px;
+        font-weight: 500;
+        color: $title-color;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 0px;
+    }
+    .form-control {
+        border-radius: 0px;
+        width: 100%;
+        background: $offwhite;
+        padding: 0.675rem 0.75rem;
+        font-size: 14px;
+        border: 1px solid $offwhite;
+        &:focus {
+            background: $white;
+            border: 1px solid $primary-color;
+            box-shadow: none;
+            outline: none;
+        }
+        &::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: #999999;
+            font-size: 13px;
+            opacity: 1;
+            /* Firefox */
+        }
+        &:-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: #999999;
+            font-size: 13px;
+        }
+        &::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: #999999;
+            font-size: 13px;
+        }
+    }
+}
+
+.info-wrap {
+    position: absolute;
+    overflow: hidden;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    .contact-info {
+        padding: 45px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 10px 30px 0px rgba(135, 170, 218, 0.3);
+        max-width: 400px;
+        .single-line {
+            margin-bottom: 20px;
+            &:last-child {
+                margin-bottom: 0px;
+            }
+            .icon .lnr {
+                font-size: 22px;
+                font-weight: 700;
+                color: $primary-color2;
+                margin-right: 20px;
+            }
+        }
+        @media(max-width:991px)and(min-width:768px) {
+            left: 0px;
+        }
+        @media(max-width:414px) {
+            left: 0px;
+            max-width: 100%;
+        }
+    }
+}
+
+.cross-btn {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    font-size: 18px;
+    font-weight: 700;
+    color: $primary-color;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.show-btn {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: $primary-color;
+    background: $white;
+    box-shadow: 0px 10px 30px 0px rgba(135, 170, 218, 0.3);
+    font-size: 18px;
+    padding: 20px;
+    font-weight: 700;
+    &:hover {
+        cursor: pointer;
+    }
+}

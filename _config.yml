@@ -1,0 +1,157 @@
+
+####################################
+######     Global start     ######
+####################################
+name                : 'Ducor'
+title               : 'Carsmos - Build Your Green Future'
+email               : demo@example.com
+address             : '2216 Park Avenue, California 95630 '
+phone               : 0185612012035
+tagline             : 'Build Your Green Future' 
+description: >- # this means to ignore newlines until "baseurl:"
+  CARSMOS based on the Open Atom Open Source Foundation, aims to provide a technologically advanced, standard and open source platform to solve problems in smart car research, education and industrial cooperation. platform closure and fragmentation issues.
+
+baseurl             : "" # the subpath of your site, e.g. /blog
+url                 : "https://ymote.github.io" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
+favicon: 'img/carsmos-favicon.png'
+
+repository: ymote/ymote.github.io
+
+paginate: 12
+paginate_path: "/blog/page:num/"
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+# Build settings
+markdown            : kramdown
+
+# google_analytics
+google_analytics: 
+
+# disqus comment
+disqus_shortname: softdash
+
+
+####################################
+######     Hero start     ######
+####################################
+# product_background_image          sass
+# product_fixed_image               saas_video             
+# product                           sass_background_image
+# product_slider                    sass_fixed_image
+# product_video                     sass_slider       
+
+hero: 'product_fixed_image'
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - package.json
+  - gulpfile.js
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-redirect-from
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-redirect-from
+
+####################################
+######      Global end      ######
+####################################
+
+
+getform_id:  'e5e1f635-da5d-4fc9-9a47-2e10735146f5' # active contact https://getform.io/f/1234
+
+mailchimp:
+  user-id: 
+  list-id: 
+
+####################################
+######        Copyright       ######
+####################################
+copyright_text: Copyright © 2021 All rights reserved to
+company_url: '#'
+
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
+
+# Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+# Analytics
+analytics:
+  provider               : false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
+
+timezone: '' # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+#google map api key
+
+map: 
+  key: 'AIzaSyA7nx22ZmINYk9TGiXDEXGVxghC43Ox6qA'
+  let: 40.6700
+  lng: -73.9400
+  zoom: 11
+  title: '121 King William Street, Snazzy'
+
+
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:slug/
+  pages:
+    output: true
+    permalink: /:path/index:output_ext
+
+# Defaults
+defaults:
+  # _pages 
+  - scope:
+      path: "" # we can not defile path /blog/index.html for pagination
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      hero: blog_details

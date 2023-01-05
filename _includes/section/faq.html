@@ -1,0 +1,76 @@
+    <!-- Start faq-section -->
+    <section class="faq-section section-gap">
+        <div class="container">
+            <div class="row justify-content-center section-title-wrap">
+                <div class="col-lg-12">
+                    <h1>{{ site.faq.data.faq.title }}</h1>
+                    <p>
+                        {{ sit.data.faq.description }}
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="nav-center pb-40 accordian-tab-menu">
+                    <ul class="nav nav-pills col-lg-12" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-general-tab" data-toggle="pill" href="#pills-general"
+                                role="tab" aria-controls="pills-general" aria-selected="true">General Issues</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-support-tab" data-toggle="pill" href="#pills-support" role="tab"
+                                aria-controls="pills-support" aria-selected="false">Support Issues</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-refund-tab" data-toggle="pill" href="#pills-refund" role="tab"
+                                aria-controls="pills-refund" aria-selected="false">Refund Issues</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content col-lg-8" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-general" role="tabpanel" aria-labelledby="pills-general-tab">
+                        <dl class="accordion">
+                            {%- assign generalFaq = site.data.faq.issues | where:"category_name","general" -%}
+                            
+                            {%- for faq in generalFaq -%}
+                                <dt>
+                                    <a href="{{ "#" }}">{{ faq.title }}</a>
+                                </dt>
+                                <dd>
+                                    {{ faq.title }}
+                                </dd>
+                            {%- endfor -%}
+                            
+                        </dl>
+                    </div>
+                    <div class="tab-pane fade" id="pills-support" role="tabpanel" aria-labelledby="pills-support-tab">
+                        <dl class="accordion">
+                           {%- assign supportFaq = site.data.faq.issues | where:"category_name","support" -%}
+                            {%- for faq in supportFaq -%}
+                                <dt>
+                                    <a href="{{ "#" }}">{{ faq.title }}</a>
+                                </dt>
+                                <dd>
+                                    {{ faq.title }}
+                                </dd>
+                            {%- endfor -%}
+                            
+                        </dl>
+                    </div>
+                    <div class="tab-pane fade" id="pills-refund" role="tabpanel" aria-labelledby="pills-refund-tab">
+                        <dl class="accordion">
+                            {%- assign refundFaq = site.data.faq.issues | where:"category_name","refund" -%}
+                            {%- for faq in refundFaq -%}
+                            <dt>
+                                <a href="{{ "#" }}">{{ faq.title }}</a>
+                            </dt>
+                            <dd>
+                                {{ faq.title }}
+                            </dd>
+                            {%- endfor -%}
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End faq-section -->

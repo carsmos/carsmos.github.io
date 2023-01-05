@@ -1,0 +1,16 @@
+    <!-- Start brands section -->
+    <section class="brands-section pb-120 pt-70 d1-gradient-bg">
+
+        <div class="container">
+            <div class="row justify-content-center brand-wrap">
+               {% for carusel in site.data.brand %}
+               <div class="col-md-2 col-3 mt-50 text-center">
+                    <a href="{{ carusel.link }}">
+                        <img class="img-fluid" src="{{ carusel.image | relative_url }}" alt="">
+                    </a>
+                </div>
+               {% endfor %}
+            </div>
+        </div>
+    </section>
+    <!-- End brands section -->

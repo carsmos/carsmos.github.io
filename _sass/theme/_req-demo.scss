@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------
+# Requesr Demo
+--------------------------------------------------------------*/
+
+
+.req-demo-left{
+    @media(max-width:991px){
+        margin-bottom:50px;
+    }
+}
+
+.req-demo-right{
+    .form-control{
+        border-radius: 0px;
+        width:100%;
+        border-color: #bed2f0;
+        padding: 0.675rem 0.75rem;      
+        font-size:14px;
+        &:focus{
+            background:#edf6ff;
+            box-shadow: 0px 10px 30px 0px rgba(135, 170, 218, 0.3);
+        }
+         &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: #ccc;
+            opacity: 1; /* Firefox */
+        }
+
+        &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: #ccc;
+        }
+
+        &::-ms-input-placeholder { /* Microsoft Edge */
+            color: #ccc;
+        }       
+    }
+}

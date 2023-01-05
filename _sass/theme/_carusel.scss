@@ -1,0 +1,39 @@
+
+/*--------------------------------------------------------------
+# Carusel
+--------------------------------------------------------------*/
+
+.marketing-section{
+	.marketing-left{
+		padding-left: 20%;
+		@media(max-width:1366px){
+			padding-left:4%;
+		}
+		@media(max-width:991px){
+			padding-left:15px;
+		}
+		h1 {
+			font-size: 48px;
+			font-weight: 500;
+		}
+		p {
+			margin: 25px 0 42px;
+			max-width: 500px;
+		}
+	}
+
+	.marketing-right{
+		.active-dash-carusel{
+			max-width:850px; 
+			@media(max-width:991px){
+				margin-right:auto;
+				margin-left:auto;
+				display: block;
+			}
+		}
+		
+	}
+
+}
+
+

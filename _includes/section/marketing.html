@@ -1,0 +1,23 @@
+<!-- Start marketing-section -->
+<section class="marketing-section section-gap aquablue-bg">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-6 marketing-left">
+                <h1>
+                    {{ site.data.marketing.title }}
+                </h1>
+                <p class="mw-510">
+                    {{ site.data.marketing.description }}
+                </p>
+                <a href="#" class="genric-btn3">{{ site.data.marketing.btn_text }}</a>
+            </div>
+            <div class="col-lg-6 marketing-right">
+                <div class="active-dash-carusel">
+                    <img class="img-fluid item" src="{{ site.data.marketing.image_one | relative_url }}" alt="">
+                    <img class="img-fluid item" src="{{ site.data.marketing.image_two | relative_url }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End marketing-section -->

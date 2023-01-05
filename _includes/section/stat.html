@@ -1,0 +1,40 @@
+<!-- Start stat-section -->
+<section class="stat-section section-gap">
+    <div class="container">
+        <div class="row justify-content-center section-title-wrap">
+            <div class="col-lg-12">
+                <div class="title-img">
+                    <img src="{{ site.data.stat.image | relative_url }}" alt="">
+                </div>
+                <h1>{{ site.data.stat.title }}</h1>
+                <p>{{ site.data.stat.description }}</p>
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-md-12 text-centerpr-3 pr-md-5">
+                <img class="img-fluid" src="{{ site.data.stat.start_image | relative_url }}" alt="">
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <div class="row">
+                    {% for item in site.data.stat.statistics %}
+                       <div class="col-lg-6 col-md-6">
+                        <div class="single-stat">
+                            <div class="icon">
+                                <img src="{{ item.image | relative_url }}" alt="">
+                            </div>
+                            <div class="desc">
+                                <a href="{{ item.link | relative_url }}" class="d-block">
+                                    <h4>{{ item.title }}</h4>
+                                </a>
+                                <p>{{ item.description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End stat-section -->

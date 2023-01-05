@@ -1,0 +1,85 @@
+header:
+  - name: 'home'
+    title: 'Home'
+    link: '/'   
+    menu-has-children:
+      - name: 'overview'
+        title: 'overview'
+        link: '/multiple/index1-1/'
+
+      - name: 'about'
+        title: 'about us'
+        link: '/multiple/index1-1/'
+
+  - name: 'governance'
+    title: 'governence'
+    link: '/multiple'
+    menu-has-children:
+      - name: 'TSC'
+        title: 'Technical Steering Committee'
+        link: '/governance/tsc/'
+
+      - name: 'TEC'
+        title: 'Technical Executive Committee'
+        link: '/governance/tec/'
+
+      - name: 'PMC'
+        title: 'Program Managment Committee'
+        link: '/governance/pmc/' 
+
+      - name: 'charter'
+        title: 'Project Charter'
+        link: '/governance/charter/'
+
+      - name: 'members'
+        title: 'Project Members'
+        link: '/governance/members/'
+
+  - name: 'projects'
+    title: 'projects'
+    link: '/'
+    menu-has-children:
+      - name: 'Dora'
+        title: 'Dora'
+        link: '/projects/dora/'
+
+      - name: 'Oasis'
+        title: 'Oasis'
+        link: '/projects/oasis/'
+
+      - name: 'EmtyOS'
+        title: 'EmtyOS'
+        link: '/projects/emtyos/'  
+
+      - name: 'AutoExpress'
+        title: 'AutoExpress'
+        link: '/projects/autoexpress/'
+
+  - name: 'join'
+    title: 'Join Us'
+    link: '/multiple'
+    menu-has-children:
+      - name: 'sponsorship'
+        title: 'Sponsorship'
+        link: '/multiple'
+
+      - name: 'University'
+        title: 'University Program'
+        link: '/multiple/index1-1/'
+
+      - name: 'CLA'
+        title: 'CLA'
+        link: '/multiple/index2/'  
+
+  - name: 'news'
+    title: 'news'
+    link: '/blog/'
+
+  - name: 'blog'
+    title: 'blog'
+    link: '/blog/'
+
+  - name: 'contact'
+    title: 'contact'
+    link: '/contact/'
+

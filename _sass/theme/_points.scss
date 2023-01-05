@@ -1,0 +1,47 @@
+
+/*--------------------------------------------------------------
+# Points
+--------------------------------------------------------------*/
+
+.important-points-section{
+  @media(max-width:575px){
+    margin:15px;
+  }
+}
+
+.single-points{
+  border:1px solid #d0e4f7;
+  padding:60px 30px;
+  @include transition();
+  @media(max-width:991px){
+    margin-bottom: 24px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  h4{
+    margin:30px 0px;
+    @include transition();
+  }
+  &:hover{
+    cursor:pointer;
+    z-index: 2;
+    background:$white;
+    box-shadow: 0px 10px 30px 0px rgba(135, 170, 218, 0.3);
+    transform:scale(1.1);
+    h4{
+      color:$primary-color2;
+    }
+  }
+}
+
+
+.about-left{
+  padding: 80px 0px;
+  max-width:500px;
+  padding-left: 50px;
+  @media(max-width:991px){
+    padding-left:15px;
+    padding-top: 0px;
+  }
+}

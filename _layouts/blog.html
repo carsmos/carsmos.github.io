@@ -1,0 +1,43 @@
+---
+layout: compress.html
+---
+
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+{% include head.html %}
+
+<body class="version-blog">
+
+{%- assign logo1 = 'img/carsmos-logo-blue.png' -%}
+{%- assign logo2 = 'img/carsmos-logo-blue.png' -%}
+
+<!-- start Header Area -->
+<header id="header7">
+    <div class="container-fluid">
+        <div class="d-flex flex-wrap align-items-center justify-content-between">
+            <div id="logo" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                <a href="{{ '/' | relative_url }}">
+                    <img class="logo-1" src="{{ logo1 | relative_url }}" alt="" title="" />
+                </a>
+                <a href="{{ '/' | relative_url }}">
+                    <img class="logo-2" src="{{ logo2 | relative_url }}" alt="" title="" />
+                </a>
+            </div>
+            {% include nav-menu.html %}
+        </div>
+    </div>
+</header>
+<!-- End Header Area -->
+
+
+	{{ content }}
+
+    {% include footer.html %}
+
+    {% include scripts.html %}
+</body>
+
+</html>
+
+

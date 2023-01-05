@@ -1,0 +1,23 @@
+
+<script>
+   var map_data = {
+        key: '{{site.map.key}}',
+        let: '{{ site.map.let }}',
+        lng: '{{site.map.lng}}',
+        zoom: '{{site.map.zoom}}',
+        title: '{{site.map.title}}',
+   }
+   localStorage.setItem("du_google_map_data", JSON.stringify(map_data));
+</script>
+
+    <script src="{{ 'js/vendor/jquery-2.2.4.min.js' | relative_url }}"></script>
+    <script src="{{ 'js/popper.min.js' | relative_url }}"></script>
+    <script src="{{ 'js/vendor/bootstrap.min.js' | relative_url }}"></script>
+    <script src="{{ 'js/vendor/jquery.vide.min.js' | relative_url }}"></script>
+    <script src="//maps.googleapis.com/maps/api/js?key={{ site.map.key }}"></script>
+    <script src="{{ 'js/easing.min.js' | relative_url }}"></script>
+    <script src="{{ 'js/superfish.min.js' | relative_url }}"></script>
+    <script src="{{ 'js/jquery.ajaxchimp.min.js' | relative_url }}"></script>
+    <script src="{{ 'js/owl.carousel.min.js' | relative_url }}"></script>
+    <script src="{{ 'js/contact-script.js' | relative_url }}"></script>
+    <script src="{{ 'js/main.js' | relative_url }}"></script>

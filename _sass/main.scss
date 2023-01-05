@@ -1,0 +1,122 @@
+/******************************************************************
+Theme Name: Softdash
+Description:  Creative SaaS and Software HTML Template. You can use Softdash 
+              as a better way to present and promote your start-up mobile apps, 
+              saas applications, software, digital products.
+Author: ducor
+Author URI: https://themeforest.net/user/ducor/portfolio
+Version: 1.0
+Created: 
+******************************************************************/
+/*------------------------------------------------------------------
+
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Table of contents]
+
+1.  Common Styles
+	1.1	Variables
+	1.2	Mixins
+	1.3	Flexbox
+	1.4	Reset
+2.  Elements
+3.  Menu 
+4.  Hero
+5.  Home
+6.  Price
+7.  Points
+8.  Feature
+9.  Brands
+10. Review
+11. Execution
+12. Accordian
+13. Carusel
+14. Request Demo
+15. Blog
+16. Contact
+17. Footer
+
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Color codes]
+
+$primary-color	: #5fb9fd;
+$primary-color2	: #5960ff;
+$title-color	: #222222;
+$text-color		: #777777;
+$aquablue-color : #edf6ff;
+
+$white			: #fff;
+$offwhite		: #fafafa;
+$black			: #222;
+
+
+-----------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------
+[Typography]
+
+Font-Family 	:	'Roboto', sans-serif;
+	h1  : 	48px
+	h2  : 	30px
+	h3  : 	24px
+	h4  : 	18px
+	h5  : 	16px
+	h6  : 	14px
+
+Font-Family 	:	'Open Sans', sans-serif;
+	
+	p: 14px 
+
+
+-----------------------------------------------------------------------*/
+
+
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+//
+// Grid mixins
+//
+
+@import "bootstrap/mixins/breakpoints";
+
+
+// including variables and mixins
+@import "theme/variables";
+@import "theme/mixins";
+@import "theme/flexbox";
+@import "theme/reset";
+
+
+// Custom Scss 
+@import "theme/elements";
+@import "theme/menu";
+@import "theme/menu2";
+@import "theme/menu7";
+@import "theme/hero";
+@import "theme/price";
+@import "theme/points";
+@import "theme/feature";
+@import "theme/brands";
+@import "theme/review";
+@import "theme/execution";
+@import "theme/accordian";
+@import "theme/carusel";
+@import "theme/req-demo";
+@import "theme/blog";
+@import "theme/features";
+@import "theme/contact";
+@import "theme/footer";
+
+
+// Fonts:           ;
+
+
+
+@import "base/sidebar";
+
+

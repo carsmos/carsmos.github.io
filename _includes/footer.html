@@ -1,0 +1,84 @@
+
+    <!-- start footer Area -->
+    <footer class="footer-area aquablue-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-footer-widget">
+                        <h4>{{ site.data.footer.title }}</h4>
+                        <p>
+                            {{ site.data.footer.description }}
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="single-footer-widget">
+                        <h4>{{ site.data.footer.resources_link_heading }}</h4>
+                        <ul class="menu-list">
+                            {% for menu in site.data.footer.resources_links %}
+                            <li>
+                                <a href="{{ menu.link }}">{{ menu.text }}</a>
+                            </li>
+                            {% endfor %}
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="single-footer-widget">
+                        <h4>{{ site.data.footer.features_link_heading }}</h4>
+                        <ul class="menu-list">
+                            {% for menu in site.data.footer.resources_links %}
+                            <li>
+                                <a href="{{ menu.link }}">{{ menu.text }}</a>
+                            </li>
+                            {% endfor %}
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="single-footer-widget">
+                        <h4>Follow Us</h4>
+                        <ul class="social-icons">
+                            {% for social in site.data.footer.social_links %}
+                            <li>
+                                <a href="{{ social.link }}">
+                                    <i class="{{ social.icon }}"></i>
+                                </a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-footer-widget">
+                        <h4>Newsletter</h4>
+                        <p>You can trust us. we only send promo offers, not a single spam.</p>
+                        <div class="d-flex flex-row newsletter-form" id="mc_embed_signup">
+
+                            <form class="navbar-form" 
+                            action="http://twitter.us2.list-manage.com/subscribe/post?u={{ site.mailchimp.user-id }}&amp;id={{ site.mailchimp.list-id }}"
+                                method="post" novalidate >
+                                <div class="d-flex form-wrap">
+                                    <input class="form-control" name="EMAIL" autocomplete="email" placeholder="Your email address"
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'"
+                                        required="" type="email">
+                                    <button class="submit-btn" type="submit">
+                                        <span class="lnr lnr-arrow-right"></span>
+                                    </button>
+                                </div>
+                                <div class="info mt-20"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom row justify-content-center mt-70">
+                <p class="footer-text m-0 col-lg-6 col-md-12">{{ site.copyright_text }}
+                    <a href="{{ site.company_url }}">{{ site.name }}</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer Area -->

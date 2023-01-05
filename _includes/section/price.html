@@ -1,0 +1,93 @@
+
+    <!-- Start price section -->
+    <section id="pricing" class="price-section section-gap">
+        <div class="container">
+            <div class="row justify-content-center section-title-wrap">
+                <div class="col-lg-12">
+                    <div class="title-img">
+                        <img src="{{ 'img/title-icon.png' | relative_url }}" alt="">
+                    </div>
+                    <h1>ok{{ site.data.price.pricing_table_title }}</h1>
+                    <p>
+                        {{ site.data.price.pricing_table_description }}
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="single-price">
+                        <div class="price-top text-center relative">
+                            <div class="pack-desc relative">
+                                <h4>{{ site.data.price.plan_starter_name }}</h4>
+                                <p>
+                                    {{ site.data.price.plan_starter_tagline }}
+                                </p>
+                            </div>
+                            <div class="price relative">
+                                <p>
+                                    {{ site.data.price.plan_starter_price }}
+                                </p>
+                            </div>
+                        </div>
+                        <div class="price-bottom">
+                            <ul class="packlist">
+                                {{ site.data.price.plan_starter_description }}
+                            </ul>
+                            <a href="{{ site.data.price.plan_starter_url }}" class="genric-btn2">{{ site.data.price.plan_starter_btn_text }}</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="single-price">
+                        <div class="price-top text-center relative">
+                            <div class="pack-desc relative">
+                                <h4>{{ site.data.price.plan_standard_name }}</h4>
+                                <p>
+                                    {{ site.data.price.plan_standard_tagline }}
+                                </p>
+                            </div>
+                            <div class="price relative">
+                                <p>
+                                    {{ site.data.price.plan_standard_price }}
+                                </p>
+                            </div>
+                        </div>
+                        <div class="price-bottom">
+                             <ul class="packlist">
+                                {{ site.data.price.plan_standard_description }}
+                            </ul>
+                            <a href="{{ site.data.price.plan_standard_url }}" class="genric-btn2">{{ site.data.price.plan_standard_btn_text }}</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="single-price">
+                        <div class="price-top text-center relative">
+                            <div class="pack-desc relative">
+                                <h4>{{ site.data.price.plan_business_name }}</h4>
+                                <p>
+                                    {{ site.data.price.plan_business_tagline }}
+                                </p>
+                            </div>
+                            <div class="price relative">
+                                <p>
+                                    {{ site.data.price.plan_business_price }}
+                                </p>
+                            </div>
+                        </div>
+                        <div class="price-bottom">
+                            <ul class="packlist">
+                                {{ site.data.price.plan_business_description }}
+                            </ul>
+                            <a href="{{ site.data.price.plan_business_url }}" class="genric-btn2">
+                                {{ site.data.price.plan_business_btn_text }}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End price section -->
