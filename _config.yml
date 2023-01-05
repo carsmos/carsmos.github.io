@@ -2,7 +2,7 @@
 ####################################
 ######     Global start     ######
 ####################################
-name                : 'Ducor'
+name                : 'CARSMOS Workgroup'
 title               : 'Carsmos: Open-Source Smart Mobility'
 email               : demo@example.com
 address             : '2216 Park Avenue, California 95630 '
@@ -87,7 +87,7 @@ mailchimp:
 ####################################
 ######        Copyright       ######
 ####################################
-copyright_text: Copyright © 2021 All rights reserved to
+copyright_text: Copyright © 2023 All rights reserved to
 company_url: '#'
 
 
