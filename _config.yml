@@ -5,7 +5,7 @@
 name                : 'CARSMOS Workgroup'
 title               : 'Carsmos: Open-Source Smart Mobility'
 email               : demo@example.com
-address             : '2216 Park Avenue, California 95630 '
+address             : '2230 Central Expy, Santa Clara, CA 95050, USA'
 phone               : 0185612012035
 tagline             : 'Open-Source Smart Mobility' 
 description: >- # this means to ignore newlines until "baseurl:"

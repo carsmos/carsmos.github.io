@@ -55,6 +55,10 @@ header:
         title: 'AutoExpress'
         link: '/projects/autoexpress/'
 
+  - name: 'blog'
+    title: 'blog'
+    link: '/blog/'
+
   - name: 'join'
     title: 'Join Us'
     link: '/multiple'
@@ -71,15 +75,6 @@ header:
         title: 'CLA'
         link: '/multiple/index2/'  
 
-  - name: 'news'
-    title: 'news'
-    link: '/blog/'
-
-  - name: 'blog'
-    title: 'blog'
-    link: '/blog/'
-
-  - name: 'contact'
-    title: 'contact'
-    link: '/contact/'
-
+      - name: 'contact'
+        title: 'contact us'
+        link: '/contact/'
