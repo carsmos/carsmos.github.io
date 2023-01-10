@@ -1,7 +1,7 @@
 header:
   - name: 'home'
     title: 'Home'
-    link: '/'   
+    link: '/index2.html'   
     menu-has-children:
       - name: 'overview'
         title: 'overview'
