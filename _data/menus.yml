@@ -1,19 +1,51 @@
 header:
   - name: 'home'
     title: 'Home'
-    link: '/index2.html'   
+    link: '/'   
     menu-has-children:
       - name: 'overview'
         title: 'overview'
-        link: '/multiple/index1-1/'
+        link: '/overview.html'
 
       - name: 'about'
         title: 'about us'
-        link: '/multiple/index1-1/'
+        link: '/about-us.html'
+
+  - name: 'projects'
+    title: 'projects'
+    link: '/'
+    menu-has-children:
+      - name: 'Dora'
+        title: 'Dora'
+        link: '/projects/dora/'
+
+      - name: 'Oasis'
+        title: 'Oasis'
+        link: '/projects/oasis/'
+
+      - name: 'Etymos'
+        title: 'Etymos'
+        link: '/projects/etymos/'  
+
+      - name: 'ESSA'
+        title: 'ESSA'
+        link: '/projects/essa/'
+
+      - name: 'EDIT-EV'
+        title: 'EDIT-EV'
+        link: '/projects/edit-ev/'
+
+      - name: 'AutoExpress'
+        title: 'AutoExpress'
+        link: '/projects/autoexpress/'
+
+  - name: 'blog'
+    title: 'blog'
+    link: '/blog/'
 
   - name: 'governance'
-    title: 'governence'
-    link: '/multiple'
+    title: 'governance'
+    link: '/'
     menu-has-children:
       - name: 'TSC'
         title: 'Technical Steering Committee'
@@ -35,46 +67,22 @@ header:
         title: 'Project Members'
         link: '/governance/members/'
 
-  - name: 'projects'
-    title: 'projects'
-    link: '/'
-    menu-has-children:
-      - name: 'Dora'
-        title: 'Dora'
-        link: '/projects/dora/'
-
-      - name: 'Oasis'
-        title: 'Oasis'
-        link: '/projects/oasis/'
-
-      - name: 'EmtyOS'
-        title: 'EmtyOS'
-        link: '/projects/emtyos/'  
-
-      - name: 'AutoExpress'
-        title: 'AutoExpress'
-        link: '/projects/autoexpress/'
-
-  - name: 'blog'
-    title: 'blog'
-    link: '/blog/'
-
   - name: 'join'
     title: 'Join Us'
-    link: '/multiple'
+    link: '/'
     menu-has-children:
       - name: 'sponsorship'
         title: 'Sponsorship'
-        link: '/multiple'
+        link: '/join/sponsorship.html'
 
       - name: 'University'
         title: 'University Program'
-        link: '/multiple/index1-1/'
+        link: '/join/universityprogram.html'
 
       - name: 'CLA'
         title: 'CLA'
-        link: '/multiple/index2/'  
+        link: '/join/cla.html'  
 
       - name: 'contact'
         title: 'contact us'
-        link: '/contact/'
+        link: '/join/contact-us.html'

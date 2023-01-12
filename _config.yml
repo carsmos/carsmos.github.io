@@ -4,16 +4,16 @@
 ####################################
 name                : 'CARSMOS Workgroup'
 title               : 'Carsmos: Open-Source Smart Mobility'
-email               : demo@example.com
+email               : info@carsmos.ai
 address             : '2230 Central Expy, Santa Clara, CA 95050, USA'
 phone               : 0185612012035
 tagline             : 'Open-Source Smart Mobility' 
 description: >- # this means to ignore newlines until "baseurl:"
-  CARSMOS based on the Open Atom Open Source Foundation, aims to provide a technically advanced, standard and open source platform to solve the current problems in smart car research, education, industrial cooperation. platform closure, and fragmentation.
+  CARSMOS based on the Open Atom Open Source Foundation, aims to provide an advanced, standard and open source platform to solve the current problems in smart car research, education, industrial cooperation. platform closure, and fragmentation.
 
 baseurl             : "" # the subpath of your site, e.g. /blog
-url                 : "https://carsmos.github.io" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
-favicon: 'img/carsmos-favicon.png'
+url                 : "https://carsmos.ai" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
+favicon             : 'img/carsmos-favicon.png'
 
 repository: carsmos/carsmos.github.io
 
