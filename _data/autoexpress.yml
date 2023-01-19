@@ -1,0 +1,11 @@
+
+
+####################################
+######  AutoExpress Section   ######
+####################################
+title: 'AutoExpress: 面向芯片模块化敏捷开发的Chiplet模式中D2D互联接口'
+description: 'AutoExpress项目是面向芯片模块化敏捷开发的Chiplet模式中D2D互联接口,满足多裸片短距高带宽低延时互联,并针对汽车领域做了车规级设计。'
+image_one: '/img/autoexpress1.png'
+image_two: '/img/autoexpress2.png'
+btn_text: 'Learn more...'
+btn_link: '#'

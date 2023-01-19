@@ -1,18 +1,18 @@
 header:
-  - name: 'home'
-    title: 'Home'
+  - name: 'intro'
+    title: 'Introduction'
     link: '/'   
     menu-has-children:
+      - name: 'aboutus'
+        title: 'AboutUs'
+        link: '/intro/aboutus/'
+        
       - name: 'overview'
-        title: 'overview'
-        link: '/overview.html'
-
-      - name: 'about'
-        title: 'about us'
-        link: '/about-us.html'
+        title: 'Overview'
+        link: '/intro/overview/'
 
   - name: 'projects'
-    title: 'projects'
+    title: 'Projects'
     link: '/'
     menu-has-children:
       - name: 'Dora'
@@ -31,20 +31,20 @@ header:
         title: 'ESSA'
         link: '/projects/essa/'
 
-      - name: 'EDIT-EV'
-        title: 'EDIT-EV'
-        link: '/projects/edit-ev/'
+      - name: 'EDITEV'
+        title: 'EDITEV'
+        link: '/projects/editev/'
 
       - name: 'AutoExpress'
         title: 'AutoExpress'
         link: '/projects/autoexpress/'
 
   - name: 'blog'
-    title: 'blog'
+    title: 'Blog'
     link: '/blog/'
 
   - name: 'governance'
-    title: 'governance'
+    title: 'Governance'
     link: '/'
     menu-has-children:
       - name: 'TSC'

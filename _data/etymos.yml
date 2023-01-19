@@ -1,0 +1,11 @@
+
+
+####################################
+######  Etymos Section   ######
+####################################
+title: 'Etymos: 数据采集+数据飞轮'
+description: 'EtymOS围绕数据和模型来支持自动驾驶2.0项目，包括构建标准化的数据采集 EtymosKIT,通过自动化的数据飞轮 EtymOS Wheel做数据集共享和社区协同开发,来快速提升自动驾驶模型的性能,打造标准化的自驾感知大模型EtymOS。'
+image_one: '/img/etymos1.png'
+image_two: '/img/etymos2.png'
+btn_text: 'Learn more...'
+btn_link: '#'

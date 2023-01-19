@@ -1,0 +1,11 @@
+
+
+####################################
+######  Dora Section   ######
+####################################
+title: 'DORA - Dataflow Oriented Robotics Architecture'
+description: 'DORA项目以软件定义汽车,智能驾驶为目标场景,集成了大量云原生的架构理念和生态工具,并且采用了安全可信的Rust语言开发,支持弹性数据流计算框架、多样化的中间件选择、云端协同计算,为智能汽车的软件开发提供了又一个更加现代化的平台选择,同时也提供了一条对ROS1/ROS2升级、替代及超越的技术路线。'
+image_one: '/img/dora1.png'
+image_two: '/img/dora2.png'
+btn_text: 'Learn more...'
+btn_link: '#'
