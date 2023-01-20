@@ -66,3 +66,8 @@ header:
   - name: 'blog'
     title: 'Blog'
     link: '/blog/'
+
+  - name: 'Race2023'
+    title: '算法大赛Race2023'
+    link: '/Race2023/'
+
