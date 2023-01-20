@@ -7,34 +7,19 @@
 title: 'About Us'
 description: 'CARSMOS Work Group.'
 
-resources_link_heading: 'Resources'
+resources_link_heading: 'Source Code'
 resources_links: 
   - text: 'Repo on GitHub'
-    link: '#'
+    link: 'https://github.com/carsmos'
   - text: 'Repo on Gitee'
-    link: '#'
-  - text: 'Experts'
-    link: '#'
-  - text: 'Agencies'
-    link: '#'
-
-features_link_heading: 'Features'
-features_links:
-  - text: 'Guides'
-    link: '#'
-  - text: 'Research'
-    link: '#'
-  - text: 'Experts'
-    link: '#'
-  - text: 'Agencies'
-    link: '#'
+    link: 'https://gitee.com/carsmos'
 
 social_links:
   - name: "facebook"
     link: '#'
     icon: "fab fa-facebook-f"
 
-  - name: "dribbble"
+  - name: "wechat"
     link: '#'
     icon: "fab fa-dribbble"
 

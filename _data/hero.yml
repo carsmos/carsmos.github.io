@@ -6,8 +6,10 @@ product_video_name: 'CARSMOS: <br>Open-Source Smart Mobility<br>元遨: 开源�
 product_video_text: 'CARSMOS (CARS Mobility Operating System) is a project group in autonomous driving to provide an advanced, standard, and open-sourced platform to solve the existing problems of closed sources and fragmentation in smart car research, education, and industrial cooperation.'
 product_video_image: 'img/whitepaper2022.png'
 product_video_video: 'vdo/app-bv.mp4'
-product_video_btn_one_link: 'Race2023/CARSMOS元遨全球开源智能驾驶2023大赛介绍和报名.html'
-product_video_btn_one_text:  'Carsmos Race 2023'
+product_video_btn_one_link: 'whitepaper2022/CARSMOS-whitepaper-2022-12.pdf'
+product_video_btn_one_text:  'Carsmos Whitepaper 2022'
+product_video_btn_two_link: 'Race2023/CARSMOS元遨全球开源智能驾驶2023大赛介绍和报名.html'
+product_video_btn_two_text:  'Carsmos Race 2023'
 
 # hero-section-blog
 
