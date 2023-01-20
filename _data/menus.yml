@@ -1,6 +1,6 @@
 header:
   - name: 'intro'
-    title: 'Introduction'
+    title: '元遨CARSMOS'
     link: '/'   
     menu-has-children:
       - name: 'aboutcarsmos'
