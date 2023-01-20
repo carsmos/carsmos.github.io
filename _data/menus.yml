@@ -39,10 +39,6 @@ header:
         title: 'AutoExpress'
         link: '/projects/autoexpress/'
 
-  - name: 'blog'
-    title: 'Blog'
-    link: '/blog/'
-
   - name: 'governance'
     title: 'Governance'
     link: '/'
@@ -67,22 +63,6 @@ header:
         title: 'Project Members'
         link: '/governance/members/'
 
-  - name: 'join'
-    title: 'Join Us'
-    link: '/'
-    menu-has-children:
-      - name: 'sponsorship'
-        title: 'Sponsorship'
-        link: '/join/sponsorship.html'
-
-      - name: 'University'
-        title: 'University Program'
-        link: '/join/universityprogram.html'
-
-      - name: 'CLA'
-        title: 'CLA'
-        link: '/join/cla.html'  
-
-      - name: 'contact'
-        title: 'contact us'
-        link: '/join/contact-us.html'
+  - name: 'blog'
+    title: 'Blog'
+    link: '/blog/'

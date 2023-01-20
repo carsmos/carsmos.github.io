@@ -1,5 +1,4 @@
 
-
 #####################################
 ##########     footer      ###########
 #####################################
@@ -13,6 +12,13 @@ resources_links:
     link: 'https://github.com/carsmos'
   - text: 'Repo on Gitee'
     link: 'https://gitee.com/carsmos'
+
+features_link_heading: 'Features'
+features_links:
+  - text: 'Carsmos Race 2023'
+    link: 'Race2023/CARSMOS元遨全球开源智能驾驶2023大赛介绍和报名'
+  - text: 'OpenAtom Foundation'
+    link: 'https://www.openatom.org/'
 
 social_links:
   - name: "facebook"
