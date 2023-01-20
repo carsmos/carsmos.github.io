@@ -3,12 +3,12 @@ header:
     title: 'Introduction'
     link: '/'   
     menu-has-children:
-      - name: 'aboutus'
-        title: 'AboutUs'
-        link: '/intro/aboutus/'
+      - name: 'aboutcarsmos'
+        title: 'About Carsmos'
+        link: '/intro/aboutcarsmos/'
         
       - name: 'overview'
-        title: 'Overview'
+        title: 'Carsmos Overview'
         link: '/intro/overview/'
 
   - name: 'projects'
@@ -32,7 +32,7 @@ header:
         link: '/projects/essa/'
 
       - name: 'EDITEV'
-        title: 'EDITEV'
+        title: 'EDIT-EV'
         link: '/projects/editev/'
 
       - name: 'AutoExpress'
