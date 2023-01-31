@@ -68,11 +68,11 @@ header:
     link: '/blog/'
 
   - name: 'Race2023'
-    title: 'IEEE/Carsmos Race 2023'
+    title: '算法大赛Race2023'
     link: '/Race2023/'
     menu-has-children:
       - name: 'Race2023PPT'
-        title: 'Race2023 PPT'
+        title: 'IEEE Race2023 PPT'
         link: '/Race2023/全球开源自动驾驶算法大赛V1.pdf'
 
       - name: 'Race2023Page'
