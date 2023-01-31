@@ -68,7 +68,7 @@ header:
     link: '/blog/'
 
   - name: 'Race2023'
-    title: 'IEEE Race 2023'
+    title: 'IEEE/Carsmos Race 2023'
     link: '/Race2023/'
     menu-has-children:
       - name: 'Race2023PPT'
