@@ -1,7 +1,5 @@
 # **元遨CARSMOS全球开源智能驾驶2023大赛介绍**
 
-![carsmos logo](./carsmos-logo.jpg “carsmos logo”)
-
 大赛报名链接：[https://race.carsmos.cn/](https://race.carsmos.cn/)（需要GitHub账号）
 大赛联系人：race@carsmos.ai
 
@@ -40,3 +38,5 @@
 2023.06.15-决赛（线下比赛）出结果；
 2023.06.22-开放原子全球开源峰会，表演赛，专家答辩决定最终名次，颁奖。
  
+
+![carsmos-logo](https://user-images.githubusercontent.com/99924265/219509901-34f8bff0-6c4b-4c7f-937b-696de3680d01.jpg)
