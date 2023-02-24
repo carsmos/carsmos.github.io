@@ -244,9 +244,10 @@
 }
 
 .page-top-section {
-    background: url(../img/footer/page-top-bg.jpg) center/cover;
+    background: url(../img/footer/page-top-bg1.jpg) center/cover;
     padding-top: 235px;
     padding-bottom: 40px;
+    position: relative;
     .page-top-nav {
         text-align: right;
         @media(max-width: 767px) {
@@ -263,6 +264,11 @@
             font-weight: 700;
         }
     }
+}
+.page-top-section1 {
+    position: absolute;
+    top: 100px;
+    left: 265px;
 }
 
 .social-heading {
