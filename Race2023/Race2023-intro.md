@@ -1,4 +1,9 @@
+---
+layout: page
+title: 全球开源智能驾驶2023大赛介绍
+--- 
 # **元遨CARSMOS全球开源智能驾驶2023大赛介绍**
+
 
 大赛报名链接：[https://race.carsmos.cn/](https://race.carsmos.cn/)（需要GitHub账号）
 大赛联系人：race@carsmos.ai
@@ -40,3 +45,4 @@
  
 
 ![carsmos-logo](https://user-images.githubusercontent.com/99924265/219509901-34f8bff0-6c4b-4c7f-937b-696de3680d01.jpg)
+
