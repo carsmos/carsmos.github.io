@@ -1,0 +1,250 @@
+/*--------------------------------------------------------------
+# Race
+--------------------------------------------------------------*/
+.race-bg {
+    background-image: url(../img/race/bg1.png);
+    background-color: #F1F5FE;
+    border-radius: 0px 0px 0px 0px;
+    opacity: 1;
+}
+.title-race {
+    margin: 0 auto;
+    height: 38px;
+    width: 260px;
+    position: relative;
+    top: calc(50% - 38px /2);
+}
+
+.content-1 {
+    height: 448px
+}
+
+.content-1-top {
+    margin: 0 auto;
+    height: 150px;
+}
+
+.content-1-bottom {
+    height: 410px;
+}
+
+.content-2 {
+    height: 448px;
+    position: relative;
+}
+
+.content-2-top {
+    margin: 0 auto;
+    height: 150px;
+}
+
+.content-2-bottom {
+    height: 300px;
+}
+
+.content-2-left {
+    font-size: 16px;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-weight: 400;
+    color: #333333;
+    line-height: 32px;
+    height: 196px;
+    width: 55%;
+    float: left;
+    margin-left: -29px;
+}
+
+.tag-a {
+    text-decoration: underline;
+    color: #8A4FF6;
+}
+
+.content-2-img {
+    height: 300px;
+    position: absolute;
+    left: 660px;
+    top: 10px;
+}
+
+.content-3 {
+    height: 400px
+}
+
+.content-3-top {
+    margin: 0 auto;
+    height: 150px;
+}
+
+.content-3-center {
+    height: 70px;
+    width: calc(50% - 600px / 2);
+    margin: 0 auto;
+    background: url(../img/race/p4.png) no-repeat center/cover
+}
+
+.content-3-bottom {
+    height: 180px;
+    font-size: 14px;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-weight: 400;
+    text-align: center;
+}
+
+.content-3-bottom-top {
+    border-bottom: 3px solid #8A4FF6;
+    height: 80px;
+}
+
+.content-3-bottom-bottom {
+    position: relative;
+    border-top: 1px solid #C0A3F9;
+    height: 80px;
+    margin-top: 5px;
+}
+
+.content-3-bottom-bottom>img {
+    position: absolute;
+    top: -24px;
+}
+
+.img-m1 {
+    left: 53px;
+}
+
+.img-m2 {
+    left: calc(40px + 130px + 32px);
+}
+
+.img-m3 {
+    left: calc(24px + 130px * 2 + 32px * 2);
+}
+
+.img-m4 {
+    left: calc(27px + 130px * 3 + 32px * 3);
+}
+
+.img-m5 {
+    left: calc(45px + 130px * 4 + 32px * 4);
+}
+
+.img-m6 {
+    left: calc(45px + 130px * 5 + 32px * 5);
+}
+
+.img-m7 {
+    left: calc(45px + 130px * 6 + 32px * 6);
+}
+
+.img-m8 {
+    left: calc(30px + 130px * 7 + 32px * 7);
+}
+
+.content-3-intro {
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    color: #8A4FF6;
+    font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+    padding-top: 21px;
+}
+
+.strong-intro {
+    font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+    font-weight: bold;
+    color: #8A4FF6;
+}
+
+.content-3-bottom-top>ul>li {
+    float: left;
+    margin: 26px 44px;
+}
+
+.content-3-bottom-bottom>ul>li {
+    float: left;
+    margin: 6px 41px;
+}
+
+.footer {
+    height: 200px;
+    background: url(../img/race/p6.png) no-repeat center/cover
+}
+
+
+.part-1 {
+    text-align: center;
+}
+
+.title-left {
+    float: left;
+    padding-top: 5px;
+}
+
+.title-right {
+    float: right;
+    padding-top: 5px;
+}
+
+.font-title1 {
+    width: 152px;
+    height: 38px;
+    font-size: 38px;
+    font-family: Source Han Sans CN-Medium, Source Han Sans CN;
+    font-weight: 500;
+    color: #333333;
+    margin: 0px 22px;
+}
+
+.img-flow {
+    position: relative;
+    height: 202px;
+    border-radius: 0px 0px 0px 0px;
+    opacity: 1;
+}
+
+.img-flow1 {
+    position: absolute;
+    top: 50px;
+    left: 19px;
+    z-index: 100;
+}
+
+.p-intro {
+    border-style: solid;
+    border-width: 6px 0px 0px 0px;
+    border-color: #8a4ff6;
+    background: #f9fafb;
+    padding: 7px 40px;
+    color: #333333;
+    font-size: 16px;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-weight: 400;
+    line-height: 32px;
+    position: absolute;
+    left: 280px;
+    top: 69px;
+}
+
+.foot-content {
+    width: 810px;
+    margin: 0px auto;
+    font-size: 16px;
+    font-family: Source Han Sans CN-Medium, Source Han Sans CN;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 30px;
+    padding-top: 62px;
+}
+
+.foot-link {
+    float: left;
+}
+
+.foot-contact {
+    float: right;
+}
+
+.foot-organizer {
+    float: left;
+    margin: 30px auto;
+    padding: 0px 166px;
+}

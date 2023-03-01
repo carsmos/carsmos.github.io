@@ -242,12 +242,10 @@
 .border-top {
     border-top: 1px solid $aquablue-color;
 }
-
 .page-top-section {
-    background: url(../img/footer/page-top-bg1.jpg) center/cover;
+    background: url(../img/footer/page-top-bg.jpg) center/cover;
     padding-top: 235px;
     padding-bottom: 40px;
-    position: relative;
     .page-top-nav {
         text-align: right;
         @media(max-width: 767px) {
@@ -267,10 +265,54 @@
 }
 .page-top-section1 {
     position: absolute;
-    top: 100px;
-    left: 265px;
+    top: 91px;
+    left: 322px;
 }
-
+.page-top-section2 {
+    background: url(../img/footer/banner.png) center/cover;
+    padding-top: 235px;
+    padding-bottom: 40px;
+    position: relative;
+    margin-top: 80px;
+    height: 500px;
+    .page-top-nav {
+        text-align: right;
+        @media(max-width: 767px) {
+            text-align:left;
+            margin-top: 30px;
+        }
+        a {
+            text-transform: uppercase !important;
+            color: $white;
+        }
+        .lnr {
+            color: $white;
+            padding: 0px 10px;
+            font-weight: 700;
+        }
+    }
+}
+.title-margin{
+    margin-left: 17px;
+    height: 70px;
+    font-size: 70px;
+    color: #FFFFFF;
+    font-family: Source Han Sans CN-Medium, Source Han Sans CN;
+    margin-top: 44px;
+}
+.head-arros{
+    margin-left: 17px;
+    margin-top: 30px;
+    height: 35px;
+}
+.head-arros>img{
+    height: 56px;
+    margin-top: 32px;
+}
+.head-sep{
+    width: 100%;
+    height: 36px;
+}
 .social-heading {
     max-width: 425px;
 }

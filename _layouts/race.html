@@ -5,6 +5,9 @@
 
 {%- assign logo1 = 'img/carsmos-logo-blue.png' -%}
 {%- assign logo2 = 'img/carsmos-logo-blue.png' -%}
+{%- assign bg2 = 'img/footer/page-top-bg2.jpg' -%}
+{%- assign bg3 = 'img/footer/page-top-bg3.png' -%}
+{%- assign page-down = 'img/footer/page-down.png' -%}
 
 <body class="version2 pages">
 
@@ -27,28 +30,27 @@
 <!-- End Header Area -->
 
     <!-- Start page-top section -->
-    <section class="page-top-section">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-6 col-md-6">
-                    <h1 class="text-white">{{ page.title }}</h1>
-                </div>
-                <div class="col-lg-6  col-md-6 page-top-nav">
+    <section class="page-top-section2">
+        <div class="container"> 
+            <div class="page-top-section1"> <img src="{{ bg3 | relative_url }}"/></div>
+            <div class="row justify-content-between align-items-center title-margin">
+                    {{ page.title }}
+                <!--<div class="col-lg-6  col-md-6 page-top-nav">
                     <div>
                         <a href="{{ '/' | relative_url }}">Home</a>
                         <span class="lnr lnr-arrow-right"></span>
                         <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
                     </div>
-                </div>
+                </div> -->
             </div>
+            <div class="head-arros"><img src="{{ page-down | relative_url }}" alt=""/></div>
         </div>
     </section>
+    <div> <img class = "head-sep" src="{{ bg2 | relative_url }}"/></div>
     <!-- End page-top section -->
 
     {{ content }}
 
-
-    {% include footer.html %}
     {% include scripts.html %}
 
 </body>
