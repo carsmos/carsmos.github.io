@@ -1,6 +1,10 @@
 /*--------------------------------------------------------------
 # Race
 --------------------------------------------------------------*/
+.race-container {
+    margin-left: 16.67%;
+    margin-right: 16.67%;
+}
 .race-bg {
     background-image: url(../img/race/bg1.png);
     background-color: #F1F5FE;
@@ -161,7 +165,7 @@
 
 .content-3-bottom-bottom>ul>li {
     float: left;
-    margin: 6px 41px;
+    margin: 6px 40px;
 }
 
 .footer {
@@ -225,14 +229,14 @@
 }
 
 .foot-content {
-    width: 810px;
-    margin: 0px auto;
     font-size: 16px;
     font-family: Source Han Sans CN-Medium, Source Han Sans CN;
     font-weight: 500;
     color: #FFFFFF;
     line-height: 30px;
     padding-top: 62px;
+    margin-left: 31%;
+    margin-right: 31%;
 }
 
 .foot-link {
@@ -244,7 +248,6 @@
 }
 
 .foot-organizer {
-    float: left;
-    margin: 30px auto;
-    padding: 0px 166px;
+   text-align: center;
+    margin-top: 48px;
 }

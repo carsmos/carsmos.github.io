@@ -265,45 +265,34 @@
 }
 .page-top-section1 {
     position: absolute;
-    top: 91px;
-    left: 322px;
+    top: 182px;
+    left: 16.77%;
+}
+.page-top-section1>img{
+        width: 100%;
 }
 .page-top-section2 {
     background: url(../img/footer/banner.png) center/cover;
-    padding-top: 235px;
-    padding-bottom: 40px;
     position: relative;
     margin-top: 80px;
-    height: 500px;
-    .page-top-nav {
-        text-align: right;
-        @media(max-width: 767px) {
-            text-align:left;
-            margin-top: 30px;
-        }
-        a {
-            text-transform: uppercase !important;
-            color: $white;
-        }
-        .lnr {
-            color: $white;
-            padding: 0px 10px;
-            font-weight: 700;
-        }
-    }
+    height: 650px;
+    background-position: 100%,100%;
 }
 .title-margin{
-    margin-left: 17px;
-    height: 70px;
+    margin-left: 16.67%;
     font-size: 70px;
     color: #FFFFFF;
     font-family: Source Han Sans CN-Medium, Source Han Sans CN;
-    margin-top: 44px;
+    padding-top: 351px; 
+    line-height: 140px; 
+    @media(max-width: 1205px) {
+        font-size: 50px;
+        line-height: 70px;
+    }
 }
 .head-arros{
-    margin-left: 17px;
-    margin-top: 30px;
-    height: 35px;
+    margin-left: 16.67%;
+    margin-top: -24px;
 }
 .head-arros>img{
     height: 56px;
