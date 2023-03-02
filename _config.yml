@@ -12,7 +12,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   CARSMOS is based on the Open Atom Open Source Foundation, and aims to provide an advanced, standard and open source platform to solve the current problems in smart car research, education, industrial cooperation. platform closure, and fragmentation.
 
 baseurl             : "" # the subpath of your site, e.g. /blog
-url                 : "https://carsmos.ai" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
+url                 : "https://newwj.github.io" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
 favicon             : 'img/carsmos-favicon.png'
 
 repository: carsmos/carsmos.github.io
