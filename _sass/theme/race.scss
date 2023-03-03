@@ -117,9 +117,9 @@
 
     @media(max-width: 1000px) {
         height: 300px;
+        justify-content: center;
     }
 
-    justify-content: center;
 }
 
 .time-box {
@@ -228,7 +228,7 @@
     width: calc(100vw * 322 / 1920);
 
     @media(max-width: 1000px) {
-        z-index: 0;
+        display: none;
     }
 }
 
@@ -276,7 +276,7 @@
     margin-right: 31%;
 
     @media (max-width: 800px) {
-        margin-left: 0;
+        margin-left: 40px;
         margin-right: 0;
     }
 }
@@ -287,9 +287,18 @@
 
 .foot-contact {
     float: right;
+
+    @media (max-width: 800px) {
+        float: left;
+    }
 }
 
 .foot-organizer {
     text-align: center;
     margin-top: 48px;
+
+    @media (max-width: 800px) {
+        margin-top: 0px;
+        float: left;
+    }
 }
