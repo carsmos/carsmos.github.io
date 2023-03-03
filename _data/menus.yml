@@ -1,80 +1,80 @@
 header:
-  - name: 'intro'
-    title: '元遨CARSMOS'
-    link: '/'   
+  - name: "intro"
+    title: "元遨CARSMOS"
+    link: "/"
     menu-has-children:
-      - name: 'aboutcarsmos'
-        title: 'About Carsmos'
-        link: '/intro/aboutcarsmos/'
-        
-      - name: 'overview'
-        title: 'Carsmos Overview'
-        link: '/intro/overview/'
+      - name: "aboutcarsmos"
+        title: "About Carsmos"
+        link: "/intro/aboutcarsmos/"
 
-  - name: 'projects'
-    title: 'Projects'
-    link: '/'
+      - name: "overview"
+        title: "Carsmos Overview"
+        link: "/intro/overview/"
+
+  - name: "projects"
+    title: "Projects"
+    link: "/"
     menu-has-children:
-      - name: 'Dora'
-        title: 'Dora'
-        link: '/projects/dora/'
+      - name: "Dora"
+        title: "Dora"
+        link: "/projects/dora/"
 
-      - name: 'Oasis'
-        title: 'Oasis'
-        link: '/projects/oasis/'
+      - name: "Oasis"
+        title: "Oasis"
+        link: "/projects/oasis/"
 
-      - name: 'Etymos'
-        title: 'Etymos'
-        link: '/projects/etymos/'  
+      - name: "Etymos"
+        title: "Etymos"
+        link: "/projects/etymos/"
 
-      - name: 'ESSA'
-        title: 'ESSA'
-        link: '/projects/essa/'
+      - name: "ESSA"
+        title: "ESSA"
+        link: "/projects/essa/"
 
-      - name: 'EDITEV'
-        title: 'EDIT-EV'
-        link: '/projects/editev/'
+      - name: "EDITEV"
+        title: "EDIT-EV"
+        link: "/projects/editev/"
 
-      - name: 'AutoExpress'
-        title: 'AutoExpress'
-        link: '/projects/autoexpress/'
+      - name: "AutoExpress"
+        title: "AutoExpress"
+        link: "/projects/autoexpress/"
 
-  - name: 'governance'
-    title: 'Governance'
-    link: '/'
+  - name: "governance"
+    title: "Governance"
+    link: "/"
     menu-has-children:
-      - name: 'TSC'
-        title: 'Technical Steering Committee'
-        link: '/governance/tsc/'
+      - name: "TSC"
+        title: "Technical Steering Committee"
+        link: "/governance/tsc/"
 
-      - name: 'TEC'
-        title: 'Technical Executive Committee'
-        link: '/governance/tec/'
+      - name: "TEC"
+        title: "Technical Executive Committee"
+        link: "/governance/tec/"
 
-      - name: 'PMC'
-        title: 'Program Managment Committee'
-        link: '/governance/pmc/' 
+      - name: "PMC"
+        title: "Program Managment Committee"
+        link: "/governance/pmc/"
 
-      - name: 'charter'
-        title: 'Project Charter'
-        link: '/governance/charter/'
+      - name: "charter"
+        title: "Project Charter"
+        link: "/governance/charter/"
 
-      - name: 'members'
-        title: 'Project Members'
-        link: '/governance/members/'
+      - name: "members"
+        title: "Project Members"
+        link: "/governance/members/"
 
-  - name: 'blog'
-    title: 'Blog'
-    link: '/blog/'
+  - name: "blog"
+    title: "Blog"
+    link: "/blog/"
 
-  - name: 'Race2023'
-    title: '算法大赛Race2023'
-    link: '/Race2023/'
-    menu-has-children:
-      - name: 'Race2023PPT'
-        title: 'IEEE Race2023 PPT'
-        link: '/Race2023/全球开源自动驾驶算法大赛V1.pdf'
+  - name: "Race2023"
+    title: "算法大赛Race2023"
+    link: "/Race2023/"
+    # menu-has-children:
+    #   - name: 'Race2023PPT'
+    #     title: 'IEEE Race2023 PPT'
+    #     link: '/Race2023/全球开源自动驾驶算法大赛V1.pdf'
 
-      - name: 'Race2023Page'
-        title: 'Race2023 Sign Up'
-        link: '/Race2023/Race2023-intro'
+    #   - name: 'Race2023Page'
+    #     title: 'Race2023 Sign Up'
+    #     link: '/Race2023/Race2023-intro'
