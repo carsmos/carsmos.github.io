@@ -2,30 +2,26 @@
 <section class="race-bg">
     <div class="race-container">
         <div class="content-1">
-            <div class="content-1-top">
-                <div class="title-race">
-                    <img class="title-left" src="{{ site.data.race2023_detail.titleTip | relative_url }}" alt="">
-                    <span class="font-title1">{{ site.data.race2023_detail.title1 }}</span>
-                    <img class="title-right" src="{{ site.data.race2023_detail.titleTip | relative_url }}" alt="">
-                </div>
+            <div class="content-top">
+                <img src="{{ site.data.race2023_detail.titleTip | relative_url }}" alt="">
+                <span>{{ site.data.race2023_detail.title1 }}</span>
+                <img src="{{ site.data.race2023_detail.titleTip | relative_url }}" alt="">
             </div>
             <div class="content-1-bottom">
                 <div class="img-flow">
-                    <img src="{{ site.data.race2023_detail.p1 | relative_url }}" alt="">
-                    <img class="img-flow1" src="{{ site.data.race2023_detail.p2 | relative_url }}" alt="">
+                    <img class="img-flow1" src="{{ site.data.race2023_detail.p1 | relative_url }}" alt="">
+                    <img class="img-flow2" src="{{ site.data.race2023_detail.p2 | relative_url }}" alt="">
                     <div class="p-intro">
-                        {{ site.data.race2023_detail.intro1 }}
+                        {{ site.data.race2023_detail.intro1 }}<a class="tag-a" href="/whitepaper2022/CARSMOS-whitepaper-2022-12.pdf">{{ site.data.race2023_detail.intro1_1 }}</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="content-2">
-            <div class="content-2-top">
-                <div class="title-race">
-                    <img class="title-left" src="{{ site.data.race2023_detail.titleTip | relative_url }}" alt="">
-                    <span class="font-title1">{{ site.data.race2023_detail.title2 }}</span>
-                    <img class="title-right" src="{{ site.data.race2023_detail.titleTip | relative_url }}" alt="">
-                </div>
+            <div class="content-top">
+                <img src="{{ site.data.race2023_detail.titleTip | relative_url }}" alt="">
+                <span>{{ site.data.race2023_detail.title2 }}</span>
+                <img src="{{ site.data.race2023_detail.titleTip | relative_url }}" alt="">
             </div>
             <div class="content-2-bottom">
                 <div class="content-2-left">
@@ -34,53 +30,73 @@
                     </span>
                 </div>
             </div>
-            <div class="content-2-img">
-                <img src="{{ site.data.race2023_detail.p3 | relative_url }}" alt="">
-            </div>
+            <img class="content-2-img" src="{{ site.data.race2023_detail.p3 | relative_url }}" alt="">
         </div>
         <div class="content-3">
-            <div class="content-3-top">
-                <div class="title-race">
-                    <img class="title-left" src="{{ site.data.race2023_detail.titleTip | relative_url }}" alt="">
-                    <span class="font-title1">{{ site.data.race2023_detail.title3 }}</span>
-                    <img class="title-right" src="{{ site.data.race2023_detail.titleTip | relative_url }}" alt="">
-                </div>
+            <div class="content-top">
+                <img src="{{ site.data.race2023_detail.titleTip | relative_url }}" alt="">
+                <span>{{ site.data.race2023_detail.title3 }}</span>
+                <img src="{{ site.data.race2023_detail.titleTip | relative_url }}" alt="">
             </div>
             <div class="content-3-center">
                 <span class="content-3-intro"> {{ site.data.race2023_detail.intro3 }} </span>
             </div>
             <div class="content-3-bottom">
-                <div class="content-3-bottom-top">
-                    <ul>
-                        <li class="strong-intro">{{ site.data.race2023_detail.timeLine.l1 }}</li>
-                        <li>{{ site.data.race2023_detail.timeLine.l2 }}</li>
-                        <li class="strong-intro">{{ site.data.race2023_detail.timeLine.l3 }}</li>
-                        <li>{{ site.data.race2023_detail.timeLine.l4 }}</li>
-                        <li class="strong-intro">{{ site.data.race2023_detail.timeLine.l5 }}</li>
-                        <li>{{ site.data.race2023_detail.timeLine.l6 }}</li>
-                        <li class="strong-intro">{{ site.data.race2023_detail.timeLine.l7 }}</li>
-                        <li>{{ site.data.race2023_detail.timeLine.l8 }}</li>
-                    </ul>
+                <div class="time-box">
+                    <div class="time-box-top strong-intro">{{ site.data.race2023_detail.timeLine.l1 }}</div>
+                    <div class="time-box-center">
+                        <img src="{{ site.data.race2023_detail.timetip | relative_url }}" alt="">
+                    </div>
+                    <div class="time-box-bottom">{{ site.data.race2023_detail.timeLine.l9}}</div>
                 </div>
-                <div class="content-3-bottom-bottom">
-                    <ul>
-                        <li>{{ site.data.race2023_detail.timeLine.l9 }}</li>
-                        <li class="strong-intro">{{ site.data.race2023_detail.timeLine.l10 }}</li>
-                        <li>{{ site.data.race2023_detail.timeLine.l11 }}</li>
-                        <li class="strong-intro">{{ site.data.race2023_detail.timeLine.l12 }}</li>
-                        <li>{{ site.data.race2023_detail.timeLine.l13 }}</li>
-                        <li class="strong-intro">{{ site.data.race2023_detail.timeLine.l14 }}</li>
-                        <li>{{ site.data.race2023_detail.timeLine.l15 }}</li>
-                        <li class="strong-intro">{{ site.data.race2023_detail.timeLine.l16 }}</li>
-                    </ul>
-                    <img class="img-m1" src="{{ site.data.race2023_detail.timetip | relative_url }}" alt="">
-                    <img class="img-m2" src="{{ site.data.race2023_detail.timetip | relative_url }}" alt="">
-                    <img class="img-m3" src="{{ site.data.race2023_detail.timetip | relative_url }}" alt="">
-                    <img class="img-m4" src="{{ site.data.race2023_detail.timetip | relative_url }}" alt="">
-                    <img class="img-m5" src="{{ site.data.race2023_detail.timetip | relative_url }}" alt="">
-                    <img class="img-m6" src="{{ site.data.race2023_detail.timetip | relative_url }}" alt="">
-                    <img class="img-m7" src="{{ site.data.race2023_detail.timetip | relative_url }}" alt="">
-                    <img class="img-m8" src="{{ site.data.race2023_detail.timetip | relative_url }}" alt="">
+                <div class="time-box">
+                    <div class="time-box-top">{{ site.data.race2023_detail.timeLine.l2 }}</div>
+                    <div class="time-box-center">
+                        <img src="{{ site.data.race2023_detail.timetip | relative_url }}" alt="">
+                    </div>
+                    <div class="time-box-bottom strong-intro">{{ site.data.race2023_detail.timeLine.l10}}</div>
+                </div>
+                <div class="time-box">
+                    <div class="time-box-top strong-intro">{{ site.data.race2023_detail.timeLine.l3 }}</div>
+                    <div class="time-box-center">
+                        <img src="{{ site.data.race2023_detail.timetip | relative_url }}" alt="">
+                    </div>
+                    <div class="time-box-bottom">{{ site.data.race2023_detail.timeLine.l11}}</div>
+                </div>
+                <div class="time-box">
+                    <div class="time-box-top">{{ site.data.race2023_detail.timeLine.l4 }}</div>
+                    <div class="time-box-center">
+                        <img src="{{ site.data.race2023_detail.timetip | relative_url }}" alt="">
+                    </div>
+                    <div class="time-box-bottom strong-intro">{{ site.data.race2023_detail.timeLine.l12}}</div>
+                </div>
+                <div class="time-box">
+                    <div class="time-box-top strong-intro">{{ site.data.race2023_detail.timeLine.l5 }}</div>
+                    <div class="time-box-center">
+                        <img src="{{ site.data.race2023_detail.timetip | relative_url }}" alt="">
+                    </div>
+                    <div class="time-box-bottom">{{ site.data.race2023_detail.timeLine.l13}}</div>
+                </div>
+                <div class="time-box">
+                    <div class="time-box-top">{{ site.data.race2023_detail.timeLine.l6 }}</div>
+                    <div class="time-box-center">
+                        <img src="{{ site.data.race2023_detail.timetip | relative_url }}" alt="">
+                    </div>
+                    <div class="time-box-bottom strong-intro">{{ site.data.race2023_detail.timeLine.l14}}</div>
+                </div>
+                <div class="time-box">
+                    <div class="time-box-top strong-intro">{{ site.data.race2023_detail.timeLine.l7 }}</div>
+                    <div class="time-box-center">
+                        <img src="{{ site.data.race2023_detail.timetip | relative_url }}" alt="">
+                    </div>
+                    <div class="time-box-bottom">{{ site.data.race2023_detail.timeLine.l15}}</div>
+                </div>
+                <div class="time-box">
+                    <div class="time-box-top">{{ site.data.race2023_detail.timeLine.l8 }}</div>
+                    <div class="time-box-center">
+                        <img src="{{ site.data.race2023_detail.timetip | relative_url }}" alt="">
+                    </div>
+                    <div class="time-box-bottom strong-intro">{{ site.data.race2023_detail.timeLine.l16}}</div>
                 </div>
             </div>
         </div>

@@ -5,27 +5,30 @@
     margin-left: 16.67%;
     margin-right: 16.67%;
 }
+
 .race-bg {
     background-image: url(../img/race/bg1.png);
     background-color: #F1F5FE;
     border-radius: 0px 0px 0px 0px;
     opacity: 1;
 }
-.title-race {
-    margin: 0 auto;
-    height: 38px;
-    width: 260px;
-    position: relative;
-    top: calc(50% - 38px /2);
-}
 
 .content-1 {
     height: 448px
 }
 
-.content-1-top {
-    margin: 0 auto;
+.content-top {
     height: 150px;
+    font-size: calc(100vw * 38 / 1920);
+    font-family: Source Han Sans CN-Medium, Source Han Sans CN;
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+    padding: 60px 0;
+
+    >span {
+        margin: auto 15px;
+    }
 }
 
 .content-1-bottom {
@@ -47,7 +50,7 @@
 }
 
 .content-2-left {
-    font-size: 16px;
+    font-size: calc(100vw * 16 / 1920);
     font-family: Source Han Sans CN-Regular, Source Han Sans CN;
     font-weight: 400;
     color: #333333;
@@ -55,7 +58,11 @@
     height: 196px;
     width: 55%;
     float: left;
-    margin-left: -29px;
+    /*margin-left: -29px;
+        @media(max-width: 1400px) {
+        font-size: 12px;
+        line-height: 1.4;
+    } */
 }
 
 .tag-a {
@@ -64,14 +71,17 @@
 }
 
 .content-2-img {
-    height: 300px;
+    width: calc(100vw * 600 / 1920);
     position: absolute;
-    left: 660px;
-    top: 10px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
 }
 
 .content-3 {
-    height: 400px
+    height: 400px;
+    margin-bottom: calc(100vw * 100 / 1920);
 }
 
 .content-3-top {
@@ -80,18 +90,54 @@
 }
 
 .content-3-center {
-    height: 70px;
-    width: calc(50% - 600px / 2);
-    margin: 0 auto;
+    height: 66px;
+    width: calc(100vw * 600 / 1920);
+    margin: 0px auto 50px;
     background: url(../img/race/p4.png) no-repeat center/cover
 }
 
 .content-3-bottom {
     height: 180px;
-    font-size: 14px;
+    font-size: calc(100vw * 14 / 1920);
+    ;
     font-family: Source Han Sans CN-Regular, Source Han Sans CN;
     font-weight: 400;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    @media(max-width: 1000px) {
+        height: 300px;
+    }
+}
+
+.time-box {
+    width: 158px;
+    height: 70px;
+
+}
+
+.time-box-top {
+    border-bottom: 3px solid #8A4FF6;
+    height: 47px;
+}
+
+.time-box-center {
+    position: relative;
+    height: 7px;
+
+    >img {
+        position: absolute;
+        left: 60px;
+        top: -17px;
+    }
+}
+
+.time-box-bottom {
+    border-top: 1px solid #C0A3F9;
+    height: 38px;
+    vertical-align: center;
+    line-height: 45px;
 }
 
 .content-3-bottom-top {
@@ -111,38 +157,6 @@
     top: -24px;
 }
 
-.img-m1 {
-    left: 53px;
-}
-
-.img-m2 {
-    left: calc(40px + 130px + 32px);
-}
-
-.img-m3 {
-    left: calc(24px + 130px * 2 + 32px * 2);
-}
-
-.img-m4 {
-    left: calc(27px + 130px * 3 + 32px * 3);
-}
-
-.img-m5 {
-    left: calc(45px + 130px * 4 + 32px * 4);
-}
-
-.img-m6 {
-    left: calc(45px + 130px * 5 + 32px * 5);
-}
-
-.img-m7 {
-    left: calc(45px + 130px * 6 + 32px * 6);
-}
-
-.img-m8 {
-    left: calc(30px + 130px * 7 + 32px * 7);
-}
-
 .content-3-intro {
     font-weight: bold;
     text-align: center;
@@ -150,6 +164,7 @@
     color: #8A4FF6;
     font-family: Source Han Sans CN-Bold, Source Han Sans CN;
     padding-top: 21px;
+    font-size: calc(100vw * 20 / 1920);
 }
 
 .strong-intro {
@@ -168,36 +183,6 @@
     margin: 6px 40px;
 }
 
-.footer {
-    height: 200px;
-    background: url(../img/race/p6.png) no-repeat center/cover
-}
-
-
-.part-1 {
-    text-align: center;
-}
-
-.title-left {
-    float: left;
-    padding-top: 5px;
-}
-
-.title-right {
-    float: right;
-    padding-top: 5px;
-}
-
-.font-title1 {
-    width: 152px;
-    height: 38px;
-    font-size: 38px;
-    font-family: Source Han Sans CN-Medium, Source Han Sans CN;
-    font-weight: 500;
-    color: #333333;
-    margin: 0px 22px;
-}
-
 .img-flow {
     position: relative;
     height: 202px;
@@ -206,10 +191,15 @@
 }
 
 .img-flow1 {
+    width: calc(100vw * 710 / 1920);
+}
+
+.img-flow2 {
     position: absolute;
     top: 50px;
     left: 19px;
     z-index: 100;
+    width: calc(100vw * 322 / 1920);
 }
 
 .p-intro {
@@ -219,22 +209,35 @@
     background: #f9fafb;
     padding: 7px 40px;
     color: #333333;
-    font-size: 16px;
+    font-size: calc(100vw * 16 / 1920);
     font-family: Source Han Sans CN-Regular, Source Han Sans CN;
     font-weight: 400;
     line-height: 32px;
     position: absolute;
-    left: 280px;
+    left: calc(100vw * 326/1920);
     top: 69px;
+    /*@media(max-width: 1400px) {
+        font-size: 12px;
+        line-height: 1.4;
+    }*/
 }
 
-.foot-content {
-    font-size: 16px;
+.footer {
+    background: url(../img/race/p6.png) no-repeat center/cover;
+    font-size: calc(100vw * 16 / 1920);
     font-family: Source Han Sans CN-Medium, Source Han Sans CN;
     font-weight: 500;
     color: #FFFFFF;
     line-height: 30px;
-    padding-top: 62px;
+    height: 200px;
+
+    @media (max-width: 1000px) {
+        margin-top: 200px;
+    }
+}
+
+.foot-content {
+    padding: 62px 0px;
     margin-left: 31%;
     margin-right: 31%;
 }
@@ -248,6 +251,6 @@
 }
 
 .foot-organizer {
-   text-align: center;
+    text-align: center;
     margin-top: 48px;
 }
