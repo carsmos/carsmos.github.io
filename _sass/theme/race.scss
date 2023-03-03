@@ -19,7 +19,7 @@
 
 .content-top {
     height: 150px;
-    font-size: calc(100vw * 38 / 1920);
+    font-size: 38px;
     font-family: Source Han Sans CN-Medium, Source Han Sans CN;
     font-weight: 500;
     color: #333333;
@@ -28,6 +28,11 @@
 
     >span {
         margin: auto 15px;
+    }
+
+    @media(max-width: 1000px) {
+        font-size: 12px;
+        line-height: 1.4;
     }
 }
 
@@ -50,7 +55,7 @@
 }
 
 .content-2-left {
-    font-size: calc(100vw * 16 / 1920);
+    font-size: 16px;
     font-family: Source Han Sans CN-Regular, Source Han Sans CN;
     font-weight: 400;
     color: #333333;
@@ -58,11 +63,12 @@
     height: 196px;
     width: 55%;
     float: left;
-    /*margin-left: -29px;
-        @media(max-width: 1400px) {
+    margin-left: -29px;
+
+    @media(max-width: 1000px) {
         font-size: 12px;
         line-height: 1.4;
-    } */
+    }
 }
 
 .tag-a {
@@ -82,6 +88,10 @@
 .content-3 {
     height: 400px;
     margin-bottom: calc(100vw * 100 / 1920);
+
+    @media(max-width: 1000px) {
+        height: auto;
+    }
 }
 
 .content-3-top {
@@ -99,7 +109,6 @@
 .content-3-bottom {
     height: 180px;
     font-size: calc(100vw * 14 / 1920);
-    ;
     font-family: Source Han Sans CN-Regular, Source Han Sans CN;
     font-weight: 400;
     text-align: center;
@@ -109,6 +118,8 @@
     @media(max-width: 1000px) {
         height: 300px;
     }
+
+    justify-content: center;
 }
 
 .time-box {
@@ -120,6 +131,11 @@
 .time-box-top {
     border-bottom: 3px solid #8A4FF6;
     height: 47px;
+
+    @media(max-width: 1000px) {
+        font-size: 12px;
+        line-height: 1.4;
+    }
 }
 
 .time-box-center {
@@ -138,6 +154,11 @@
     height: 38px;
     vertical-align: center;
     line-height: 45px;
+
+    @media(max-width: 1000px) {
+        font-size: 12px;
+        line-height: 1.4;
+    }
 }
 
 .content-3-bottom-top {
@@ -164,7 +185,12 @@
     color: #8A4FF6;
     font-family: Source Han Sans CN-Bold, Source Han Sans CN;
     padding-top: 21px;
-    font-size: calc(100vw * 20 / 1920);
+    font-size: 20px;
+
+    @media(max-width: 1000px) {
+        font-size: 12px;
+        line-height: 1.4;
+    }
 }
 
 .strong-intro {
@@ -200,6 +226,10 @@
     left: 19px;
     z-index: 100;
     width: calc(100vw * 322 / 1920);
+
+    @media(max-width: 1000px) {
+        z-index: 0;
+    }
 }
 
 .p-intro {
@@ -209,17 +239,19 @@
     background: #f9fafb;
     padding: 7px 40px;
     color: #333333;
-    font-size: calc(100vw * 16 / 1920);
+    font-size: 16px;
     font-family: Source Han Sans CN-Regular, Source Han Sans CN;
     font-weight: 400;
     line-height: 32px;
     position: absolute;
     left: calc(100vw * 326/1920);
     top: 69px;
-    /*@media(max-width: 1400px) {
+
+    @media(max-width: 1000px) {
         font-size: 12px;
         line-height: 1.4;
-    }*/
+        left: 0;
+    }
 }
 
 .footer {
@@ -232,7 +264,9 @@
     height: 200px;
 
     @media (max-width: 1000px) {
-        margin-top: 200px;
+        margin-top: 300px;
+        font-size: 12px;
+        line-height: 1.4;
     }
 }
 
@@ -240,6 +274,11 @@
     padding: 62px 0px;
     margin-left: 31%;
     margin-right: 31%;
+
+    @media (max-width: 800px) {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 .foot-link {
