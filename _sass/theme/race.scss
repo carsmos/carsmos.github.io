@@ -1,0 +1,305 @@
+/*--------------------------------------------------------------
+# Race
+--------------------------------------------------------------*/
+.race-container {
+    margin-left: 16.67%;
+    margin-right: 16.67%;
+}
+
+.race-bg {
+    background-image: url(../img/race/bg1.png);
+    background-color: #F1F5FE;
+    border-radius: 0px 0px 0px 0px;
+    opacity: 1;
+}
+
+.content-1 {
+    height: 448px
+}
+
+.content-top {
+    height: 150px;
+    font-size: 38px;
+    font-family: Source Han Sans CN-Medium, Source Han Sans CN;
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+    padding: 60px 0;
+
+    >span {
+        margin: auto 15px;
+    }
+
+    @media(max-width: 1000px) {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+}
+
+.content-1-bottom {
+    height: 410px;
+}
+
+.content-2 {
+    height: 448px;
+    position: relative;
+}
+
+.content-2-top {
+    margin: 0 auto;
+    height: 150px;
+}
+
+.content-2-bottom {
+    height: 300px;
+}
+
+.content-2-left {
+    font-size: 16px;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-weight: 400;
+    color: #333333;
+    line-height: 32px;
+    height: 196px;
+    width: 55%;
+    float: left;
+    margin-left: -29px;
+
+    @media(max-width: 1000px) {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+}
+
+.tag-a {
+    text-decoration: underline;
+    color: #8A4FF6;
+}
+
+.content-2-img {
+    width: calc(100vw * 600 / 1920);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.content-3 {
+    height: 400px;
+    margin-bottom: calc(100vw * 100 / 1920);
+
+    @media(max-width: 1000px) {
+        height: auto;
+    }
+}
+
+.content-3-top {
+    margin: 0 auto;
+    height: 150px;
+}
+
+.content-3-center {
+    height: 66px;
+    width: calc(100vw * 600 / 1920);
+    margin: 0px auto 50px;
+    background: url(../img/race/p4.png) no-repeat center/cover
+}
+
+.content-3-bottom {
+    height: 180px;
+    font-size: calc(100vw * 14 / 1920);
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    @media(max-width: 1000px) {
+        height: 300px;
+        justify-content: center;
+    }
+
+}
+
+.time-box {
+    width: 158px;
+    height: 70px;
+
+}
+
+.time-box-top {
+    border-bottom: 3px solid #8A4FF6;
+    height: 47px;
+
+    @media(max-width: 1000px) {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+}
+
+.time-box-center {
+    position: relative;
+    height: 7px;
+
+    >img {
+        position: absolute;
+        left: 60px;
+        top: -17px;
+    }
+}
+
+.time-box-bottom {
+    border-top: 1px solid #C0A3F9;
+    height: 38px;
+    vertical-align: center;
+    line-height: 45px;
+
+    @media(max-width: 1000px) {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+}
+
+.content-3-bottom-top {
+    border-bottom: 3px solid #8A4FF6;
+    height: 80px;
+}
+
+.content-3-bottom-bottom {
+    position: relative;
+    border-top: 1px solid #C0A3F9;
+    height: 80px;
+    margin-top: 5px;
+}
+
+.content-3-bottom-bottom>img {
+    position: absolute;
+    top: -24px;
+}
+
+.content-3-intro {
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    color: #8A4FF6;
+    font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+    padding-top: 21px;
+    font-size: 20px;
+
+    @media(max-width: 1000px) {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+}
+
+.strong-intro {
+    font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+    font-weight: bold;
+    color: #8A4FF6;
+}
+
+.content-3-bottom-top>ul>li {
+    float: left;
+    margin: 26px 44px;
+}
+
+.content-3-bottom-bottom>ul>li {
+    float: left;
+    margin: 6px 40px;
+}
+
+.img-flow {
+    position: relative;
+    height: 202px;
+    border-radius: 0px 0px 0px 0px;
+    opacity: 1;
+}
+
+.img-flow1 {
+    width: calc(100vw * 710 / 1920);
+}
+
+.img-flow2 {
+    position: absolute;
+    top: 50px;
+    left: 19px;
+    z-index: 100;
+    width: calc(100vw * 322 / 1920);
+
+    @media(max-width: 1000px) {
+        display: none;
+    }
+}
+
+.p-intro {
+    border-style: solid;
+    border-width: 6px 0px 0px 0px;
+    border-color: #8a4ff6;
+    background: #f9fafb;
+    padding: 7px 40px;
+    color: #333333;
+    font-size: 16px;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-weight: 400;
+    line-height: 32px;
+    position: absolute;
+    left: calc(100vw * 326/1920);
+    top: 69px;
+
+    @media(max-width: 1000px) {
+        font-size: 12px;
+        line-height: 1.4;
+        left: 0;
+    }
+}
+
+.footer {
+    background: url(../img/race/p6.png) no-repeat center/cover;
+    font-size: calc(100vw * 16 / 1920);
+    font-family: Source Han Sans CN-Medium, Source Han Sans CN;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 30px;
+    height: 200px;
+
+    @media (max-width: 1000px) {
+        margin-top: 300px;
+        font-size: 12px;
+        line-height: 1.4;
+    }
+}
+
+.foot-content {
+    padding: 62px 0px;
+    margin-left: 31%;
+    margin-right: 31%;
+
+    @media (max-width: 800px) {
+        margin-left: 40px;
+        margin-right: 0;
+        font-size: 11px;
+    }
+}
+
+.foot-link {
+    float: left;
+}
+
+.foot-contact {
+    float: right;
+
+    @media (max-width: 800px) {
+        float: left;
+    }
+}
+
+.foot-organizer {
+    text-align: center;
+    margin-top: 48px;
+
+    @media (max-width: 800px) {
+        margin-top: 0px;
+        float: left;
+    }
+}
