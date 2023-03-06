@@ -1,0 +1,30 @@
+#####################################
+######## 2023 Race Intro  ###########
+#####################################
+
+title: "元遨CARSMOS全球开源智能驾驶2023大赛介绍"
+image: "https://user-images.githubusercontent.com/99924265/219509901-34f8bff0-6c4b-4c7f-937b-696de3680d01.jpg"
+
+details:
+  - label: "大赛报名链接:"
+    value: '<a href="https://race.carsmos.cn/">
+      https://race.carsmos.cn/
+      </a>（需要 GitHub 账号）'
+  - label: "大赛联系人:"
+    value: '<a href="mailto:race@carsmos.ai">
+      race@carsmos.ai
+      </a>'
+  - label: "主办方:"
+    value: '<a href="https://www.openatom.org/home">
+      开放原子开源基金会
+      </a> - <a href="http://carsmos.ai">
+      CARSMOS 元遨开源智能驾驶项目组
+      </a>'
+  - label: "大赛时间:"
+    value: "2023.2 - 2023.6"
+
+signup_button_text: "Sign Up"
+signup_button_link: "https://race.carsmos.cn/"
+
+info_button_text: "Get more info...(PPT)"
+info_button_link: "/Race2023/全球开源自动驾驶算法大赛V1.pdf"
