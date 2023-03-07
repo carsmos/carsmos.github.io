@@ -1,5 +1,5 @@
 <!-- Start marketing-section -->
-<section class="marketing-section section-gap aquablue-bg">
+<section class="marketing-section section-gap aquablue-bg" style = "padding-bottom: 0px;">
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-lg-6 marketing-left">
@@ -9,11 +9,11 @@
                 <p class="mw-510">
                     {{ site.data.marketing.description }}
                 </p>
-                <a href="#" class="genric-btn3">{{ site.data.marketing.btn_text }}</a>
+                <!-- <a href="#" class="genric-btn3">{{ site.data.marketing.btn_text }}</a> -->
             </div>
             <div class="col-lg-6 marketing-right">
                 <div class="active-dash-carusel">
-                    <img class="img-fluid item" src="{{ site.data.marketing.image_one | relative_url }}" alt="">
+                    <img class="img-fluid item marketing-img" src="{{ site.data.marketing.image_one | relative_url }}" alt="">
                     <img class="img-fluid item" src="{{ site.data.marketing.image_two | relative_url }}" alt="">
                 </div>
             </div>

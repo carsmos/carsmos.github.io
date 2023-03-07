@@ -63,9 +63,9 @@ header:
         title: "Project Members"
         link: "/governance/members/"
 
-  - name: "blog"
-    title: "Blog"
-    link: "/blog/"
+  # - name: "blog"
+  #   title: "Blog"
+  #   link: "/blog/"
 
   - name: "Race2023"
     title: "算法大赛Race2023"
