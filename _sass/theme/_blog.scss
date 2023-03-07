@@ -426,3 +426,10 @@
         }
     }
 }
+.hero_img {
+    width: 100%;
+    @media (max-width: 991px) {
+        height: 400px;
+        width: auto;
+    }
+}
