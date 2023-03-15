@@ -1,0 +1,23 @@
+title: The Easiest way of Execution
+description: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal
+                        software and use advanced tools getting infected.'
+image: 'img/title-icon.png'
+
+slider:
+  - image: 'img/carusel/c1.png'
+  - image: 'img/carusel/c2.png'
+  - image: 'img/carusel/c3.png'
+
+process: 
+  - name: Multitasking skills
+    image: 'img/stat/s5.png'
+    description: 'If you find yourself doing the same routine day after day, remembering what you did the day before.'
+  
+  - name: Payment issue
+    image: 'img/stat/s3.png'
+    description: 'I am upset. At this moment, as I sit here typing this up, I am truly upset. Something happened.'
+  
+  - name: Analytics method
+    image: 'img/stat/s2.png'
+    description: 'Notes are very powerful. They express your thanks, encouragement, sympathy, apology, congratulations, feelings.'
+

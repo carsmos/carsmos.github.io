@@ -1,0 +1,43 @@
+
+
+#####################################
+########## Pricing Tables ###########
+#####################################
+pricing_table_title: 'Select your Best Pricing'
+pricing_table_description: "The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools getting infected. "
+
+# Personal Plan
+plan_starter_name: starter
+plan_starter_tagline: Small business holders
+plan_starter_price: '<span>£29</span>/mo'
+plan_starter_description: '<li>02 Users permitted</li>
+                                <li>Unlimited Styles for interface</li>
+                                <li>New Update Available</li>'
+plan_starter_url: '#'
+plan_starter_btn_text: 'Get Started'
+
+# Team Plan
+plan_standard_name: standard
+plan_standard_tagline: Small business holders
+plan_standard_price: '<span>£49</span>/mo'
+plan_standard_description: ' <li>05 Users permitted</li>
+                                <li>Unlimited Styles for interface</li>
+                                <li>New Update Available</li>'
+plan_standard_url: '#'
+plan_standard_btn_text: 'Get Started'
+
+
+# business Plan
+plan_business_name: premium
+plan_business_tagline: Small business holders
+plan_business_price: '<span>£99</span>/mo'
+plan_business_description: '<span>£99</span>/mo'
+plan_business_description: ' <li>Unlimited Users permitted</li>
+                                <li>Unlimited Styles for interface</li>
+                                <li>New Update Available</li>'
+
+plan_business_url: '#'
+plan_business_btn_text: 'Get Started'
+
+
+

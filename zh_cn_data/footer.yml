@@ -1,0 +1,33 @@
+
+#####################################
+##########     footer      ###########
+#####################################
+
+title: '关于我们'
+description: 'CARSMOS 工作组'    
+resources_link_heading: '代码仓库'
+resources_links:
+  - text: 'GitHub'
+    link: 'https://github.com/carsmos'
+  - text: 'Gitee'
+    link: 'https://gitee.com/carsmos'    
+features_link_heading: '其它'
+features_links:
+  - text: 'Carsmos算法大赛2023'
+    # link: 'Race2023/CARSMOS元遨全球开源智能驾驶2023大赛介绍和报名'
+    link: '/Race2023/'
+  - text: '开放原子基金会'
+    link: 'https://www.openatom.org/'    
+social_title: '社区'
+social_links:
+  - name: "facebook"
+    link: '#'
+    icon: "fab fa-facebook-f"    
+  - name: "wechat"
+    link: '#'
+    icon: "fab fa-dribbble"           
+name: 'CARSMOS工作组'
+copyright_text: Copyright © 2023 版权所有
+company_url: '#' 
+
+

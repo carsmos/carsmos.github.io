@@ -4,7 +4,7 @@
 #####################################
 
 title: 'About Us'
-description: 'CARSMOS Work Group.'
+description: 'CARSMOS Work Group'
 
 resources_link_heading: 'Source Code'
 resources_links: 
@@ -28,6 +28,7 @@ social_links:
 
   - name: "wechat"
     link: '#'
-    icon: "fab fa-dribbble"
-
-
+    icon: "fab fa-dribbble"  
+name: 'CARSMOS Workgroup'
+copyright_text: Copyright © 2023 All rights reserved to
+company_url: '#' 
