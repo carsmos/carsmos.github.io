@@ -1,0 +1,28 @@
+
+# sass [ only one image ]
+
+# product_video [ video type mp4 ]
+product_video_name: '元遨CARSMOS: 开源智能出行'
+product_video_text: 'CARSMOS (CARS Mobility Operating System) 是自动驾驶领域的一个项目组，旨在为解决智能汽车研究、教育、产业合作中存在的资源封闭、碎片化等问题，提供先进、标准、开源的平台'
+product_video_image: 'img/whitepaper2022.png'
+product_video_video: 'vdo/appbv.mp4'
+product_video_btn_one_link: 'whitepaper2022/CARSMOS-whitepaper-2022-12.pdf'
+product_video_btn_one_text:  'Carsmos Whitepaper 2022'
+product_video_btn_two_link: 'Race2023/全球开源自动驾驶算法大赛V1.pdf'
+product_video_btn_two_text:  'IEEE/Carsmos Race 2023'
+
+# hero-section-blog
+
+blog_slider:
+  - image: 'img/hero/hero-blog2.png'
+    author: 'CARSMOS工作组'
+    title: '项目进展'
+    category: '基金会'
+
+  - image: 'img/hero/hero-blog3.png'
+    author: 'CARSMOS工作组'
+    title: '技术交流'
+    category: '算法大赛'
+
+blog_slider_image: 'img/hero/hero-blog3.png'
+blog_slider_title: '项目进展'

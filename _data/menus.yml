@@ -63,9 +63,9 @@ header:
         title: "Project Members"
         link: "/governance/members/"
 
-  # - name: "blog"
-  #   title: "Blog"
-  #   link: "/blog/"
+  - name: "blog"
+    title: "news"
+    link: "/blog/"
 
   - name: "Race2023"
     title: "算法大赛Race2023"
@@ -78,3 +78,6 @@ header:
     #   - name: 'Race2023Page'
     #     title: 'Race2023 Sign Up'
     #     link: '/Race2023/Race2023-intro'
+
+lang_menu_en: "https://www.carsmos.ai"
+lang_menu_zh_cn: "https://www.carsmos.cn"

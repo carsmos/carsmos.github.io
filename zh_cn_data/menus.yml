@@ -1,0 +1,82 @@
+header:
+  - name: "intro"
+    title: "元遨CARSMOS"
+    link: "/"
+    menu-has-children:
+      - name: "aboutcarsmos"
+        title: "关于元遨"
+        link: "/intro/aboutcarsmos/"
+
+      - name: "overview"
+        title: "元遨概述"
+        link: "/intro/overview/"
+
+  - name: "projects"
+    title: "项目"
+    link: "/"
+    menu-has-children:
+      - name: "Dora"
+        title: "Dora"
+        link: "/projects/dora/"
+
+      - name: "Oasis"
+        title: "Oasis"
+        link: "/projects/oasis/"
+
+      - name: "Etymos"
+        title: "Etymos"
+        link: "/projects/etymos/"
+
+      - name: "ESSA"
+        title: "ESSA"
+        link: "/projects/essa/"
+
+      - name: "EDITEV"
+        title: "EDIT-EV"
+        link: "/projects/editev/"
+
+      - name: "AutoExpress"
+        title: "AutoExpress"
+        link: "/projects/autoexpress/"
+
+  - name: "governance"
+    title: "管理机构"
+    link: "/"
+    menu-has-children:
+      - name: "TSC"
+        title: "技术指导委员会(TSC)"
+        link: "/governance/tsc/"
+
+      - name: "TEC"
+        title: "技术执行委员会(TEC)"
+        link: "/governance/tec/"
+
+      - name: "PMC"
+        title: "项目工作委员会(PMC)"
+        link: "/governance/pmc/"
+
+      - name: "charter"
+        title: "元遨开源项目章程"
+        link: "/governance/charter/"
+
+      - name: "members"
+        title: "元遨合作伙伴"
+        link: "/governance/members/"
+
+  - name: "blog"
+    title: "新闻"
+    link: "/blog/"
+
+  - name: "Race2023"
+    title: "算法大赛2023"
+    link: "/Race2023/"
+    # menu-has-children:
+    #   - name: 'Race2023PPT'
+    #     title: 'IEEE Race2023 PPT'
+    #     link: '/Race2023/全球开源自动驾驶算法大赛V1.pdf'
+
+    #   - name: 'Race2023Page'
+    #     title: 'Race2023 Sign Up'
+    #     link: '/Race2023/Race2023-intro'
+lang_menu_en: "https://www.carsmos.ai"
+lang_menu_zh_cn: "https://www.carsmos.cn"

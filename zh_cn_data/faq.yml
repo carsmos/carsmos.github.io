@@ -1,0 +1,71 @@
+title: 'Select your Best Pricing'
+description: "The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools getting infected. "
+
+
+issues: 
+#General Issues
+  - title: 'Dude You Re Getting A Telescope'
+    description: 'Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam.'
+    category_name: 'general'
+    id: 1
+
+  - title: 'The Basics Of Buying A Telescope'
+    description: 'Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. leo quam aliquet diam, congue laoreet elit metus eget diam.'
+    category_name: 'general'
+    id: 2
+
+  - title: 'Astronomy Binoculars A Great Alternative'
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin ac metus diam.'
+    category_name: 'general'
+    id: 3
+
+  - title: 'Do Your Self Realizations Quickly Fade'
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin ac metus diam.'
+    category_name: 'general'
+    id: 4
+
+  - title: 'Success Steps For Your Personal Or Business Life'
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin ac metus diam.'
+    category_name: 'general'
+    id: 5
+#Support Issues
+  - title: 'Success Steps For Your Personal Or Business Life'
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin ac metus diam.'
+    category_name: 'support'
+    id: 6
+
+  - title: 'Dude You Re Getting A Telescope'
+    description: 'Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam.'
+    category_name: 'support'
+    id: 7
+
+  - title: 'The Basics Of Buying A Telescope'
+    description: 'Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. leo quam aliquet diam, congue laoreet elit metus eget diam.'
+    category_name: 'support'
+    id: 8
+
+  - title: 'Astronomy Binoculars A Great Alternative'
+    description: ''
+    category_name: 'support'
+    id: 9
+
+#Refund Issues
+  - title: 'The Basics Of Buying A Telescope'
+    description: 'Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. leo quam aliquet diam, congue laoreet elit metus eget diam.'
+    category_name: refund
+    id: 10
+
+  - title: 'Astronomy Binoculars A Great Alternative'
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin ac metus diam.'
+    category_name: refund
+    id: 11
+
+  - title: 'Do Your Self Realizations Quickly Fade'
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin ac metus diam.'
+    category_name: refund
+    id: 12
+
+  - title: 'Success Steps For Your Personal Or Business Life'
+    description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. Proin ac metus diam.'
+    category_name: refund
+    id: 13

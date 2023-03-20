@@ -1,0 +1,35 @@
+
+####################################
+######  Statistics Section    ######
+####################################
+title: 'We glow with Our Statistics'
+description: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools getting infected.'
+image: 'img/title-icon.png'
+
+# main big image
+start_image: 'img/stat/stat-img.png'
+
+# 4 section image
+items:
+  - image: 'img/stat/s1.png'
+    title: 'Productivity'
+    link: '#'
+    description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'  
+
+  - image: 'img/stat/s2.png'
+    title: 'Sales Monitoring'
+    link: '#'
+    description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'  
+
+  - image: 'img/stat/s2.png'
+    title: 'Payment Stats'
+    link: '#'
+    description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'  
+
+  - image: 'img/stat/s4.png'
+    title: 'Pending Clearnance'
+    link: '#'
+    description: 'Making changes in your life is great and it is the way we grow and develop as people. Change is a constant.'  
+
+
+
