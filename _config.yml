@@ -16,6 +16,8 @@ url                 : "https://carsmos.ai" #  7277783  the base hostname & proto
 favicon             : 'img/carsmos-favicon.png'
 page_top: 'img/footer/page-top-bg3.png'
 page_bottom: 'img/footer/page-top-bg2.jpg'
+title_tip: 'img/title-tip.png'
+title_tip1: 'img/title-tip1.png'
 
 repository: carsmos/carsmos.github.io
 
