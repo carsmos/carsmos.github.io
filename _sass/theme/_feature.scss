@@ -19,14 +19,14 @@
 
 .single-feature {
     margin-top: 30px;
-    border: 2px solid transparent;
-    padding: 48px 38px;
-    @include transition();
+    border: 1px solid #FFFFFF;
+    padding: 38px 38px;
+    background: linear-gradient(180deg, #EFF2F7 0%, #FFFFFF 100%);
+    box-shadow: 0 10px 20px 1px rgba(0,0,0,0.06);
+    border-radius: 10px 10px 10px 10px;
     .icon {
         span {
-            padding: 23px;
             display: inline-block;
-            background: #ffffff;
             border-radius: 50%;
             @include transition();
         }
@@ -40,7 +40,7 @@
 		}
 		p {
 			margin-bottom: 0px;
-            height: 100px;
+            height: 150px;
 		}
     }
     &:hover {

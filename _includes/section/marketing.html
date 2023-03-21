@@ -1,23 +1,20 @@
 <!-- Start marketing-section -->
-<section class="marketing-section section-gap aquablue-bg" style = "padding-bottom: 0px;">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-lg-6 marketing-left">
-                <h1>
-                    {{ site.data.marketing.title }}
-                </h1>
-                <p class="mw-510">
-                    {{ site.data.marketing.description }}
-                </p>
-                <!-- <a href="#" class="genric-btn3">{{ site.data.marketing.btn_text }}</a> -->
-            </div>
-            <div class="col-lg-6 marketing-right">
-                <div class="active-dash-carusel">
-                    <img class="img-fluid item marketing-img" src="{{ site.data.marketing.image_one | relative_url }}" alt="">
-                    <img class="img-fluid item" src="{{ site.data.marketing.image_two | relative_url }}" alt="">
-                </div>
-            </div>
-        </div>
+<section class="marketing-section section-gap aquablue-bg" style = "padding-bottom: 120px;">
+    <h1 style="text-align: center;margin-bottom: 60px;">
+        {{ site.data.marketing.title }}
+    </h1>
+    <p class="" style="margin: 0 auto;width: 1280px;text-align: center;">
+        {{ site.data.marketing.description1 }}
+    </p>
+    <p class="" style="margin: 0 auto;width: 1280px;text-align: center;">
+        {{ site.data.marketing.description2 }}
+    </p>
+    <p class="" style="margin: 0 auto;width: 1280px;text-align: center;">
+        {{ site.data.marketing.description3 }}
+    </p>
+    <div style="width: 1280px;background: #FFF;padding: 26px 16px;margin: 60px auto 0;">
+        <img class="img-fluid item" src="{{ site.data.marketing.image_one | relative_url }}" alt="" style="width: 400px;margin-right: 80px;">
+        <img class="img-fluid item" src="{{ site.data.marketing.image_two | relative_url }}" alt="" style="width: 748px;">
     </div>
 </section>
 <!-- End marketing-section -->
