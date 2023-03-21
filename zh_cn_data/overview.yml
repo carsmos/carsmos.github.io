@@ -2,17 +2,22 @@
 ######    Overview Section    ######
 ####################################
 title: '元遨开源项目概述'
-description: '<br>元遨CARSMOS(寓意Cars Mobility Operating System)，作为依托开放原子开源基金会的智能出行项目群，旨在提供一个技术先进的、标准的、开源的平台，解决智能汽车研究、教育和产业合作中的平台封闭和碎片化问题。本项目群包含了来自产、学、研的贡献、赞助和参与：
-<ul style="list-style-type:disc;">
-<li>EDIT EV低速电动滑板底盘</ui>
-<li>PULSAR开放电子电气架构</ui>
-<li>AutoExpress芯粒互联技术和敏捷DSA芯片设计标准</ui>
-<li>DORA数据流中间件和SDV(软件定义汽车)业务开发平台</ui>
-<li>EtymOS自动驾驶大模型和数据飞轮平台</ui>
-<li>OASIS场景描述语言和仿真测试平台</ui>
-</ul>
-<br>开源软件部分采用Apache 2.0, 兼容木兰宽松许可证v2 (MulanPSLv2), 开源硬件部分采用CERN-OHL-W-2.0协议。我们期待通过这些统一平台技术，服务高校教育和科研的智能汽车教育和科研的基础需求，也成为和产业对标对话的平台，让教育和研究紧紧对标产业需求，加速研究成果到产业的落地速度。'
-image: 'img/overview-carsmos.png'
+description: '<br>元遨CARSMOS(寓意Cars Mobility Operating System)，作为依托开放原子开源基金会的智能出行项目群，旨在提供一个技术先进的、标准的、开源的平台，解决智能汽车研究、教育和产业合作中的平台封闭和碎片化问题。本项目群包含了来自产、学、研的贡献、赞助和参与'
+image: 'img/overview-carsmos1.png'
 button_text: 'Get more info...'
 button_link: '#'
 page_title: '元遨开源项目概述'
+title_links:
+  - name: '关于元遨'
+    link: '/intro/aboutcarsmos/'
+  - name: '元遨概述'
+    link: '#point'
+des_lists:
+  - title: 'EDIT EV低速电动滑板底盘'
+  - title: 'PULSAR开放电子电气架构'
+  - title: 'AutoExpress芯粒互联技术和敏捷DSA芯片设计标准'
+  - title: 'DORA数据流中间件和SDV(软件定义汽车)业务开发平台'
+  - title: 'EtymOS自动驾驶大模型和数据飞轮平台'
+  - title: 'OASIS场景描述语言和仿真测试平台'
+des_bottom1: '开源软件部分采用Apache 2.0, 兼容木兰宽松许可证v2 (MulanPSLv2), 开源硬件部分采用CERN-OHL-W-2.0协议。'
+des_bottom2: '我们期待通过这些统一平台技术，服务高校教育和科研的智能汽车教育和科研的基础需求，也成为和产业对标对话的平台，让教育和研究紧紧对标产业需求，加速研究成果到产业的落地速度。'  

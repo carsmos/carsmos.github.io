@@ -10,7 +10,7 @@ des_lists:
     des: '通过开源开放研究引入企业的资助和参与，这样可以提前感知产业发展的痛点。开源项目本身可以商业化，这也是软件产业最大的趋势。' 
   - title: '培育产业人才'
     des: '通过引入开源硬件/软件提升教育水平，以自动驾驶为场景来学习最新的编程语言，编程框架，系统集成。引入开源导师，培训学生做开源贡献和参加社区竞赛，既锻炼了能力，也增加了学生的声誉度。'     
-image: 'img/aboutcarsmos1.png'
+image: 'img/aboutcarsmos2.png'
 button_text: 'Get more info...'
 button_link: '#'
 page_title: 'about carsmos'
