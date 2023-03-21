@@ -168,6 +168,7 @@
 .generic-margin {
     margin-bottom: 10px;
 }
+
 .generic-margin1 {
     margin-bottom: 10px;
     width: 251.54px;
@@ -658,7 +659,7 @@
 .page-top-section1 {
     background: url(../img/footer/banner.png) center/cover;
     position: relative;
-    margin-top: 80px;
+    margin-top: 60px;
     height: 310px;
 
     .page-top-nav {
@@ -686,7 +687,7 @@
 
 .page-top-section2 {
     position: absolute;
-    top: 20%;
+    top: 117px;
     left: 10%;
 
 }
@@ -706,7 +707,61 @@
     }
 }
 
+.page-top-bg {
+    background: linear-gradient(124deg, #8D54F6 0%, rgba(115, 39, 245, 0) 100%);
+    margin-top: 28px;
+    border-radius: 0px 0px 0px 0px;
+    opacity: 1;
+
+    a {
+        font-size: 18px;
+        font-family: Source Han Sans CN-Medium, Source Han Sans CN;
+        font-weight: 500;
+        color: #FFFFFF;
+        line-height: 38px;
+        margin-left: 16px;
+        margin-right: 8px;
+        text-decoration: underline;
+
+        @media(max-width: 500px) {
+            font-size: 12px;
+        }
+    }
+
+}
+
 .head-sep {
     width: 100%;
     display: block;
+}
+
+#title {
+    font-size: 24px;
+    font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+    font-weight: bold;
+    color: #252B3A;
+    line-height: 30px;
+    margin-left: 16px;
+    vertical-align: middle;
+}
+
+.title-img {
+    margin-left: -50px;
+}
+
+.des-common {
+    font-size: 14px;
+}
+
+.des-t {
+    font-weight: bold;
+    color: #8A4FF6;
+    line-height: 28px;
+}
+
+.des-m {
+    width: 16px;
+    height: 0px;
+    opacity: 1;
+    border: 2px solid #8A4FF6;
 }
