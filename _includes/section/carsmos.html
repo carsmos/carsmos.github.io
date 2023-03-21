@@ -2,8 +2,11 @@
 <section class="page-top-section1">
     <div class="page-top-section2">
         <img src="{{ site.page_top | relative_url }}" />
+        <!--         <div class="title-margin">
+            <span> {{ site.data.aboutcarsmos.page_title }} </span>
+        </div> -->
         <div class="page-top-bg">
-            {% for title in site.data.overview.title_links %}
+            {% for title in site.data.aboutcarsmos.title_links %}
             <a href="{{ title.link }}">{{ title.name }}</a>
             {% endfor %}
         </div>
@@ -13,8 +16,30 @@
     <div id="point"></div><img class="head-sep" src="{{ site.page_bottom | relative_url }}" />
 </div>
 <!-- End page top -->
-<!-- Start overview section -->
-<section class="overview-section section-gap section-bgcolor"> 
+
+<section class="aboutcarsmos-section section-gap">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <img class="title-img" src="{{ site.title_tip | relative_url }}" />
+                <span id="title">{{ site.data.aboutcarsmos.title }} </span>
+                <div class="des-common">
+                    <div>{{ site.data.aboutcarsmos.description }} </div>
+                    {% for li in site.data.aboutcarsmos.des_lists %}
+                    <br>
+                    <div class="des-t">{{ li.title }}</div>
+                    <div class="des-m"></div>
+                    <div>{{ li.des }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-lg-6 text-center aboutcarsmos-right">
+                <img class="img-fluid" src="{{ site.data.aboutcarsmos.image | relative_url }}" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="overview-section section-gap" style="background-color: #F1F5FE;"> 
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
@@ -40,4 +65,3 @@
         </div>
     </div>
 </section>
-<!-- End overview section -->

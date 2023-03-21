@@ -2,9 +2,6 @@
 <section class="page-top-section1">
     <div class="page-top-section2">
         <img src="{{ site.page_top | relative_url }}" />
-        <!--         <div class="title-margin">
-            <span> {{ site.data.aboutcarsmos.page_title }} </span>
-        </div> -->
         <div class="page-top-bg">
             {% for title in site.data.aboutcarsmos.title_links %}
             <a href="{{ title.link }}">{{ title.name }}</a>
@@ -32,11 +29,8 @@
                     <div>{{ li.des }}</div>
                     {% endfor %}
                 </div>
-                <!--   <a href="{{ site.data.aboutcarsmos.button_link }}" class="genric-btn2">
-                {{ site.data.aboutcarsmos.button_text }}
-            </a> -->
             </div>
-            <div class="col-lg-6 text-center aboutcarsmos-right">
+            <div class="col-lg-6 text-center">
                 <img class="img-fluid" src="{{ site.data.aboutcarsmos.image | relative_url }}" alt="">
             </div>
         </div>

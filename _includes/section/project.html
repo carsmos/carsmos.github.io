@@ -1,0 +1,157 @@
+<!-- Start page top -->
+<section class="page-top-section1">
+    <div class="page-top-section2">
+        <img src="{{ site.page_top | relative_url }}" />
+        <div class="page-top-bg">
+            {% for title in site.data.dora.title_links %}
+            <a href="{{ title.link }}">{{ title.name }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<div> <div id="point"></div> <img class="head-sep" src="{{ site.page_bottom | relative_url }}" /></div>
+<!-- End page top -->
+<!-- Start dora-section -->
+<section class="dora-section section-gap">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <img class="title-img" src="{{ site.title_tip | relative_url }}" />
+                <span id="title">{{ site.data.dora.title }} </span>
+                <div class="des-common">
+                    <div>{{ site.data.dora.description }} </div>
+                    {% for li in site.data.dora.des_lists %}
+                    <br>
+                    <div class="des-t">{{ li.title }}</div>
+                    <div class="des-m"></div>
+                    <div>{{ li.des }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img class="img-fluid" src="{{ site.data.dora.image | relative_url }}" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End dora-section -->
+<!-- Start oasis-section -->
+<section class="oasis-section section-gap section-bgcolor">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <img class="img-fluid" src="{{ site.data.oasis.image | relative_url }}" alt="">
+            </div>
+            <div class="col-lg-6 text-end">
+                <span id="title">{{ site.data.oasis.title }} </span>
+                <img src="{{ site.title_tip1 | relative_url }}" />
+                <div class="des-common">
+                    <div>{{ site.data.oasis.description }} </div>
+                    {% for li in site.data.oasis.des_lists %}
+                    <br>
+                    <div class="des-t">{{ li.title }}</div>
+                    <div class="float-end des-m"></div>
+                    <div>{{ li.des }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End oasis-section -->
+<!-- Start etymos-section -->
+<section class="etymos-section section-gap">
+    <div class="container">
+        <div class="row align-items-center">
+             <div class="col-lg-6">
+                <img class="title-img" src="{{ site.title_tip | relative_url }}" />
+                <span id="title">{{ site.data.etymos.title }} </span>
+                <div class="des-common">
+                    <div>{{ site.data.etymos.description }} </div>
+                    {% for li in site.data.etymos.des_lists %}
+                    <br>
+                    <div class="des-t">{{ li.title }}</div>
+                    <div class="des-m"></div>
+                    <div>{{ li.des }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img class="img-fluid" src="{{ site.data.etymos.image | relative_url }}" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End etymos-section -->
+<!-- Start essa-section -->
+<section class="essa-section section-gap section-bgcolor">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <img class="img-fluid" src="{{ site.data.essa.image | relative_url }}" alt="">
+            </div>
+            <div class="col-lg-6 text-end">
+                <span id="title">{{ site.data.essa.title }} </span>
+                <img src="{{ site.title_tip1 | relative_url }}" />
+                <div class="des-common">
+                    <div>{{ site.data.essa.description }} </div>
+                    {% for li in site.data.essa.des_lists %}
+                    <br>
+                    <div class="des-t">{{ li.title }}</div>
+                    <div class="float-end des-m"></div>
+                    <div>{{ li.des }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End essa-section -->
+<!-- Start editev-section -->
+<section class="editev-section section-gap">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <img class="title-img" src="{{ site.title_tip | relative_url }}" />
+                <span id="title">{{ site.data.editev.title }} </span>
+                <div class="des-common">
+                    <div>{{ site.data.editev.description }} </div>
+                    {% for li in site.data.editev.des_lists %}
+                    <br>
+                    <div class="des-t">{{ li.title }}</div>
+                    <div class="des-m"></div>
+                    <div>{{ li.des }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img class="img-fluid" src="{{ site.data.editev.image | relative_url }}" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End editev-section -->
+<!-- Start autoexpress-section -->
+<section class="autoexpress-section section-gap section-bgcolor">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <img class="img-fluid" src="{{ site.data.autoexpress.image | relative_url }}" alt="">
+            </div>
+            <div class="col-lg-6 text-end">
+                <span id="title">{{ site.data.autoexpress.title }} </span>
+                <img src="{{ site.title_tip1 | relative_url }}" />
+                <div class="des-common">
+                    <div>{{ site.data.autoexpress.description }} </div>
+                    {% for li in site.data.autoexpress.des_lists %}
+                    <br>
+                    <div class="des-t">{{ li.title }}</div>
+                    <div class="float-end des-m"></div>
+                    <div>{{ li.des }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End autoexpress-section -->

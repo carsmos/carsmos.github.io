@@ -4,13 +4,29 @@
 ######  ESSA Section   ######
 ####################################
 title: 'ESSA - Elastic Stateful Serverless Computing Architecture'
-description: '<br>ESSA(Elastic Stateful Serverless Computing)项目,ESSA弹性带状态无服务器计算架构,是边端云高性能计算的一个加速器技术,主要包括两个子项目:
-<ul style="list-style-type:circle;">
-<li>Anna-RS: 这是一个支持地域分布的低延迟、自动缩放 (Auto Scaling) 和高效的分布式键值(K/V) 数据库，通过 Anna-RS K/V 来支持ESSA弹性无服务器计算架构所需要的状态管理; </li>
-<li>Essa-RS: 这是一个基于 WebAssembly 的无服务器函数运行环境,相比其他无服务器函数的运行环境,WebAssembly具有速度快、多语言(C/C++、Rust 等语言）支持、非常安全的沙箱隔离，更少的函数调用开销等优点。</li>
-</ul>'
+description: '<br>ESSA(Elastic Stateful Serverless Computing)项目,ESSA弹性带状态无服务器计算架构,
+<br>是边端云高性能计算的一个加速器技术,主要包括两个子项目:'
 image_one: '/img/essa1.png'
 image_two: '/img/essa2.png'
 btn_text: 'Learn more...'
 btn_link: '#'
 page_title: 'ESSA - Elastic Stateful Serverless Computing Architecture'
+title_links:
+  - name: 'DORA'
+    link: '/projects/dora/'
+  - name: 'OASIS'
+    link: '/projects/oasis/'
+  - name: 'ETYMOS'
+    link: '/projects/etymos/'
+  - name: 'ESSA'
+    link: '#point'
+  - name: 'EDITEV'
+    link: '/projects/editev/'
+  - name: 'AUTO EXPRESS'
+    link: '/projects/autoexpress/' 
+des_lists:
+  - title: 'Anna-RS'
+    des: '这是一个支持地域分布的低延迟、自动缩放 (Auto Scaling) 和高效的分布式键值(K/V) 数据库，通过 Anna-RS K/V 来支持ESSA弹性无服务器计算架构所需要的状态管理; '  
+  - title: 'Essa-RS'
+    des: '这是一个基于 WebAssembly 的无服务器函数运行环境,相比其他无服务器函数的运行环境,WebAssembly具有速度快、多语言(C/C++、Rust 等语言）支持、非常安全的沙箱隔离，更少的函数调用开销等优点。' 
+image: '/img/project/essa.png'  
