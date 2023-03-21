@@ -21,6 +21,7 @@ repository: carsmos/carsmos.github.io
 
 paginate: 12
 paginate_path: "/blog/page:num/"
+locale: en
 
 sass:
     sass_dir: _sass

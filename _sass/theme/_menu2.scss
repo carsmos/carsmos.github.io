@@ -11,7 +11,6 @@
 
 
 #header2 {
-  padding: 14px 0px;
   padding-left:7%;
   padding-right:7%;
   position: fixed;
@@ -22,6 +21,54 @@
   z-index: 997;
 }
 
+#header2 {
+  .i18n {
+    color: #FFF;
+    cursor: pointer;
+    position: relative;
+    padding: 25px 0 20px;
+    > span {
+      vertical-align: middle;
+      margin-left: 4px;
+    }
+    &:hover{
+      ul {
+        display: block;
+      }
+    }
+    ul {
+      position: absolute;
+      display: none;
+      margin-top: 20px;
+      right: 0;
+      background: #FFFFFF;
+      box-shadow: 0 10px 20px 1px rgba(0,0,0,0.3);
+      border-radius: 6px;
+      padding: 4px;
+      width: 136px;
+      li {
+        padding: 0 14px;
+        line-height: 40px;
+        border-radius: 2px;
+        a {
+          color: #252B3A;
+        }
+        &.active{
+          background: linear-gradient(124deg, #8D54F6 0%, #7327F5 100%);
+          a {
+            color: #FFF;
+          }
+        }
+      }
+    }
+  }
+}
+
+#header2.header-scrolled{
+  .i18n {
+    color: #252B3A;
+  }
+}
 
 #header2.header-scrolled{
   transition: all 0.5s;
@@ -129,15 +176,15 @@
   padding-right: 30px;
 }
 
-.sf-arrows .sf-with-ul:after {
-  content: "\e874";
-  position: absolute;
-  right: 10px;
-  font-family: 'Linearicons-Free';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 8px;
-}
+//.sf-arrows .sf-with-ul:after {
+//  content: "\e874";
+//  position: absolute;
+//  right: 10px;
+//  font-family: 'Linearicons-Free';
+//  font-style: normal;
+//  font-weight: 700;
+//  font-size: 8px;
+//}
 
 .sf-arrows ul .sf-with-ul:after {
   content: "\e876";
@@ -158,10 +205,19 @@
 #header2 .nav-menu2 > li > a {
   text-decoration: none;
   color: $white;
-  font-weight:600;  
+  font-weight:normal;
   font-size: 12px;
   text-transform: uppercase;
   outline: none;
+  padding-bottom: 16px;
+  border-bottom: 2px solid rgba(0,0,0,0);
+}
+
+#header2 .nav-menu2 > li:hover{
+  >a{
+    font-weight: bold;
+    border-bottom: 2px solid #FFF;
+  }
 }
 
 
@@ -189,6 +245,11 @@
 
   .nav-menu > li a:hover{
     color:$primary-color!important;
+  }
+  .nav-menu2 > li:hover{
+    > a{
+      border-bottom: 2px solid #8D54F6;
+    }
   }
   .nav-menu2 > li > a {
     color: $black;

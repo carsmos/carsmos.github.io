@@ -5,12 +5,11 @@
 
 .pages{
   #header7{
-    background:$white;
+    background: linear-gradient(90deg, #452E9F 0%, #151762 100%);
   }
 }
 
 #header7 {
-  padding: 14px 0px;
   padding-left:7%;
   padding-right:7%;
   position: fixed;
@@ -19,6 +18,55 @@
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+}
+
+#header7 {
+  .i18n {
+    color: #FFF;
+    cursor: pointer;
+    position: relative;
+    padding: 25px 0 20px;
+    > span {
+      vertical-align: middle;
+      margin-left: 4px;
+    }
+    &:hover{
+      ul {
+        display: block;
+      }
+    }
+    ul {
+      position: absolute;
+      display: none;
+      margin-top: 20px;
+      right: 0;
+      background: #FFFFFF;
+      box-shadow: 0 10px 20px 1px rgba(0,0,0,0.3);
+      border-radius: 6px;
+      padding: 4px;
+      width: 136px;
+      li {
+        padding: 0 14px;
+        line-height: 40px;
+        border-radius: 2px;
+        a {
+          color: #252B3A;
+        }
+        &.active{
+          background: linear-gradient(124deg, #8D54F6 0%, #7327F5 100%);
+          a {
+            color: #FFF;
+          }
+        }
+      }
+    }
+  }
+}
+
+#header7.header-scrolled{
+  .i18n {
+    color: #252B3A;
+  }
 }
 
 
@@ -55,6 +103,8 @@
 
 #header7 {
   #logo {
+    height: 78px;
+    margin: 14px 0;
     .logo-1 {
       padding: 0;
       margin: 0;
@@ -93,7 +143,11 @@
   top: 100%;
   left: 0;
   z-index: 99;
-  border-top:2px solid $primary-color;
+  border-top: 0;
+
+  box-shadow: 0 10px 20px 1px rgba(0,0,0,0.3);
+  border-radius: 6px;
+  text-align: left;
 }
 
 .nav-menu li {
@@ -117,7 +171,7 @@
 
 .nav-menu ul li {
   min-width: 180px;
-  border-bottom: 1px solid #edf6ff;
+  border-bottom: 0;
   &:last-child{
     border-bottom:none;
   }
@@ -125,18 +179,18 @@
 
 /* Nav Menu Arrows */
 .sf-arrows .sf-with-ul {
-  padding-right: 30px;
+  padding-right: 0;
 }
 
-.sf-arrows .sf-with-ul:after {
-  content: "\e874";
-  position: absolute;
-  right: 10px;
-  font-family: 'Linearicons-Free';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 8px;
-}
+//.sf-arrows .sf-with-ul:after {
+//  content: "\e874";
+//  position: absolute;
+//  right: 10px;
+//  font-family: 'Linearicons-Free';
+//  font-style: normal;
+//  font-weight: 700;
+//  font-size: 8px;
+//}
 
 .sf-arrows ul .sf-with-ul:after {
   content: "\e876";
@@ -156,13 +210,21 @@
 
 #header7 .nav-menu2 > li > a {
   text-decoration: none;
-  color: $black;
-  font-weight:600;  
+  color: #FFF;
+  font-weight:normal;
   font-size: 12px;
   text-transform: uppercase;
   outline: none;
+  padding-bottom: 16px;
+  border-bottom: 2px solid rgba(0,0,0,0);
 }
 
+#header7 .nav-menu2 > li:hover{
+  >a{
+    font-weight: bold;
+    border-bottom: 2px solid #FFF;
+  }
+}
 
   .nav-menu li > .menu-active{
     color:$primary-color!important;
@@ -189,6 +251,11 @@
   .nav-menu > li a:hover{
     color:$primary-color!important;
   }
+  .nav-menu2 > li:hover{
+    > a{
+      border-bottom: 2px solid #8D54F6;
+    }
+  }
   .nav-menu2 > li > a {
     color: $black;
   }
@@ -200,14 +267,19 @@
 
 
 .nav-menu > li {
-  margin-left: 30px;
+  margin-left: 0;
+  min-width: 130px;
+  text-align: center;
+  height: 78px;
+  padding: 25px 0 20px;
+  cursor: pointer;
   @media (max-width: 1024px) {
     margin-left: 12px;
   }
 }
 
 .nav-menu ul {
-  margin: 20px 0 0 0;
+  margin: 0;
   padding: 10px;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   background: #fff;
