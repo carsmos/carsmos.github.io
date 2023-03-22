@@ -30,10 +30,12 @@
                     {% endfor %}
                 </div>
             </div>
-            <div class="col-lg-6 text-center">
-                <img class="img-fluid" src="{{ site.data.etymos.image | relative_url }}" alt="">
+            <div class="col-lg-6">
+                <div class="active-dash-carusel">
+                    <img class="img-fluid item" src="{{ site.data.etymos.image_1 | relative_url }}" alt="">
+                    <img class="img-fluid item" src="{{ site.data.etymos.image_2 | relative_url }}" alt="">
+                </div>
             </div>
         </div>
     </div>
 </section>
-<!-- End etymos-section -->

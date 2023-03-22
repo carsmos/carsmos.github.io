@@ -41,7 +41,7 @@ header:
 
   - name: "governance"
     title: "Governance"
-    link: "/"
+    link: "/governance/governance/"
     menu-has-children:
       - name: "TSC"
         title: "Technical Steering Committee"
