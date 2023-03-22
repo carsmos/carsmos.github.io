@@ -26,6 +26,9 @@
     cursor: pointer;
     position: relative;
     padding: 25px 0 20px;
+    .i18n-2{
+      display: none;
+    }
     > span {
       vertical-align: middle;
       margin-left: 4px;
@@ -66,6 +69,12 @@
 #header7.header-scrolled{
   .i18n {
     color: #252B3A;
+    .i18n-1 {
+      display: none;
+    }
+    .i18n-2 {
+      display: inline-block;
+    }
   }
 }
 

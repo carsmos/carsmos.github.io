@@ -8,36 +8,51 @@ hero: blog_details
     <section class="blog-post section-gap">
         <div class="details-body">
             <div class="container">
-                <h2 class="head">{{ page.title | escape }}</h2>
+                <div class="prev-post relative " style="cursor: pointer">
+                    <div class="mx-2">
+                        <a class="post-link d-flex align-items-center" href="/blog/" style="color: #575D6C;">
+                            <i class="fas fa-arrow-left"></i>
+                            <div class="ml-3 relative" style="margin-left: 11px;color: #575D6C;">
+                                <p class="mb-0">{{ site.data.blog.back }}</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <h2 style="line-height: 24px;font-size: 24px;font-weight: bold;color: #252B3A;margin-top: 35px;">{{ page.title | escape }}</h2>
+                <p style="margin-top: 24px;line-height: 14px;font-size: 14px;color: #8A8E99;">
+                    {{ page.autor | default: site.author |  | escape }} on {{" "}}
+                    {%- assign date_format = site.minima.date_format | default: " %b %-d, %Y" -%}
+                    {{ page.date | date: date_format }}
+                </p>
 
                 {{ content }}
 
                 <div class="mt-40 mb-20">
-                    <hr>
+<!--                    <hr>-->
                 </div>
 
                 <div class="post-links">
-                    <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
                        {% if page.previous.url %} 
-                        <div class="prev-post d-flex relative align-items-center">
+                        <div class="prev-post d-flex relative align-items-center" style="margin-right: 88px;">
                             <div class="mx-2">
                                 <a class="post-link" href="{{page.previous.url}}">
-                                    <i class="fas fa-arrow-left"></i>
+                                    <i class="fas fa-chevron-left" style="border-radius: 50%;"></i>
                                 </a>
                             </div>
-                            <div class="ml-3 relative">
-                                <p class="mb-0">Next post</p>
+                            <div class="ml-3 relative" style="margin-left: 8px;">
+                                <p class="mb-0">{{ site.data.blog.prev }}</p>
                             </div>
                         </div>
                         {% endif %}
                         {% if page.next.url %}
                         <div class="next-post d-flex relative align-items-center">
-                            <div class="mr-3 relative">
-                                <p class="mb-0">Next post</p>
+                            <div class="mr-3 relative" style="margin-right: 8px;">
+                                <p class="mb-0">{{ site.data.blog.next }}</p>
                             </div>
-                            <div class="mx-2">
+                            <div class="mx-2" style="border-radius: 50%;">
                                 <a class="post-link" href="{{page.next.url}}">
-                                    <i class="fas fa-arrow-right"></i>
+                                    <i class="fas fa-chevron-right" style="border-radius: 50%;"></i>
                                 </a>
                             </div>
                         </div>

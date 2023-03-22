@@ -5,7 +5,8 @@
 {%- assign logo2 = 'img/carsmos-logo-blue.png' -%}
 {%- assign bg2 = 'img/footer/page-top-bg2.jpg' -%}
 {%- assign bg3 = 'img/footer/page-top-bg3.png' -%}
-{%- assign i18nIcon = '/img/i18n.png' -%}
+{%- assign i18nIconWhite = '/img/i18n-white.png' -%}
+{%- assign i18nIconBlack = '/img/i18n-black.png' -%}
 {%- assign checkIcon = '/img/check.png' -%}
 
 <body class="version2 pages">
@@ -23,7 +24,8 @@
                 </div>
                 {% include nav-menu.html %}
                 <div class="i18n">
-                    <img src="{{ i18nIcon }}" alt="" title="" />
+                    <img class="i18n-1" src="{{ i18nIconWhite }}" alt="" title="" />
+                    <img class="i18n-2" src="{{ i18nIconBlack }}" alt="" title="" />
                     <span>{{ site.data.menus.locale }}</span>
                     <ul>
                         {% if site.locale == 'en' %}
