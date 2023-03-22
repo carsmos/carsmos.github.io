@@ -18,15 +18,15 @@
 }
 
 .single-feature {
-    margin-top: 30px;
-    border: 2px solid transparent;
-    padding: 48px 38px;
-    @include transition();
+    border: 1px solid #FFFFFF;
+    padding: 38px 33px;
+    background: #FFFFFF;
+    box-shadow: 0 10px 20px 1px rgba(0,0,0,0.06);
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 30px;
     .icon {
         span {
-            padding: 23px;
             display: inline-block;
-            background: #ffffff;
             border-radius: 50%;
             @include transition();
         }
@@ -40,17 +40,19 @@
 		}
 		p {
 			margin-bottom: 0px;
-            height: 100px;
 		}
     }
     &:hover {
-        background: #fff;
+        background: linear-gradient(180deg, #ECE4FA 0%, #FFFFFF 100%);
         border: 2px solid $primary-color;
 		.icon {
 			span {
 				background: $offwhite;
 			}
 		}
+        h4 {
+          color: #8A4FF6;
+        }
     }
 }
 
@@ -72,4 +74,16 @@
             margin-right: auto;
         }
     }
+}
+
+.col-lg-feature {
+    width: 416px;
+}
+
+.item-des {
+    font-size: 14px;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-weight: 400;
+    color: #575D6C;
+    line-height: 28px;
 }

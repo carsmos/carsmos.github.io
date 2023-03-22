@@ -2,14 +2,29 @@
 ######  Etymos Section   ######
 ####################################
 title: 'Etymos: 数据采集+数据飞轮'
-description: '<br>EtymOS围绕数据和模型来支持自动驾驶2.0项目,包括构建标准化的数据采集EtymosKIT,通过自动化的数据飞轮EtymOS Wheel做数据集共享和社区协同开发,来快速提升自动驾驶模型的性能,打造标准化的自驾感知大模型EtymOS。
-<ul style="list-style-type:circle;">
-<li>技术价值: 云原生低码工具链和开源ODD应用可以快速推出创新应用, 降低开发和创新门槛。</li>
-<li>业务价值: 拉通机器人和自动驾驶的研究平台、教育平台、产业合作平台，培养专业人才，实现研究与产业的对齐。</li>
-<li>生态价值: 开放研究引入企业的资助和参与，促成开源生态系统的商业模式，为产业吸引和注入新鲜的开发和研究力量。</li>
-</ul>'
-image_one: '/img/etymos2.png'
-image_two: '/img/etymos1.png'
+description: '<br>EtymOS围绕数据和模型来支持自动驾驶2.0项目,包括构建标准化的数据采集EtymosKIT,通过自动化的数据飞轮EtymOS Wheel做数据集共享和社区协同开发,来快速提升自动驾驶模型的性能,打造标准化的自驾感知大模型EtymOS。'
 btn_text: 'Learn more...'
 btn_link: '#'
 page_title: 'Etymos: 数据采集+数据飞轮'
+title_links:
+  - name: 'DORA'
+    link: '/projects/dora/'
+  - name: 'OASIS'
+    link: '/projects/oasis/'
+  - name: 'ETYMOS'
+    link: '#point'
+  - name: 'ESSA'
+    link: '/projects/essa/'
+  - name: 'EDITEV'
+    link: '/projects/editev/'
+  - name: 'AUTO EXPRESS'
+    link: '/projects/autoexpress/' 
+des_lists:
+  - title: '技术价值'
+    des: '云原生低码工具链和开源ODD应用可以快速推出创新应用, 降低开发和创新门槛。'  
+  - title: '业务价值'
+    des: '拉通机器人和自动驾驶的研究平台、教育平台、产业合作平台，培养专业人才，实现研究与产业的对齐。' 
+  - title: '生态价值'
+    des: '开放研究引入企业的资助和参与，促成开源生态系统的商业模式，为产业吸引和注入新鲜的开发和研究力量。'
+image_1: '/img/project/etymos1.png'
+image_2: '/img/project/etymos2.png' 

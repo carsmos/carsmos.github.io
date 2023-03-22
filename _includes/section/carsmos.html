@@ -1,0 +1,50 @@
+
+
+<section class="aboutcarsmos-section section-gap">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <img class="title-img" src="{{ site.title_tip | relative_url }}" />
+                <span id="title">{{ site.data.aboutcarsmos.title }} </span>
+                <div class="des-common">
+                    <div>{{ site.data.aboutcarsmos.description }} </div>
+                    {% for li in site.data.aboutcarsmos.des_lists %}
+                    <br>
+                    <div class="des-t">{{ li.title }}</div>
+                    <div class="des-m"></div>
+                    <div class = "des-b">{{ li.des }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-lg-6 text-center aboutcarsmos-right">
+                <img class="img-fluid" src="{{ site.data.aboutcarsmos.image | relative_url }}" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="overview-section section-gap" style="background-color: #F1F5FE;"> 
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <img class="img-fluid" src="{{ site.data.overview.image | relative_url }}" alt="">
+            </div>
+            <div class="col-lg-6 text-end">
+                <span id="title">{{ site.data.overview.title }} </span>
+                <img src="{{ site.title_tip1 | relative_url }}" />
+                <div class="des-common">
+                    <div>{{ site.data.overview.description }} </div>
+                    {% for li in site.data.overview.des_lists %}
+                    <br>
+                    <div class="des-t">{{ li.title }}</div>
+                    <div class="float-end des-m"></div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="des-common text-center" style="margin-top: 40px;">
+                {{ site.data.overview.des_bottom1 }}
+                <br>
+                {{ site.data.overview.des_bottom2 }}
+            </div>
+        </div>
+    </div>
+</section>

@@ -4,16 +4,31 @@
 ######  Oasis Section   ######
 ####################################
 title: 'OASIS-智驾仿真平台和场景描述语言'
-description: '<br>OASIS采用开放开源形式研发的仿真测试平台及其生态, 有望连接科研,监管,产业三方, 促进智驾研发企业的成长和转型。<br>
-OASIS Sim定位为一个开放的仿真基础平台, 以最小化的组织形式实现仿真关键功能。OASIS Sim与Carsmos内其他开源项目组成完整智能驾驶研发工具链, 降低研发门槛, 提高研发自由度和可维护性。
-<br>OASIS DSL是一套面向动态交通场景描述的形式化领域特定语言, 具备以上形式化语言的优势。OASIS DSL开源项目提供了语法设计, 领域模型及语言在OASIS Sim仿真平台上的实现, 包括基于OASIS DSL的交互式场景编辑器。
-<ul style="list-style-type:circle;">
-<li>技术价值: 自主设计的场景语言和编译器, 全球仅有的2个开源场景语言之一。兼容OpenScenario 1 & 2语义, 支持OpenScenario的仿真生态。融合了形式化的规则描述和测试, 场景描述和测试一体。基于vena场景语言的基于web的场景库IDE和cloud native方式部署的场景仿真环境, 支持场景构建到场景测试的闭环。Apache 2.0 license的场景语言Spec, 兼容OpenScenario 2.0标准，允许第三方的语言实现。</li>
-<li>业务价值: 基于开源场景语言实现, 完整的开源仿真环境对接, 开源场景库设计IDE和部署工具, 满足了研究、监管、产业共同使用和进化场景语言特性。</li>
-<li>生态价值: 通过国标的场景描述语言和场景库，形成自主可控的机器人和自动驾驶仿真测试生态。</li>
-</ul>'
-image_one: '/img/oasis1.png'
-image_two: '/img/oasis2.png'
+description: '<br>OASIS采用开放开源形式研发的仿真测试平台及其生态, 有望连接科研,监管,产业三方, <br>促进智驾研发企业的成长和转型。<br>OASIS Sim定位为一个开放的仿真基础平台, 以最小化的组织形式实现仿真关键功能。<br>OASIS Sim与Carsmos内其他开源项目组成完整智能驾驶研发工具链,<br>降低研发门槛, 提高研发自由度和可维护性。
+<br>OASIS DSL是一套面向动态交通场景描述的形式化领域特定语言, <br>具备以上形式化语言的优势。OASIS DSL开源项目提供了语法设计,<br>领域模型及语言在OASIS Sim仿真平台上的实现,<br>包括基于OASIS DSL的交互式场景编辑器。'
 btn_text: 'Learn more...'
 btn_link: '#'
 page_title: 'OASIS - 智能驾驶仿真平台和场景描述语言'
+title_links:
+  - name: 'DORA'
+    link: '/projects/dora/'
+  - name: 'OASIS'
+    link: '#point'
+  - name: 'ETYMOS'
+    link: '/projects/etymos/'
+  - name: 'ESSA'
+    link: '/projects/essa/'
+  - name: 'EDITEV'
+    link: '/projects/editev/'
+  - name: 'AUTO EXPRESS'
+    link: '/projects/autoexpress/' 
+des_lists:
+  - title: '技术价值'
+    des: '自主设计的场景语言和编译器, 全球仅有的2个开源场景语言之一。<br>兼容OpenScenario 1 & 2语义, 支持OpenScenario的仿真生态。融合了形式化的规则描述和测试, 场景描述和测试一体。基于vena场景语言的基于web的场景库IDE和cloud native方式部署的场景仿真环境, 支持场景构建到场景测试的闭环。Apache 2.0 license的场景语言Spec, 兼容OpenScenario 2.0标准，允许第三方的语言实现。'  
+  - title: '业务价值'
+    des: '基于开源场景语言实现, 完整的开源仿真环境对接, 开源场景库设计IDE和部署工具, 满足了研究、监管、产业共同使用和进化场景语言特性。' 
+  - title: '生态价值'
+    des: '通过国标的场景描述语言和场景库，形成自主可控的机器人和自动驾驶仿真测试生态。'
+image_1: '/img/project/oasis1.png'
+image_2: '/img/project/oasis2.png'          
+

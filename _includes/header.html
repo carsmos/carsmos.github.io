@@ -1,11 +1,14 @@
 {%- assign logo1 = 'img/carsmos-logo-white.png' -%}
 {%- assign logo2 = 'img/carsmos-logo-blue.png' -%}
+{%- assign i18nIconWhite = 'img/i18n-white.png' -%}
+{%- assign i18nIconBlack = 'img/i18n-black.png' -%}
+{%- assign checkIcon = 'img/check.png' -%}
 
 <!-- start Header Area -->
 <header id="header2" >
     <div class="container-fluid">
         <div class="d-flex flex-wrap align-items-center justify-content-between">
-            <div id="logo" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-black text-decoration-none">
+            <div id="logo" class="d-flex align-items-center my-2 my-lg-0 text-black text-decoration-none">
                 <a href="{{ '/' | relative_url }}">
                     <img class="logo-1" src="{{ logo1 | relative_url }}" alt="" title="" />
                 </a>
@@ -14,6 +17,26 @@
                 </a>
             </div>
         {% include nav-menu.html %}
+            <div class="i18n">
+                <img class="i18n-1" src="{{ i18nIconWhite }}" alt="" title="" />
+                <img class="i18n-2" src="{{ i18nIconBlack }}" alt="" title="" />
+                <span>{{ site.data.menus.locale }}</span>
+                <ul>
+                    {% if site.data.menus.locale == 'English' %}
+                    <li class="active">
+                        <a href="{{ site.data.menus.lang_menu_en }}">English</a>
+                        <img src="{{ checkIcon }}" alt="" title="" style="margin-left: 14px;"/>
+                    </li>
+                    <li><a href="{{ site.data.menus.lang_menu_zh_cn }}">简体中文</a></li>
+                    {% else %}
+                    <li class="active">
+                        <a href="{{ site.data.menus.lang_menu_zh_cn }}">简体中文</a>
+                        <img src="{{ checkIcon }}" alt="" title="" style="margin-left: 14px;"/>
+                    </li>
+                    <li><a href="{{ site.data.menus.lang_menu_en }}">English</a></li>
+                    {% endif %}
+                </ul>
+            </div>
         </div>
     </div>
 </header>

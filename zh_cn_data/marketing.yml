@@ -5,7 +5,9 @@
 ######  marketing Section   ######
 ####################################
 title: 'CARSMOS提供一个技术先进的、标准的、开源的平台'
-description: '解决智能汽车研究、教育和产业合作中的平台封闭和碎片化问题。开源软件部分采用Apache 2.0,兼容木兰宽松许可证v2 (MulanPSLv2),开源硬件部分采用CERN-OHL-W-2.0协议。我们期待通过这些统一平台技术，服务高校教育和科研的智能汽车教育和科研的基础需求，也成为和产业对标对话的平台，让教育和研究紧紧对标产业需求，加速研究成果到产业的落地速度。'
+description1: '解决智能汽车研究、教育和产业合作中的平台封闭和碎片化问题。'
+description2: '开源软件部分采用Apache 2.0,兼容木兰宽松许可证v2 (MulanPSLv2),开源硬件部分采用CERN-OHL-W-2.0协议。'
+description3: '我们期待通过这些统一平台技术，服务高校教育和科研的智能汽车教育和科研的基础需求，也成为和产业对标对话的平台，让教育和研究紧紧对标产业需求，加速研究成果到产业的落地速度。'
 image_one: '/img/marketing/carsmos-wheel2.png'
 image_two: '/img/marketing/carsmos-arch.png'
 btn_text: 'Learn more...'

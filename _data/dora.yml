@@ -2,14 +2,33 @@
 ######  Dora Section   ######
 ####################################
 title: 'DORA - Dataflow Oriented Robotics Architecture'
-description: '<br>DORA是一个先进的开源的自动驾驶及机器人中间件框架和数据流计算平台. DORA项目以软件定义汽车,智能驾驶为目标场景,集成了大量云原生的架构理念和生态工具,并且采用了安全可信的Rust语言开发,支持弹性数据流计算框架、多样化的中间件选择、云端协同计算,为智能汽车的软件开发提供了又一个更加现代化的平台选择,同时也提供了一条对ROS1/ROS2升级、替代及超越的技术路线。
-<ul style="list-style-type:disc;">
-<li>技术价值: 提供自主可控的开源的新一代的端边云协同的数据流计算平台,可以支持创新的自动驾驶和机器人应用。技术领先于ROS架构。基于Rust语言开发,在开发速度、开发质量、安全可信方面完胜C/C++，满足机器人和新能源汽车未来的需求。</li>
-<li>业务价值: 满足机器人和自动驾驶需要的多种业务形态，包括单车、车队、云边端协同等。</li>
-<li>生态价值: 依托全球最大的新能源汽车和机器人市场,通过产学研联合构建一个有全球影响力的超越ROS的开源生态。</li>
-</ul>'
-image_one: '/img/dora1.png'
-image_two: '/img/dora2.png'
+description: '<br>DORA是一个先进的开源的自动驾驶及机器人中间件框架和数据流计算平台。
+<br>DORA项目以软件定义汽车,智能驾驶为目标场景,集成了大量云原生的架构理念和生态工具,
+<br>并且采用了安全可信的Rust语言开发,支持弹性数据流计算框架、多样化的中间件选择、云端协同计算,
+<br>为智能汽车的软件开发提供了又一个更加现代化的平台选择,
+<br>同时也提供了一条对ROS1/ROS2升级、替代及超越的技术路线。'
 btn_text: 'Learn more...'
 btn_link: '#'
 page_title: 'DORA - Dataflow Oriented Robotics Architecture'
+title_links:
+  - name: 'DORA'
+    link: '#point'
+  - name: 'OASIS'
+    link: '/projects/oasis/'
+  - name: 'ETYMOS'
+    link: '/projects/etymos/'
+  - name: 'ESSA'
+    link: '/projects/essa/'
+  - name: 'EDITEV'
+    link: '/projects/editev/'
+  - name: 'AUTO EXPRESS'
+    link: '/projects/autoexpress/' 
+des_lists:
+  - title: '技术价值'
+    des: '提供自主可控的开源的新一代的端边云协同的数据流计算平台,可以支持创新的自动驾驶和机器人应用。<br>技术领先于ROS架构。基于Rust语言开发,在开发速度、开发质量、安全可信方面完胜C/C++，<br>满足机器人和新能源汽车未来的需求。'  
+  - title: '业务价值'
+    des: '满足机器人和自动驾驶需要的多种业务形态，包括单车、车队、云边端协同等。' 
+  - title: '生态价值'
+    des: '依托全球最大的新能源汽车和机器人市场,通过产学研联合构建一个有全球影响力的超越ROS的开源生态。'
+image_1: '/img/project/dora1.png'
+image_2: '/img/project/dora2.png' 

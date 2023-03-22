@@ -36,7 +36,7 @@
 
 .section-title-wrap {
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 
     .title-img {
         margin-bottom: 30px;
@@ -168,6 +168,7 @@
 .generic-margin {
     margin-bottom: 10px;
 }
+
 .generic-margin1 {
     margin-bottom: 10px;
     width: 251.54px;
@@ -658,7 +659,7 @@
 .page-top-section1 {
     background: url(../img/footer/banner.png) center/cover;
     position: relative;
-    margin-top: 80px;
+    margin-top: 60px;
     height: 310px;
 
     .page-top-nav {
@@ -686,7 +687,7 @@
 
 .page-top-section2 {
     position: absolute;
-    top: 20%;
+    top: 117px;
     left: 10%;
 
 }
@@ -706,7 +707,119 @@
     }
 }
 
+.page-top-bg {
+    background: linear-gradient(124deg, #8D54F6 0%, rgba(115, 39, 245, 0) 100%);
+    margin-top: 28px;
+    border-radius: 0px 0px 0px 0px;
+    opacity: 1;
+
+    a {
+        font-size: 18px;
+        font-family: Source Han Sans CN-Medium, Source Han Sans CN;
+        font-weight: 500;
+        color: #FFFFFF;
+        line-height: 38px;
+        margin-left: 16px;
+        margin-right: 8px;
+        text-decoration: underline;
+
+        @media(max-width: 500px) {
+            font-size: 12px;
+        }
+    }
+
+    span {
+        font-size: 18px;
+        font-family: Source Han Sans CN-Medium, Source Han Sans CN;
+        font-weight: 500;
+        color: #FFFFFF;
+        line-height: 38px;
+        margin-left: 16px;
+        margin-right: 8px;
+    }
+
+}
+
 .head-sep {
     width: 100%;
     display: block;
+}
+
+#title {
+    font-size: 24px;
+    font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+    font-weight: bold;
+    color: #252B3A;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.title-img {
+    margin-left: -50px;
+}
+
+.des-common {
+    font-size: 14px;
+}
+
+.des-t {
+    font-weight: bold;
+    color: #8A4FF6;
+    line-height: 28px;
+}
+
+.des-m {
+    width: 16px;
+    height: 0px;
+    opacity: 1;
+    border: 2px solid #8A4FF6;
+    margin: 5px 0;
+}
+.section-bgcolor{
+    background-color:#F1F5FE;
+}
+.des-b a{
+    color: #252B3A;
+    text-decoration: underline;
+}
+.des-b{
+    clear: both;
+}
+.des-b a:hover{
+    color: #8A4FF6;
+    text-decoration: underline;
+}
+.genric-btn5 {
+    background-color: #ffffff;
+    color: $title-color;
+    border: 0px;
+    padding: 0px 34px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    max-width: 100%;
+    font-weight: 600;
+    border: none;
+    text-align: center;
+    overflow: hidden;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+    height: 50px;
+    line-height: 50px;
+    @include transition();
+
+    &:hover {
+        background: $offwhite;
+        color: $title-color;
+        border: 1px solid blue;
+
+    }
+
+    &:active {
+        background: #E4D5FF;
+    }
 }

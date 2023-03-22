@@ -1,7 +1,10 @@
 header:
+  - name: "首页"
+    title: "首页"
+    link: "/"
   - name: "intro"
     title: "元遨CARSMOS"
-    link: "/"
+    link: "/intro/carsmos/"
     menu-has-children:
       - name: "aboutcarsmos"
         title: "About Carsmos"
@@ -13,7 +16,7 @@ header:
 
   - name: "projects"
     title: "Projects"
-    link: "/"
+    link: "/projects/project/"
     menu-has-children:
       - name: "Dora"
         title: "Dora"
@@ -41,7 +44,7 @@ header:
 
   - name: "governance"
     title: "Governance"
-    link: "/"
+    link: "/governance/governance/"
     menu-has-children:
       - name: "TSC"
         title: "Technical Steering Committee"
@@ -81,3 +84,4 @@ header:
 
 lang_menu_en: "https://www.carsmos.ai"
 lang_menu_zh_cn: "https://www.carsmos.cn"
+locale: 'English'

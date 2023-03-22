@@ -7,11 +7,6 @@
         background: $white;
     }
 }
-.version-blog {
-    #header7 {
-        background: $white;
-    }
-}
 
 
 // fixed 
@@ -152,15 +147,15 @@
     padding-right: 30px;
 }
 
-.sf-arrows .sf-with-ul:after {
-    content: "\e874";
-    position: absolute;
-    right: 10px;
-    font-family: 'Linearicons-Free';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 8px;
-}
+//.sf-arrows .sf-with-ul:after {
+//    content: "\e874";
+//    position: absolute;
+//    right: 10px;
+//    font-family: 'Linearicons-Free';
+//    font-style: normal;
+//    font-weight: 700;
+//    font-size: 8px;
+//}
 
 .sf-arrows ul .sf-with-ul:after {
     content: "\e876";
@@ -181,7 +176,6 @@
 /* Nav Meu Styling */
 
 .nav-menu a {
-    padding: 0 8px 0px 8px;
     text-decoration: none;
     color: $white;
     font-weight: 600;

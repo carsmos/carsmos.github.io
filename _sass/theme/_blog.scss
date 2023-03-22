@@ -330,6 +330,19 @@
         }
     }
     .details-body {
+        h1{
+            line-height: 16px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #252B3A;
+            margin-top: 32px;
+        }
+        h1 + p{
+            margin-top: 24px;
+            font-size: 16px;
+            color: #252B3A;
+            line-height: 32px;
+        }
         .head {
             margin-bottom: 20px;
         }

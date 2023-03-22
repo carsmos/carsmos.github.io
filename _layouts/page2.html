@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+{% include head.html %}
+{%- assign logo1 = 'img/carsmos-logo-white.png' -%}
+{%- assign logo2 = 'img/carsmos-logo-blue.png' -%}
+{%- assign bg2 = 'img/footer/page-top-bg2.jpg' -%}
+{%- assign bg3 = 'img/footer/page-top-bg3.png' -%}
+{%- assign i18nIconWhite = '/img/i18n-white.png' -%}
+{%- assign i18nIconBlack = '/img/i18n-black.png' -%}
+{%- assign checkIcon = '/img/check.png' -%}
+
+<body class="version2 pages">
+    <!-- start Header Area -->
+    <header id="header7">
+        <div class="container-fluid">
+            <div class="d-flex flex-wrap align-items-center justify-content-between">
+                <div id="logo" class="d-flex align-items-center my-2 my-lg-0 text-white text-decoration-none">
+                    <a href="{{ '/' | relative_url }}">
+                        <img class="logo-1" src="{{ logo1 | relative_url }}" alt="" title="" />
+                    </a>
+                    <a href="{{ '/' | relative_url }}">
+                        <img class="logo-2" src="{{ logo2 | relative_url }}" alt="" title="" />
+                    </a>
+                </div>
+                {% include nav-menu.html %}
+                <div class="i18n">
+                    <img class="i18n-1" src="{{ i18nIconWhite }}" alt="" title="" />
+                    <img class="i18n-2" src="{{ i18nIconBlack }}" alt="" title="" />
+                    <span>{{ site.data.menus.locale }}</span>
+                    <ul>
+                        {% if site.locale == 'en' %}
+                        <li class="active">
+                            <a href="{{ site.data.menus.lang_menu_en }}">English</a>
+                            <img src="{{ checkIcon }}" alt="" title="" style="margin-left: 14px;" />
+                        </li>
+                        <li><a href="{{ site.data.menus.lang_menu_zh_cn }}">简体中文</a></li>
+                        {% else %}
+                        <li class="active">
+                            <a href="{{ site.data.menus.lang_menu_zh_cn }}">简体中文</a>
+                            <img src="{{ checkIcon }}" alt="" title="" style="margin-left: 14px;" />
+                        </li>
+                        <li><a href="{{ site.data.menus.lang_menu_en }}">English</a></li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header Area -->
+      <!-- Start page top -->
+    <section class="page-top-section1">
+        <div class="page-top-section2">
+            <img src="{{ site.page_top | relative_url }}" />
+            <div class="page-top-bg">
+                <span> {{ site.data.menu_title.title2}} </span>
+            </div>
+        </div>
+    </section>
+    <div>
+        <div id="point"></div> <img class="head-sep" src="{{ site.page_bottom | relative_url }}" />
+    </div>
+    <!-- End page top -->
+    {{ content }}
+    {% include footer.html %}
+    {% include scripts.html %}
+</body>
+
+</html>

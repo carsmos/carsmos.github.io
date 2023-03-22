@@ -1,7 +1,10 @@
 header:
+  - name: "首页"
+    title: "首页"
+    link: "/"
   - name: "intro"
     title: "元遨CARSMOS"
-    link: "/"
+    link: "/intro/carsmos/"
     menu-has-children:
       - name: "aboutcarsmos"
         title: "关于元遨"
@@ -13,7 +16,7 @@ header:
 
   - name: "projects"
     title: "项目"
-    link: "/"
+    link: "/projects/project/"
     menu-has-children:
       - name: "Dora"
         title: "Dora"
@@ -41,7 +44,7 @@ header:
 
   - name: "governance"
     title: "管理机构"
-    link: "/"
+    link: "/governance/governance/"
     menu-has-children:
       - name: "TSC"
         title: "技术指导委员会(TSC)"
@@ -80,3 +83,4 @@ header:
     #     link: '/Race2023/Race2023-intro'
 lang_menu_en: "https://www.carsmos.ai"
 lang_menu_zh_cn: "https://www.carsmos.cn"
+locale: '简体中文'

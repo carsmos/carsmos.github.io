@@ -8,48 +8,39 @@ hero: blog_details
 <!-- Start blog posts -->
 <section class="blog-post section-gap">
     <div class="container">
-        <div class="row">
-
-           {% for post in paginator.posts %}
-           <div class="col-lg-4 col-md-6">
-            <div class="single-card card">
-               {% if post.image %}
-               <img class="card-top-img" src="{{ post.image | relative_url }}" alt="Card image cap">
-               {% endif %}
-               <div class="card-body">
-                <a href="#" class="genric-btn card-btn">{{ post.categories | first | default: 'Uncategorized' }}</a>
-                <p class="mt-25 post-info">
+        {% for post in paginator.posts %}
+        <div class="row" style="border-top: 1px solid #8A8E99;padding: 32px 0;">
+            {% if post.image %}
+            <img style="width: 320px;height: 180px;" src="{{ post.image | relative_url }}" alt="Card image cap">
+            {% endif %}
+            <div style="flex: 1">
+                <a href="{{ post.url }}">
+                    <h4 class="card-title mb-15">
+                        {{ post.title | escape }}
+                    </h4>
+                    <p class="mt-25 post-info">
                     <span class="author">
-                        <a href="#">{{ post.author }}</a>
+                        {{ post.author }}
                     </span> on {{ post.date | date_to_long_string }}
-                </p>
-                <div class="mb-15">
-                    <a href="{{ post.url }}" class="card-link">
-                </div>
-                            <a href="{{ post.url }}">
-                                <h4 class="card-title mb-15">
-                                    {{ post.title | escape }}
-                                </h4>
-                            </a>
-                            <p>
-                                {%- if site.show_excerpts -%}
-                                {{ post.excerpt }}
-                                {%- endif -%}
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
-
+                    </p>
+                    {%- if site.show_excerpts -%}
+                    <p>
+                        {{ post.excerpt }}
+                    </p>
+                    {%- endif -%}
+                    <button type="button" style="width: 88px;line-height: 32px;background: #FFFFFF;border-radius: 2px;border: 1px solid #8A4FF6;color: #8A4FF6;">查看更多</button>
+                </a>
             </div>
+        </div>
+        {% endfor %}
 
-            <!-- Start Pagination -->
-            <nav aria-label="Page navigation" class="mt-0 mt-lg-3">
+        <!-- Start Pagination -->
+        <nav aria-label="Page navigation" class="mt-0 mt-lg-3">
 
-                {% if paginator.total_pages > 1 %}
-                <ul class="pagination flex justify-content-center" id="blog-post-sidebar">
-                  {% if paginator.previous_page %}
-                  <li class="page-item">
+            {% if paginator.total_pages > 1 %}
+            <ul class="pagination flex justify-content-center" id="blog-post-sidebar">
+                {% if paginator.previous_page %}
+                <li class="page-item">
                     <a class="page-link border-0" href="{{ paginator.previous_page_path | relative_url }}" aria-label="Previous">
                         <span class="fa fa-long-arrow-alt-left"></span>
                     </a>

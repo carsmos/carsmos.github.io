@@ -2,8 +2,20 @@
 ######    TSC Section      ######
 ####################################
 title: '技术指导委员会 (TSC) '
-description: '<br>Technology Steering Committee (TSC) defines the strategic directions of the CARSMOS workgroup.'
+description: '<br>技术指导委员会(TSC)确定CARSMOS工作组的战略方向。'
 image: 'img/tsc.png'
 button_text: ' Get more info...'
 button_link: '#'
 page_title: '技术指导委员会 (TSC) ' 
+title_links:
+  - name: '技术指导委员会(TSC)'
+    link: '#point'
+  - name: '技术执行委员会(TEC)'
+    link: '/governance/tec/'
+  - name: '项目工作委员会(PMC)'
+    link: '/governance/pmc/'
+  - name: '元邀开源项目章程'
+    link: '/governance/charter/'
+  - name: '元邀合作伙伴'
+    link: '/governance/members/'
+image: '/img/governance/tsc.png'

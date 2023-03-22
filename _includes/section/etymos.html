@@ -1,34 +1,27 @@
-<!-- Start page top -->
-<section class="page-top-section1">
-    <div class="page-top-section2">
-        <img src="{{ site.page_top | relative_url }}" />
-        <div class="title-margin">
-            <span> {{ site.data.etymos.page_title }} </span>
-        </div>
-    </div>
-</section>
-<div> <img class="head-sep" src="{{ site.page_bottom | relative_url }}" /></div>
-<!-- End page top -->
+
 <!-- Start etymos-section -->
-<section class="etymos-section section-gap aquablue-bg">
+<section class="etymos-section section-gap">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-6 etymos-left">
-                <h1>
-                    {{ site.data.etymos.title }}
-                </h1>
-                <p class="mw-510">
-                    {{ site.data.etymos.description }}
-                </p>
-                <!-- <a href="#" class="genric-btn3">{{ site.data.etymos.btn_text }}</a> -->
+             <div class="col-lg-6">
+                <img class="title-img" src="{{ site.title_tip | relative_url }}" />
+                <span id="title">{{ site.data.etymos.title }} </span>
+                <div class="des-common">
+                    <div>{{ site.data.etymos.description }} </div>
+                    {% for li in site.data.etymos.des_lists %}
+                    <br>
+                    <div class="des-t">{{ li.title }}</div>
+                    <div class="des-m"></div>
+                    <div class = "des-b">{{ li.des }}</div>
+                    {% endfor %}
+                </div>
             </div>
-            <div class="col-lg-6 etymos-right">
+            <div class="col-lg-6">
                 <div class="active-dash-carusel">
-                    <img class="img-fluid item" src="{{ site.data.etymos.image_one | relative_url }}" alt="">
-                    <img class="img-fluid item" src="{{ site.data.etymos.image_two | relative_url }}" alt="">
+                    <img class="img-fluid item" src="{{ site.data.etymos.image_1 | relative_url }}" alt="">
+                    <img class="img-fluid item" src="{{ site.data.etymos.image_2 | relative_url }}" alt="">
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- End etymos-section -->
