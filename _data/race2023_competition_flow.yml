@@ -7,14 +7,14 @@ title: "Competition Format & Rules"
 image: "img/title-icon.png"
 
 sections:
-  - image: "img/raceflow/2-preliminary.png"
+  - image: "img/race/people.png"
     title: "Preliminary Competition and Training"
-    description: "The preliminary portion is an online competition in the simulation system. Each participating team needs to upload and submit the Docker file package that implements the automatic driving algorithm to the background scoring system of the competition to automatically run and get the score. <br> <br> The scoring is determined by abiding by the traffic rules, and dealing with various road conditions, and arriving safely at the destination within the specified time. The source code of the participating teams must be made public within 3 months. It is recommended to develop based on the source code of the CARSMOS open source project, but it is not required."
+    description: "The preliminary portion is an online competition in the simulation system. Each participating team needs to upload and submit the Docker file package that implements the automatic driving algorithm to the background scoring system of the competition to automatically run and get the score. The scoring is determined by abiding by the traffic rules, and dealing with various road conditions, and arriving safely at the destination within the specified time. The source code of the participating teams must be made public within 3 months. It is recommended to develop based on the source code of the CARSMOS open source project, but it is not required."
 
-  - image: "img/raceflow/3-main.png"
+  - image: "img/race/des.png"
     title: "Final Competition"
     description: "The final portion is an offline competition. Each participating team loads the algorithm model on the competition vehicle provided by the competition committee, and safely completes the specified competition on the road in the actual test area. The referee group will score according to multiple dimensions."
 
-  - image: "img/raceflow/4-summit.png"
+  - image: "img/race/rule.png"
     title: "Summit and Exhibition"
     description: "Open Atom Global Open Source Summit, exhibition competition, and expert defense to determine the final rankings and awards."

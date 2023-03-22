@@ -1,16 +1,4 @@
-<!-- Start page top -->
-<section class="page-top-section1">
-    <div class="page-top-section2">
-        <img src="{{ site.page_top | relative_url }}" />
-        <div class="page-top-bg">
-            {% for title in site.data.dora.title_links %}
-            <a href="{{ title.link }}">{{ title.name }}</a>
-            {% endfor %}
-        </div>
-    </div>
-</section>
-<div> <div id="point"></div> <img class="head-sep" src="{{ site.page_bottom | relative_url }}" /></div>
-<!-- End page top -->
+
 <!-- Start dora-section -->
 <section class="dora-section section-gap">
     <div class="container">
@@ -24,7 +12,7 @@
                     <br>
                     <div class="des-t">{{ li.title }}</div>
                     <div class="des-m"></div>
-                    <div>{{ li.des }}</div>
+                    <div class = "des-b">{{ li.des }}</div>
                     {% endfor %}
                 </div>
             </div>
@@ -57,7 +45,7 @@
                     <br>
                     <div class="des-t">{{ li.title }}</div>
                     <div class="float-end des-m"></div>
-                    <div>{{ li.des }}</div>
+                    <div class = "des-b">{{ li.des }}</div>
                     {% endfor %}
                 </div>
             </div>
@@ -78,7 +66,7 @@
                     <br>
                     <div class="des-t">{{ li.title }}</div>
                     <div class="des-m"></div>
-                    <div>{{ li.des }}</div>
+                    <div class = "des-b">{{ li.des }}</div>
                     {% endfor %}
                 </div>
             </div>
@@ -111,7 +99,7 @@
                     <br>
                     <div class="des-t">{{ li.title }}</div>
                     <div class="float-end des-m"></div>
-                    <div>{{ li.des }}</div>
+                    <div class = "des-b">{{ li.des }}</div>
                     {% endfor %}
                 </div>
             </div>
@@ -132,7 +120,7 @@
                     <br>
                     <div class="des-t">{{ li.title }}</div>
                     <div class="des-m"></div>
-                    <div>{{ li.des }}</div>
+                    <div class = "des-b">{{ li.des }}</div>
                     {% endfor %}
                 </div>
             </div>
@@ -165,7 +153,7 @@
                     <br>
                     <div class="des-t">{{ li.title }}</div>
                     <div class="float-end des-m"></div>
-                    <div>{{ li.des }}</div>
+                    <div class = "des-b">{{ li.des }}</div>
                     {% endfor %}
                 </div>
             </div>

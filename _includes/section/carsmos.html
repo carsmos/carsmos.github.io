@@ -1,21 +1,4 @@
-<!-- Start page top -->
-<section class="page-top-section1">
-    <div class="page-top-section2">
-        <img src="{{ site.page_top | relative_url }}" />
-        <!--         <div class="title-margin">
-            <span> {{ site.data.aboutcarsmos.page_title }} </span>
-        </div> -->
-        <div class="page-top-bg">
-            {% for title in site.data.aboutcarsmos.title_links %}
-            <a href="{{ title.link }}">{{ title.name }}</a>
-            {% endfor %}
-        </div>
-    </div>
-</section>
-<div>
-    <div id="point"></div><img class="head-sep" src="{{ site.page_bottom | relative_url }}" />
-</div>
-<!-- End page top -->
+
 
 <section class="aboutcarsmos-section section-gap">
     <div class="container">
@@ -29,7 +12,7 @@
                     <br>
                     <div class="des-t">{{ li.title }}</div>
                     <div class="des-m"></div>
-                    <div>{{ li.des }}</div>
+                    <div class = "des-b">{{ li.des }}</div>
                     {% endfor %}
                 </div>
             </div>

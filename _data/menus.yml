@@ -1,4 +1,7 @@
 header:
+  - name: "首页"
+    title: "首页"
+    link: "/"
   - name: "intro"
     title: "元遨CARSMOS"
     link: "/intro/carsmos/"

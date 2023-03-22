@@ -47,24 +47,19 @@
         </div>
     </header>
     <!-- End Header Area -->
-    <!-- Start page-top section -->
-    <!-- <section class="page-top-section1">
+      <!-- Start page top -->
+    <section class="page-top-section1">
         <div class="page-top-section2">
-            <img src="{{ bg3 | relative_url }}" />
-            <div class="title-margin">
-                <span> {{ page.title }} </span>
+            <img src="{{ site.page_top | relative_url }}" />
+            <div class="page-top-bg">
+                <span> {{ site.data.menu_title.title3}} </span>
             </div>
         </div>
-      <div class="col-lg-6  col-md-6 page-top-nav">
-            <div>
-                <a href="{{ '/' | relative_url }}">Home</a>
-                <span class="lnr lnr-arrow-right"></span>
-                <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-            </div>
-        </div> 
     </section>
-    <div> <img class="head-sep" src="{{ bg2 | relative_url }}" /></div> -->
-    <!-- End page-top section -->
+    <div>
+        <div id="point"></div> <img class="head-sep" src="{{ site.page_bottom | relative_url }}" />
+    </div>
+    <!-- End page top -->
     {{ content }}
     {% include footer.html %}
     {% include scripts.html %}
