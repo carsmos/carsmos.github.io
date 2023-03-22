@@ -83,4 +83,4 @@ header:
     #     link: '/Race2023/Race2023-intro'
 lang_menu_en: "https://www.carsmos.ai"
 lang_menu_zh_cn: "https://www.carsmos.cn"
-locale: '简体中文'
+locale: 'zh_cn'
