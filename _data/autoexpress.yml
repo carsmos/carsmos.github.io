@@ -3,8 +3,6 @@
 ####################################
 title: 'AutoExpress: 面向芯片模块化敏捷开发的Chiplet模式中D2D互联接口'
 description: '<br>AutoExpress项目是面向芯片模块化敏捷开发的Chiplet模式中D2D互联接口, 满足多裸片短距高带宽低延时互联, 并针对汽车领域做了车规级设计。'
-image_one: '/img/autoexpress1.png'
-image_two: '/img/autoexpress2.png'
 btn_text: 'Learn more...'
 btn_link: '#'
 page_title: 'AutoExpress: 面向芯片模块化敏捷开发的Chiplet模式中D2D互联接口'
@@ -28,4 +26,6 @@ des_lists:
     des: '通过实现D2D接口标准化, 有利推动Chiplet技术发展对于中国的半导体产业链上下游企业都会来的直接的经济效益。' 
   - title: '生态价值'
     des: '通过实现D2D接口标准化, 将使得Chiplet技术在整个产业链应用的更加广泛; 新的chiplet技术将会催生出新的商业模式, 打破传统SOC设计模式, 重构供应链市场。'
-image: '/img/project/autoexpress.png'  
+image: '/img/project/autoexpress.png' 
+image_1: '/img/project/autoexpress1.png'
+image_2: '/img/project/autoexpress2.png'  

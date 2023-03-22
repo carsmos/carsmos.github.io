@@ -7,8 +7,6 @@ description: '<br>DORA是一个先进的开源的自动驾驶及机器人中间�
 <br>并且采用了安全可信的Rust语言开发,支持弹性数据流计算框架、多样化的中间件选择、云端协同计算,
 <br>为智能汽车的软件开发提供了又一个更加现代化的平台选择,
 <br>同时也提供了一条对ROS1/ROS2升级、替代及超越的技术路线。'
-image_one: '/img/dora1.png'
-image_two: '/img/dora2.png'
 btn_text: 'Learn more...'
 btn_link: '#'
 page_title: 'DORA - Dataflow Oriented Robotics Architecture'
@@ -32,4 +30,5 @@ des_lists:
     des: '满足机器人和自动驾驶需要的多种业务形态，包括单车、车队、云边端协同等。' 
   - title: '生态价值'
     des: '依托全球最大的新能源汽车和机器人市场,通过产学研联合构建一个有全球影响力的超越ROS的开源生态。'
-image: '/img/project/dora.png' 
+image_1: '/img/project/dora1.png'
+image_2: '/img/project/dora2.png' 
