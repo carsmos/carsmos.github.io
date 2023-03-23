@@ -4,7 +4,10 @@
 #####################################
 
 title: '关于我们'
-description: 'CARSMOS 工作组'    
+description: 'CARSMOS 工作组' 
+page_top_zh_cn: 'img/footer/page-top-bg-zh_cn.png'
+page_top_en: 'img/footer/page-top-bg-en.png'
+page_bottom: 'img/footer/page-top-bg2.jpg'   
 resources_link_heading: '代码仓库'
 resources_links:
   - text: 'GitHub'
