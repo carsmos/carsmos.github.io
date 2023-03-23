@@ -16,7 +16,7 @@ header:
 
   - name: "projects"
     title: "项目"
-    link: "/projects/project/"
+    link: "/projects/"
     menu-has-children:
       - name: "Dora"
         title: "Dora"
@@ -44,7 +44,7 @@ header:
 
   - name: "governance"
     title: "管理机构"
-    link: "/governance/governance/"
+    link: "/governance/"
     menu-has-children:
       - name: "TSC"
         title: "技术指导委员会(TSC)"

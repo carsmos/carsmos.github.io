@@ -5,25 +5,25 @@
 ######  feature Section   ######
 ####################################
 - image: 'img/feature/i1.png'
-  title: '复杂度挑战'
-  description: '智能汽车软件全站已经有5亿行代码,是人类创造的最复杂的软件之一,也是AI应用的集大成者。为智能汽车建立软件技术体系是前所未有的挑战。'
+  title: 'Complexity challenge'
+  description: 'With 500 million lines of code, smart car software is one of the most complex pieces of software ever created by humans, and it is also the epitomizer of AI applications. Building a software technology system for intelligent vehicles is an unprecedented challenge.'
 
 - image: 'img/feature/i2.png'
-  title: '供应链安全'
-  description: '能汽车产业面临着缺芯少魂的供应链安全问题，但是在未来技术路线上，存在类似攀登珠穆朗玛峰北坡和南坡的战略选择。'
+  title: 'Supply chain security'
+  description: 'The automotive industry is faced with the supply chain security problem of lack of core and soul, but in the future technological route, there are strategic choices similar to climbing the north and south slopes of Mount Everest.'
 
 - image: 'img/feature/i3.png'
-  title: '技术路线'
-  description: '单车智能vs车路协同两条发展路线,各有千秋，适合不同国情和发展阶段。'
+  title: 'Technical route'
+  description: 'Bicycle intelligence vs vehicle road coordination two development routes, each has its own merits, suitable for different national conditions and development stages.'
 
 - image: 'img/feature/i4.png'
-  title: '专业人才匮乏'
-  description: '智能汽车产业需要数以百万计的高端软件人才。高校教育、职业教育与产业的需求差距巨大。同时,智能汽车也需要理论研究的支撑,尤其是AI的理论研究,但是学术界在AI研发基础设施上和产业界的差距越来越大。'
+  title: 'Lack of professionals'
+  description: 'The smart car industry needs millions of high-end software talents. There is a huge gap between the needs of college education, vocational education and industry. At the same time, smart cars also need the support of theoretical research, especially the theoretical research of AI, but the gap between academia and the industry in terms of AI research and development infrastructure is getting wider and wider.'
 
 - image: 'img/feature/i5.png'
-  title: '监管与标准'
-  description: '智能汽车需要监管和标准的保驾护航才能降低新技术不成熟带来的安全和信任问题。国家需要建立与智能汽车产业规模相匹配的标准和平台体系。'
+  title: 'Regulation and Standards'
+  description: 'Smart cars need the escort of supervision and standards to reduce the safety and trust problems caused by immature new technologies. The country needs to establish a standard and platform system that matches the scale of the smart car industry.'
 
 - image: 'img/feature/i6.png'
-  title: '开源平台'
-  description: '开源平台作为中立、非盈利、全球协作平台,已经在云计算、智能手机、AI等全球产业,形成了事实标准,构建出了价值万亿美元的生态价值。智能汽车的诸多挑战也需要通过开源平台来解决。'
+  title: 'Open source platform'
+  description: 'As a neutral, non-profit, and global collaborative platform, the open source platform has formed a de facto standard in global industries such as cloud computing, smartphones, and AI, and built an ecological value worth trillions of dollars. Many challenges of smart cars also need to be solved through open source platforms.'

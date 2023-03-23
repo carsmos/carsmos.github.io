@@ -1,12 +1,11 @@
 ####################################
-######    Charter Section      ######
+######    Members Section      ######
 ####################################
-title: 'Charter of CARSMOS 元遨开源项目章程'
-description: '<br>The charter of CARSMOS is to be drafted.'
-image: 'img/charter.png'
+title: '元遨合作伙伴'
+description: 'CARSMOS 项目的成员在不断壮大。'
 button_text: ' Get more info...'
 button_link: '#'
-page_title: '元遨开源项目章程'
+page_title: '元遨合作伙伴'
 title_links:
   - name: '技术指导委员会(TSC)'
     link: '/governance/tsc/'
@@ -15,7 +14,7 @@ title_links:
   - name: '项目工作委员会(PMC)'
     link: '/governance/pmc/'
   - name: '元邀开源项目章程'
-    link: '#point'
+    link: '/governance/charter/'
   - name: '元邀合作伙伴'
-    link: '/governance/members/'
-image: '/img/governance/charter.png'
+    link: '#point'
+image: '/img/governance/members.png'

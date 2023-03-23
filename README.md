@@ -11,7 +11,7 @@ The Ruby version preloaded in MacOS is v2.x, too low to run Jekyll.
 The latest Ruby version 3.2.x is too high to Jekyll as well, with compaibility issues.
 The best Ruby version to run Jekyll on your Mac is v3.1.x, e.g. 3.1.3.
 
-## remarks:zh_cn_data folder to store Chinese data,Chinese official website (www.carsmos.cn) build used
+## remarks:_data_zh_cn folder and _posts_zh_cn only to store Chinese data,Chinese official website (www.carsmos.cn) build used
 
 Please check:
 

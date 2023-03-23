@@ -2,11 +2,11 @@
 ######  Dora Section   ######
 ####################################
 title: 'DORA - Dataflow Oriented Robotics Architecture'
-description: '<br>DORA是一个先进的开源的自动驾驶及机器人中间件框架和数据流计算平台。
-<br>DORA项目以软件定义汽车,智能驾驶为目标场景,集成了大量云原生的架构理念和生态工具,
-<br>并且采用了安全可信的Rust语言开发,支持弹性数据流计算框架、多样化的中间件选择、云端协同计算,
-<br>为智能汽车的软件开发提供了又一个更加现代化的平台选择,
-<br>同时也提供了一条对ROS1/ROS2升级、替代及超越的技术路线。'
+description: 'DORA is an advanced open source autonomous driving and robot middleware framework and data flow computing platform.
+The DORA project takes software-defined cars and intelligent driving as the target scenarios, integrates a large number of cloud-native architecture concepts and ecological tools,
+and adopts the safe and reliable Rust language development, supports elastic data flow computing framework, diversified middleware selection
+Cloud collaborative computing provides another more modern platform choice for the software development of smart cars,
+and also provides a technical route for upgrading, replacing and surpassing ROS1/ROS2.'
 btn_text: 'Learn more...'
 btn_link: '#'
 page_title: 'DORA - Dataflow Oriented Robotics Architecture'
@@ -24,11 +24,13 @@ title_links:
   - name: 'AUTO EXPRESS'
     link: '/projects/autoexpress/' 
 des_lists:
-  - title: '技术价值'
-    des: '提供自主可控的开源的新一代的端边云协同的数据流计算平台,可以支持创新的自动驾驶和机器人应用。<br>技术领先于ROS架构。基于Rust语言开发,在开发速度、开发质量、安全可信方面完胜C/C++，<br>满足机器人和新能源汽车未来的需求。'  
-  - title: '业务价值'
-    des: '满足机器人和自动驾驶需要的多种业务形态，包括单车、车队、云边端协同等。' 
-  - title: '生态价值'
-    des: '依托全球最大的新能源汽车和机器人市场,通过产学研联合构建一个有全球影响力的超越ROS的开源生态。'
+  - title: 'Technical value'
+    des: 'Provides an autonomous, controllable, open-source, next-generation device-edge-cloud collaborative data flow computing platform that can support innovative autonomous driving and robot applications.
+          The technology is ahead of the ROS architecture. Based on Rust language development, it outperforms C/C++ in terms of development speed, development quality, safety and reliability,
+          and meets the future needs of robots and new energy vehicles.'  
+  - title: 'Business value'
+    des: 'Various business forms that meet the needs of robots and autonomous driving, including bicycles, fleets, cloud-edge-device collaboration, etc.' 
+  - title: 'Ecological value'
+    des: "Relying on the world's largest new energy vehicle and robotics market, we will build an open source ecosystem with global influence beyond ROS through the joint production, education and research."
 image_1: '/img/project/dora1.png'
 image_2: '/img/project/dora2.png' 

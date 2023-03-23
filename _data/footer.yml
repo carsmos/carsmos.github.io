@@ -5,6 +5,9 @@
 
 title: 'About Us'
 description: 'CARSMOS Work Group'
+page_top_zh_cn: 'img/footer/page-top-bg-zh_cn.png'
+page_top_en: 'img/footer/page-top-bg-en.png'
+page_bottom: 'img/footer/page-top-bg2.jpg'
 
 resources_link_heading: 'Source Code'
 resources_links: 

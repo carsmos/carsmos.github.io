@@ -660,7 +660,7 @@
     background: url(../img/footer/banner.png) center/cover;
     position: relative;
     margin-top: 60px;
-    height: 310px;
+    height: 200px;
 
     .page-top-nav {
         text-align: right;
@@ -687,13 +687,13 @@
 
 .page-top-section2 {
     position: absolute;
-    top: 117px;
+    top: 57px;
     left: 10%;
 
 }
 
-.page-top-section2>img {
-    width: calc(100vw * 450 / 1920);
+.page-top-section2 img {
+    width: 202.29px;
 }
 
 .title-margin {
@@ -709,9 +709,10 @@
 
 .page-top-bg {
     background: linear-gradient(124deg, #8D54F6 0%, rgba(115, 39, 245, 0) 100%);
-    margin-top: 28px;
+    margin-top: 30px;
     border-radius: 0px 0px 0px 0px;
     opacity: 1;
+    padding-left: 16px;
 
     a {
         font-size: 18px;
@@ -719,8 +720,6 @@
         font-weight: 500;
         color: #FFFFFF;
         line-height: 38px;
-        margin-left: 16px;
-        margin-right: 8px;
         text-decoration: underline;
 
         @media(max-width: 500px) {
@@ -734,8 +733,6 @@
         font-weight: 500;
         color: #FFFFFF;
         line-height: 38px;
-        margin-left: 16px;
-        margin-right: 8px;
     }
 
 }
@@ -755,7 +752,7 @@
 }
 
 .title-img {
-    margin-left: -50px;
+    margin-left: -40px;
 }
 
 .des-common {
@@ -774,6 +771,7 @@
     opacity: 1;
     border: 2px solid #8A4FF6;
     margin: 5px 0;
+    background-color:#8A4FF6;
 }
 .section-bgcolor{
     background-color:#F1F5FE;

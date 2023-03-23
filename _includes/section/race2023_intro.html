@@ -1,46 +1,10 @@
-<!-- Start page top -->
-<!-- <section class="page-top-section1">
-    <div class="page-top-section2">
-        <img src="{{ site.page_top | relative_url }}" />
-        <div class="title-margin">
-            <span> {{ site.data.race2023_intro.page_title }} </span>
-        </div>
-    </div>
-</section>
-<div> <img class="head-sep" src="{{ site.page_bottom | relative_url }}" /></div> -->
-<!-- End page top -->
-<!-- Start race2023-intro section -->
-<!-- <section class="race2023-intro section-gap">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6 race2023-left">
-                <h1> {{ site.data.race2023_intro.title }} </h1>
-                <br/>
-
-                {% for item in site.data.race2023_intro.details %}
-                <div>
-                    <p><b>{{ item.label }}</b> {{ item.value }}</p>
-                </div>
-                {% endfor %}
-                <br/>
-            <a href="{{ site.data.race2023_intro.signup_button_link }}" class="genric-btn2">
-                {{ site.data.race2023_intro.signup_button_text }}
-            </a>
-            <a href="{{ site.data.race2023_intro.info_button_link }}" class="genric-btn3">
-                {{ site.data.race2023_intro.info_button_text }}
-            </a>
-            </div>
-            <div class="col-lg-6 text-center race2023-right">
-                <img class="img-fluid" src="{{ site.data.race2023_intro.image | relative_url }}" alt="">
-            </div>
-        </div>
-    </div>
-</section> -->
-<!-- End race2023 section -->
-<!-- Start page top -->
 <section class="page-top-section1">
     <div class="page-top-section2">
-        <img src="{{ site.page_top | relative_url }}" />
+        {% if site.data.menus.locale == 'English' %}
+        <img src="{{ site.data.footer.page_top_en | relative_url }}" />
+        {% else %}
+        <img src="{{ site.data.footer.page_top_zh_cn | relative_url }}" />
+        {% endif %}
         <div class="page-top-bg">
             {% for title in site.data.race2023_intro.title_links %}
             <a href="{{ title.link }}">{{ title.name }}</a>
@@ -49,7 +13,7 @@
     </div>
 </section>
 <div>
-    <div id="point"></div><img class="head-sep" src="{{ site.page_bottom | relative_url }}" />
+    <div id="point"></div><img class="head-sep" src="{{ site.data.footer.page_bottom | relative_url }}" />
 </div>
 <!-- End page top -->
 <section class="aboutcarsmos-section section-gap">
