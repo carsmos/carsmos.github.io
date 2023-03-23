@@ -3,9 +3,15 @@
 ####################################
 ######  Oasis Section   ######
 ####################################
-title: 'OASIS-智驾仿真平台和场景描述语言'
-description: '<br>OASIS采用开放开源形式研发的仿真测试平台及其生态, 有望连接科研,监管,产业三方, <br>促进智驾研发企业的成长和转型。<br>OASIS Sim定位为一个开放的仿真基础平台, 以最小化的组织形式实现仿真关键功能。<br>OASIS Sim与Carsmos内其他开源项目组成完整智能驾驶研发工具链,<br>降低研发门槛, 提高研发自由度和可维护性。
-<br>OASIS DSL是一套面向动态交通场景描述的形式化领域特定语言, <br>具备以上形式化语言的优势。OASIS DSL开源项目提供了语法设计,<br>领域模型及语言在OASIS Sim仿真平台上的实现,<br>包括基于OASIS DSL的交互式场景编辑器。'
+title: 'OASIS-smart driving simulation platform and scene description language'
+description: 'The simulation test platform and its ecology developed by OASIS in the form of open source are expected to connect the three parties of scientific research, supervision and industry, 
+promote the growth and transformation of intelligent driving R&D enterprises.
+OASIS Sim is positioned as an open simulation platform, which realizes the key functions of simulation in the form of minimal organization.
+OASIS Sim and other open source projects in Carsmos form a complete intelligent driving research and development tool chain, which
+lowers the research and development threshold and improves the freedom and maintainability of research and development.
+OASIS DSL is a set of formal domain-specific language for dynamic traffic scene description,which has the advantages of the above formal language.
+The OASIS DSL open source project provides syntax design,domain model and language implementation on the OASIS Sim simulation platform,
+including an interactive scene editor based on OASIS DSL.'
 btn_text: 'Learn more...'
 btn_link: '#'
 page_title: 'OASIS - 智能驾驶仿真平台和场景描述语言'
@@ -23,12 +29,13 @@ title_links:
   - name: 'AUTO EXPRESS'
     link: '/projects/autoexpress/' 
 des_lists:
-  - title: '技术价值'
-    des: '自主设计的场景语言和编译器, 全球仅有的2个开源场景语言之一。<br>兼容OpenScenario 1 & 2语义, 支持OpenScenario的仿真生态。融合了形式化的规则描述和测试, 场景描述和测试一体。基于vena场景语言的基于web的场景库IDE和cloud native方式部署的场景仿真环境, 支持场景构建到场景测试的闭环。Apache 2.0 license的场景语言Spec, 兼容OpenScenario 2.0标准，允许第三方的语言实现。'  
-  - title: '业务价值'
-    des: '基于开源场景语言实现, 完整的开源仿真环境对接, 开源场景库设计IDE和部署工具, 满足了研究、监管、产业共同使用和进化场景语言特性。' 
-  - title: '生态价值'
-    des: '通过国标的场景描述语言和场景库，形成自主可控的机器人和自动驾驶仿真测试生态。'
+  - title: 'Technical value'
+    des: "Self-designed scene language and compiler, one of only two open source scene languages in the world.
+          Compatible with OpenScenario 1 & 2 semantics, and supports OpenScenario's simulation ecology. It integrates formal rule description and testing, scenario description and testing. The web-based scene library IDE based on the vena scene language and the scene simulation environment deployed in cloud native mode support the closed loop from scene construction to scene test. The scenario language Spec of the Apache 2.0 license is compatible with the OpenScenario 2.0 standard and allows third-party language implementations."  
+  - title: 'Business value'
+    des: 'Based on the implementation of open source scene language, complete open source simulation environment docking, open source scene library design IDE and deployment tools, to meet the characteristics of research, supervision, industry common use and evolution scene language.' 
+  - title: 'Ecological value'
+    des: 'Through the national standard scene description language and scene library, an autonomous and controllable robot and automatic driving simulation test ecology is formed.'
 image_1: '/img/project/oasis1.png'
 image_2: '/img/project/oasis2.png'          
 

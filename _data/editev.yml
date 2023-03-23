@@ -3,11 +3,11 @@
 ####################################
 ######  Dora Section   ######
 ####################################
-title: 'EDIT-EV 滑板底盘电动车'
-description: '<br>EDIT EV开源项目是一个电动车的滑板底盘设计,符合欧洲L7E标准(重型四轮机动车，载人干重<400kg,载物干重<550kg,若是电动车不包括电池重量,最大净功率<15kw)和中国M1标准(至少有4个车轮或3个车轮的乘用车,出厂确定的最大总质量不超过1吨,除驾驶员座椅外不超过8个乘客座椅)。'
+title: 'EDIT-EV Skateboard chassis electric vehicle'
+description: "EDIT EV open source project is a skateboard chassis design for electric vehicles, in line with the European L7E standard (heavy-duty four-wheeled motor vehicles, dry weight of passengers <400kg, dry weight of loads <550kg, if the electric vehicle does not include battery weight, the maximum net power <15kw ) and China's M1 standard (passenger cars with at least 4 or 3 wheels, the maximum total mass determined by the factory does not exceed 1 ton, and no more than 8 passenger seats except the driver's seat)."
 btn_text: 'Learn more...'
 btn_link: '#'
-page_title: 'EDIT-EV 滑板底盘电动车'
+page_title: 'EDIT-EV Skateboard chassis electric vehicle'
 title_links:
   - name: 'DORA'
     link: '/projects/dora/'
@@ -22,11 +22,11 @@ title_links:
   - name: 'AUTO EXPRESS'
     link: '/projects/autoexpress/' 
 des_lists:
-  - title: '技术价值'
-    des: '分离式的架构设计，可以持续优化计算和软件平台，优化组件成本。'  
-  - title: '业务价值'
-    des: '通过开源电池仓设计,实现快捷低成本的换电服务。支持整车销售模式、Battery-As-A-Service模式、Mobility-As-A-Service模式。' 
-  - title: '生态价值'
-    des: '通过开源构建标准硬件平台，和开源软件构成透明、安全的软件生态。通过开源，实现零部件标准，形成全球供应链。'
+  - title: 'Technical value'
+    des: 'The separated architecture design can continuously optimize computing and software platforms and optimize component costs.'  
+  - title: 'Business value'
+    des: 'Through the open source battery compartment design, fast and low-cost battery replacement services are realized. Support vehicle sales model, Battery-As-A-Service model, Mobility-As-A-Service model.' 
+  - title: 'Ecological value'
+    des: 'Build a standard hardware platform through open source, and form a transparent and secure software ecosystem with open source software. Through open source, realize component standards and form a global supply chain.'
 image_1: '/img/project/editev1.png'
 image_2: '/img/project/editev2.png' 

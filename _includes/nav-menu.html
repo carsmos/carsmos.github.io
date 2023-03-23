@@ -2,13 +2,14 @@
     <nav id="nav-menu-container">
         <ul class="nav-menu px-3 nav-menu2 sf-js-enabled sf-arrows parent-active">
             {%- for menu in site.data.menus.header -%}
-            {%- if menu.menu-has-children -%} 
-            <li  class="menu-has-children ">  <!-- parent-active -->
+            {%- if menu.menu-has-children -%}
+            <li class="menu-has-children ">
+                <!-- parent-active -->
                 <a href="{{ menu.link }}" class="sf-with-ul">
                     {{ menu.title }}
                 </a>
                 <ul style="display: none;">
-                    {%- for child in  menu.menu-has-children -%}
+                    {%- for child in menu.menu-has-children -%}
                     <li>
                         <a href="{{child.link}}">{{child.title}}</a>
                     </li>
@@ -24,5 +25,24 @@
         </ul>
     </nav>
 </div>
+<div class="i18n">
+    <img class="i18n-1" src="{{ i18nIconWhite }}" alt="" title="" />
+    <img class="i18n-2" src="{{ i18nIconBlack }}" alt="" title="" />
+    <span>{{ site.data.menus.locale }}</span>
+    <ul>
+        {% if site.data.menus.locale == 'English' %}
+        <li class="active">
+            <a href="{{ site.data.menus.lang_menu_en }}">English</a>
+            <img src="{{ checkIcon }}" alt="" title="" style="margin-left: 14px;" />
+        </li>
+        <li><a href="{{ site.data.menus.lang_menu_zh_cn }}">简体中文</a></li>
+        {% else %}
+        <li class="active">
+            <a href="{{ site.data.menus.lang_menu_zh_cn }}">简体中文</a>
+            <img src="{{ checkIcon }}" alt="" title="" style="margin-left: 14px;" />
+        </li>
+        <li><a href="{{ site.data.menus.lang_menu_en }}">English</a></li>
+        {% endif %}
+    </ul>
+</div>
 <!-- #nav-menu-container -->
-

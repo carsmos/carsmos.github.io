@@ -1,15 +1,15 @@
 ####################################
 ######  Dora Section   ######
 ####################################
-title: 'DORA - Dataflow Oriented Robotics Architecture'
-description: '<br>DORA是一个先进的开源的自动驾驶及机器人中间件框架和数据流计算平台。
+title: 'DORA - 面向数据流的机器人架构'
+description: 'DORA是一个先进的开源的自动驾驶及机器人中间件框架和数据流计算平台。
 <br>DORA项目以软件定义汽车,智能驾驶为目标场景,集成了大量云原生的架构理念和生态工具,
 <br>并且采用了安全可信的Rust语言开发,支持弹性数据流计算框架、多样化的中间件选择、云端协同计算,
 <br>为智能汽车的软件开发提供了又一个更加现代化的平台选择,
 <br>同时也提供了一条对ROS1/ROS2升级、替代及超越的技术路线。'
 btn_text: 'Learn more...'
 btn_link: '#'
-page_title: 'DORA - Dataflow Oriented Robotics Architecture'
+page_title: 'DORA - 面向数据流的机器人架构'
 title_links:
   - name: 'DORA'
     link: '#point'

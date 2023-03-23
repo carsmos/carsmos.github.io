@@ -1,9 +1,9 @@
 header:
-  - name: "首页"
-    title: "首页"
+  - name: "Home"
+    title: "Home"
     link: "/"
   - name: "intro"
-    title: "元遨CARSMOS"
+    title: "CARSMOS"
     link: "/intro/carsmos/"
     menu-has-children:
       - name: "aboutcarsmos"
@@ -16,7 +16,7 @@ header:
 
   - name: "projects"
     title: "Projects"
-    link: "/projects/project/"
+    link: "/projects/"
     menu-has-children:
       - name: "Dora"
         title: "Dora"
@@ -44,7 +44,7 @@ header:
 
   - name: "governance"
     title: "Governance"
-    link: "/governance/governance/"
+    link: "/governance/"
     menu-has-children:
       - name: "TSC"
         title: "Technical Steering Committee"
@@ -71,7 +71,7 @@ header:
     link: "/blog/"
 
   - name: "Race2023"
-    title: "算法大赛Race2023"
+    title: "Race2023"
     link: "/Race2023/"
     # menu-has-children:
     #   - name: 'Race2023PPT'

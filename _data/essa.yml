@@ -4,8 +4,8 @@
 ######  ESSA Section   ######
 ####################################
 title: 'ESSA - Elastic Stateful Serverless Computing Architecture'
-description: '<br>ESSA(Elastic Stateful Serverless Computing)项目,ESSA弹性带状态无服务器计算架构,
-<br>是边端云高性能计算的一个加速器技术,主要包括两个子项目:'
+description: 'The ESSA (Elastic Stateful Serverless Computing) project, the ESSA elastic stateful serverless computing architecture,
+is an accelerator technology for edge-end cloud high-performance computing, mainly including two sub-projects:'
 btn_text: 'Learn more...'
 btn_link: '#'
 page_title: 'ESSA - Elastic Stateful Serverless Computing Architecture'
@@ -24,8 +24,8 @@ title_links:
     link: '/projects/autoexpress/' 
 des_lists:
   - title: 'Anna-RS'
-    des: '这是一个支持地域分布的低延迟、自动缩放 (Auto Scaling) 和高效的分布式键值(K/V) 数据库，通过 Anna-RS K/V 来支持ESSA弹性无服务器计算架构所需要的状态管理; '  
+    des: 'This is a low-latency, auto-scaling (Auto Scaling) and efficient distributed key-value (K/V) database that supports geographical distribution. It uses Anna-RS K/V to support the state management required by the ESSA elastic serverless computing architecture.'  
   - title: 'Essa-RS'
-    des: '这是一个基于 WebAssembly 的无服务器函数运行环境,相比其他无服务器函数的运行环境,WebAssembly具有速度快、多语言(C/C++、Rust 等语言）支持、非常安全的沙箱隔离，更少的函数调用开销等优点。' 
+    des: 'This is a serverless function runtime environment based on WebAssembly. Compared with other serverless function runtime environments, WebAssembly has fast speed, multi-language (C/C++, Rust and other languages) support, very safe sandbox isolation, and less Advantages such as function call overhead.' 
 image_1: '/img/project/essa1.png'
 image_2: '/img/project/essa2.png'  

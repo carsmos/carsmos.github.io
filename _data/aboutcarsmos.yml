@@ -1,15 +1,15 @@
 ####################################
 ######    About Carsmos Section    ######
 ####################################
-title: '开源智能出行教育/研究/产业化平台'
-description: '为抓住时代机遇、促进产业发展, 开源智能出行工作组Cars Mobility Operating System (Carsmos元遨)正在打造一个智能驾驶开源基础软件和硬件平台，致力于三大目标:'
+title: 'Open source smart travel education/research/industrialization platform'
+description: 'In order to seize the opportunity of the times and promote the development of the industry, the open source smart travel working group Cars Mobility Operating System (Carsmos) is building an open source basic software and hardware platform for smart driving, dedicated to three goals:'
 des_lists:
-  - title: '创设产业标准'
-    des: '聚合标准、产业、研究的力量，探索通过开源来构建行业标准和国家规范, 例如Oasis场景描述语言和场景库。'  
-  - title: '丰富产业生态'
-    des: '通过开源开放研究引入企业的资助和参与，这样可以提前感知产业发展的痛点。开源项目本身可以商业化，这也是软件产业最大的趋势。' 
-  - title: '培育产业人才'
-    des: '通过引入开源硬件/软件提升教育水平，以自动驾驶为场景来学习最新的编程语言，编程框架，系统集成。引入开源导师，培训学生做开源贡献和参加社区竞赛，既锻炼了能力，也增加了学生的声誉度。'     
+  - title: 'Create industry standards'
+    des: 'Aggregate the power of standards, industry, and research, and explore the construction of industry standards and national norms through open source, such as Oasis scene description language and scene library.'  
+  - title: 'Rich industrial ecology'
+    des: 'Introduce the funding and participation of enterprises through open source and open research, so that you can perceive the pain points of industrial development in advance. Open source projects themselves can be commercialized, which is also the biggest trend in the software industry.' 
+  - title: 'Cultivate industrial talents'
+    des: 'Improve the level of education by introducing open source hardware/software, and learn the latest programming languages, programming frameworks, and system integration in the context of autonomous driving. Introducing open source mentors to train students to make open source contributions and participate in community competitions not only exercises their ability, but also increases their reputation.'     
 image: 'img/aboutcarsmos2.png'
 button_text: 'Get more info...'
 button_link: '#'

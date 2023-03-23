@@ -3,12 +3,12 @@
 ####################################
 ######  ESSA Section   ######
 ####################################
-title: 'ESSA - Elastic Stateful Serverless Computing Architecture'
-description: '<br>ESSA(Elastic Stateful Serverless Computing)项目,ESSA弹性带状态无服务器计算架构,
+title: 'ESSA - 弹性状态无服务器计算架构'
+description: 'ESSA(Elastic Stateful Serverless Computing)项目,ESSA弹性带状态无服务器计算架构,
 <br>是边端云高性能计算的一个加速器技术,主要包括两个子项目:'
 btn_text: 'Learn more...'
 btn_link: '#'
-page_title: 'ESSA - Elastic Stateful Serverless Computing Architecture'
+page_title: 'ESSA - 弹性状态无服务器计算架构'
 title_links:
   - name: 'DORA'
     link: '/projects/dora/'

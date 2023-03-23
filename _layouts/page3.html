@@ -23,34 +23,18 @@
                     </a>
                 </div>
                 {% include nav-menu.html %}
-                <div class="i18n">
-                    <img class="i18n-1" src="{{ i18nIconWhite }}" alt="" title="" />
-                    <img class="i18n-2" src="{{ i18nIconBlack }}" alt="" title="" />
-                    <span>{{ site.data.menus.locale }}</span>
-                    <ul>
-                        {% if site.locale == 'en' %}
-                        <li class="active">
-                            <a href="{{ site.data.menus.lang_menu_en }}">English</a>
-                            <img src="{{ checkIcon }}" alt="" title="" style="margin-left: 14px;" />
-                        </li>
-                        <li><a href="{{ site.data.menus.lang_menu_zh_cn }}">简体中文</a></li>
-                        {% else %}
-                        <li class="active">
-                            <a href="{{ site.data.menus.lang_menu_zh_cn }}">简体中文</a>
-                            <img src="{{ checkIcon }}" alt="" title="" style="margin-left: 14px;" />
-                        </li>
-                        <li><a href="{{ site.data.menus.lang_menu_en }}">English</a></li>
-                        {% endif %}
-                    </ul>
-                </div>
             </div>
         </div>
     </header>
     <!-- End Header Area -->
-      <!-- Start page top -->
+    <!-- Start page top -->
     <section class="page-top-section1">
         <div class="page-top-section2">
-            <img src="{{ site.page_top | relative_url }}" />
+            {% if site.data.menus.locale == 'English' %}
+            <img src="{{ site.data.footer.page_top_en | relative_url }}" />
+            {% else %}
+            <img src="{{ site.data.footer.page_top_zh_cn | relative_url }}" />
+            {% endif %}
             <div class="page-top-bg">
                 <span> {{ site.data.menu_title.title3}} </span>
             </div>

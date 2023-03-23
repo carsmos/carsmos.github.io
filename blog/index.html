@@ -21,14 +21,20 @@ hero: blog_details
                     <p class="mt-25 post-info">
                     <span class="author">
                         {{ post.author }}
-                    </span> on {{ post.date | date_to_long_string }}
+                    </span> 
+                    {% if site.data.menus.locale == 'English' %}
+                     on {{ post.date | date_to_long_string }}
+                    {% else %}
+                     {{ post.date | date: "%Y-%m-%d" }}
+                    {% endif %}
+                   
                     </p>
                     {%- if site.show_excerpts -%}
                     <p>
                         {{ post.excerpt }}
                     </p>
                     {%- endif -%}
-                    <button type="button" style="width: 88px;line-height: 32px;background: #FFFFFF;border-radius: 2px;border: 1px solid #8A4FF6;color: #8A4FF6;">查看更多</button>
+                    <button type="button" style="line-height: 32px;background: #FFFFFF;border-radius: 2px;border: 1px solid #8A4FF6;color: #8A4FF6;">{{ site.data.blog.blog_more }}</button>
                 </a>
             </div>
         </div>
