@@ -1,8 +1,8 @@
 <!-- Start hero-section -->
 <section class="hero-section-bg relative">
     <div class="vdo-section">
-        <div class="hero-vdo" data-vide-bg="{{ site.data.hero.product_video_video | absolute_url }}"
-            data-vide-options="loop: true, muted: true">
+        <div class="hero-vdo" data-vide-bg="mp4:{{ site.data.hero.product_video_video | relative_url }}"
+            data-vide-options="loop: true, muted: true,posterType: 'detect'">
         </div>
     </div>
     <div class="content">
@@ -15,15 +15,15 @@
                     <p class="pt-20 pb-20 mw-510">
                         {{ site.data.hero.product_video_text }}
                     </p>
-                    <a href="{{ site.data.hero.product_video_btn_one_link | absolute_url }}" class="genric-btn2 generic-margin"
+                    <a href="{{ site.data.hero.product_video_btn_one_link | relative_url }}" class="genric-btn2 generic-margin"
                     style="margin-right: 24px; background: rgba(0,0,0,0); border: 1px solid #FFF; border-radius: 2px; color: #FFF !important;">{{
                         site.data.hero.product_video_btn_one_text }}</a>
-                    <a href="{{ site.data.hero.product_video_btn_two_link | absolute_url }}" class="genric-btn2 generic-margin1">{{
+                    <a href="{{ site.data.hero.product_video_btn_two_link | relative_url }}" class="genric-btn2 generic-margin">{{
                         site.data.hero.product_video_btn_two_text }}</a>
                 </div>
 
                 <div class="col-lg-6">
-                    <img class="hero-img9" src="{{ site.data.hero.product_video_image | absolute_url }}" alt="">
+                    <img class="hero-img9" src="{{ site.data.hero.product_video_image | relative_url }}" alt="">
                 </div>
             </div>
         </div>
