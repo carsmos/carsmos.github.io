@@ -27,6 +27,9 @@
     position: relative;
     padding: 25px 0 20px;
     margin-right: 25px;
+    @media (max-width: 1000px){
+       padding: 5px 0 20px;
+    }
     .i18n-2{
       display: none;
     }
@@ -333,7 +336,7 @@
 }
 
 #mobile-nav-toggle i {
-  color: $black;
+  color: #B491F5;
   font-weight: 900;  
 }
 

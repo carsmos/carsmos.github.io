@@ -1,15 +1,37 @@
-
 <script>
-   var map_data = {
-        key: '{{site.map.key}}',
-        let: '{{ site.map.let }}',
-        lng: '{{site.map.lng}}',
-        zoom: '{{site.map.zoom}}',
-        title: '{{site.map.title}}',
-   }
-   localStorage.setItem("du_google_map_data", JSON.stringify(map_data));
+var map_data = {
+    key: '{{site.map.key}}',
+    let: '{{ site.map.let }}',
+    lng: '{{site.map.lng}}',
+    zoom: '{{site.map.zoom}}',
+    title: '{{site.map.title}}',
+}
+localStorage.setItem("du_google_map_data", JSON.stringify(map_data));
 </script>
+<script>
+let img = document.querySelectorAll('.img-big');
+img.forEach((item, index) => {
+    item.addEventListener('click', function() {
+        if (item.classList.contains('active')) {
+            item.classList.remove('active');
+        } else {
+            item.classList.add('active');
+        }
+    });
 
+});
+let imgs = document.querySelectorAll('.img-big-right');
+imgs.forEach((item, index) => {
+    item.addEventListener('click', function() {
+        if (item.classList.contains('active')) {
+            item.classList.remove('active');
+        } else {
+            item.classList.add('active');
+        }
+    });
+
+});
+</script>
     <script src="{{ 'js/vendor/jquery-2.2.4.min.js' | relative_url }}"></script>
     <script src="{{ 'js/popper.min.js' | relative_url }}"></script>
     <script src="{{ 'js/vendor/bootstrap.min.js' | relative_url }}"></script>
