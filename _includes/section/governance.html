@@ -16,8 +16,8 @@
                     {% endfor %}
                 </div>
             </div>
-            <div class="col-lg-6 text-center">
-                <img class="img-fluid img-big" src="{{ site.data.tsc.image | relative_url }}" alt="">
+            <div class="col-lg-6 text-center gallery">
+                <a href="{{ site.data.tsc.image | relative_url }}" class="magnific"><img class="img-fluid" src="{{ site.data.tsc.image | relative_url }}" alt="" ></a>
             </div>
         </div>
     </div>
@@ -27,11 +27,11 @@
 <section class="tec-section section-gap section-bgcolor"id = "tec-point">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-6">
-                <img class="img-fluid img-big-right" src="{{ site.data.tec.image | relative_url }}" alt="">
+            <div class="col-lg-6 text-center gallery1">
+                <a href="{{ site.data.tec.image | relative_url }}" class="magnific"><img class="img-fluid" src="{{ site.data.tec.image | relative_url }}" alt="" ></a>
             </div>
             <div class="col-lg-6 text-end">
-                <span id="title">{{ site.data.tec.title }} </span>
+                <br><span id="title">{{ site.data.tec.title }} </span>
                 <img src="{{ site.title_tip1 | relative_url }}" />
                 <div class="des-common">
                     <br><div>{{ site.data.tec.description }} </div>
@@ -64,8 +64,8 @@
                     {% endfor %}
                 </div>
             </div>
-            <div class="col-lg-6 text-center">
-                <img class="img-fluid img-big" src="{{ site.data.pmc.image | relative_url }}" alt="">
+            <div class="col-lg-6 text-center gallery2">
+                <a href="{{ site.data.pmc.image | relative_url }}" class="magnific"><img class="img-fluid" src="{{ site.data.pmc.image | relative_url }}" alt="" ></a>
             </div>
         </div>
     </div>
@@ -75,11 +75,11 @@
 <section class="charter-section section-gap section-bgcolor" id = "charter-point">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-6 img-right">
-                <img class="img-fluid img-big-right" src="{{ site.data.charter.image | relative_url }}" alt="">
+            <div class="col-lg-6 text-center gallery3">
+                <a href="{{ site.data.charter.image | relative_url }}" class="magnific"><img class="img-fluid" src="{{ site.data.charter.image | relative_url }}" alt="" ></a>
             </div>
             <div class="col-lg-6 text-end">
-                <span id="title">{{ site.data.charter.title }} </span>
+                <br><span id="title">{{ site.data.charter.title }} </span>
                 <img src="{{ site.title_tip1 | relative_url }}" />
                 <div class="des-common">
                     <br><div>{{ site.data.charter.description }} </div>
@@ -103,7 +103,8 @@
                 <img class="title-img" src="{{ site.title_tip | relative_url }}" />
                 <span id="title">{{ site.data.members.title }} </span>
                 <div class="des-common">
-                    <br><div>{{ site.data.members.description }} </div>
+                    <br>
+                    <div>{{ site.data.members.description }} </div>
                     {% for li in site.data.members.des_lists %}
                     <br>
                     <div class="des-t">{{ li.title }}</div>
@@ -112,8 +113,8 @@
                     {% endfor %}
                 </div>
             </div>
-            <div class="col-lg-6 text-center">
-                <img class="img-fluid img-big" src="{{ site.data.members.image | relative_url }}" alt="">
+            <div class="col-lg-6 text-center gallery4">
+                <a href="{{ site.data.members.image | relative_url }}" class="magnific"><img class="img-fluid" src="{{ site.data.members.image | relative_url }}" alt="" ></a>
             </div>
         </div>
     </div>

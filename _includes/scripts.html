@@ -9,32 +9,12 @@ var map_data = {
 localStorage.setItem("du_google_map_data", JSON.stringify(map_data));
 </script>
 <script>
-let img = document.querySelectorAll('.img-big');
-img.forEach((item, index) => {
-    item.addEventListener('click', function() {
-        if (item.classList.contains('active')) {
-            item.classList.remove('active');
-        } else {
-            item.classList.add('active');
-        }
-    });
 
-});
-let imgs = document.querySelectorAll('.img-big-right');
-imgs.forEach((item, index) => {
-    item.addEventListener('click', function() {
-        if (item.classList.contains('active')) {
-            item.classList.remove('active');
-        } else {
-            item.classList.add('active');
-        }
-    });
 
-});
 </script>
     <script src="{{ 'js/vendor/jquery-2.2.4.min.js' | relative_url }}"></script>
-    <script src="{{ 'js/popper.min.js' | relative_url }}"></script>
-    <script src="{{ 'js/vendor/bootstrap.min.js' | relative_url }}"></script>
+    <!-- <script src="{{ 'js/popper.min.js' | relative_url }}"></script> -->
+    <!-- <script src="{{ 'js/vendor/bootstrap.min.js' | relative_url }}"></script> -->
     <script src="{{ 'js/vendor/jquery.vide.min.js' | relative_url }}"></script>
     <!-- <script src="//maps.googleapis.com/maps/api/js?key={{ site.map.key }}"></script> -->
     <script src="{{ 'js/easing.min.js' | relative_url }}"></script>
@@ -42,4 +22,6 @@ imgs.forEach((item, index) => {
     <script src="{{ 'js/jquery.ajaxchimp.min.js' | relative_url }}"></script>
     <script src="{{ 'js/owl.carousel.min.js' | relative_url }}"></script>
     <script src="{{ 'js/contact-script.js' | relative_url }}"></script>
+     <script src="{{ 'js/jquery.magnific-popup.min.js' | relative_url }}"></script>
     <script src="{{ 'js/main.js' | relative_url }}"></script>
+

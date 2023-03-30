@@ -25,15 +25,17 @@
         <div class="row text-sm-center">
             <div class="market-title">{{ site.data.marketing.title }}</div>
             <div class="market-desc">
-            {{ site.data.marketing.description1 }}
+                {{ site.data.marketing.description1 }}
                 <br>
-            {{ site.data.marketing.description2 }}
-             <br>
-            {{ site.data.marketing.description3 }}
+                {{ site.data.marketing.description2 }}
+                <br>
+                {{ site.data.marketing.description3 }}
             </div>
         </div>
-        <div class="row justify-content-sm-between" style="background-color:#FFFFFF">
-            <img class="market-img" src="{{ site.data.marketing.image_one | relative_url }}" alt="" style="width: 400px;">
-            <img class="market-img" src="{{ site.data.marketing.image_two | relative_url }}" alt="" style="width: 748px;">
+        <div class="row justify-content-sm-around gallery" style="background-color:#FFFFFF">
+            <a href="{{ site.data.marketing.image_one | relative_url }}" class="magnific"style="width: 400px;"><img class="market-img" src="{{ site.data.marketing.image_one | relative_url }}" alt=""> </a>
+            <a href="{{ site.data.marketing.image_two | relative_url }}" class="magnific" style="width: 748px;">
+                <img class="market-img" src="{{ site.data.marketing.image_two | relative_url }}" alt="">
+            </a>
         </div>
-</section>    
+</section>  

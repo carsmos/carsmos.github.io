@@ -29,5 +29,6 @@ sed -i 's/https:\/\/carsmos\.ai/https:\/\/www.carsmos.cn/' "$file"
 cd "$dest_dir"
 jekyll build
 # upload oss
-ossutil cp -r -f _site/ oss://www-carsmos-cn/
+ossutil rm -rf oss://www-carsmos-cn/
+ossutil cp -r  _site/ oss://www-carsmos-cn/
 

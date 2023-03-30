@@ -165,7 +165,7 @@
     }
 }
 .generic-margin {
-    margin-bottom: 10px;
+    margin: 2px 0;
     width: 251.54px;
 }
 
@@ -817,40 +817,7 @@
     }
 }
 
-
-
-.img-big {
-    cursor: pointer;
-    transition: all 0.6s;
-}
-
-.img-big.active{
-    transform: scale(1.6);
-    margin-left: -50%;
-    border: 1px solid #B491F5;
-    box-shadow: 1px 4px 5px #DAC0FF;
-
-    @media(max-width: 1000px) {
-        margin-left: 0;
-    }
-}
-
-.img-big-right {
-    cursor: pointer;
-    transition: all 0.6s;
-}
-.img-big-right.active {
-    transform: scale(1.6);
-    margin-left: 50%;
-    border: 1px solid #B491F5;
-    box-shadow: 1px 4px 5px #DAC0FF;
-
-    @media(max-width: 1000px) {
-        margin-left: 0;
-    }
-}
-
-.market-title{
+.market-title {
     font-size: 32px;
     font-family: Source Han Sans CN-Bold, Source Han Sans CN;
     font-weight: bold;
@@ -858,16 +825,19 @@
     line-height: 40px;
     margin-top: 60px;
 }
-.market-desc{
+
+.market-desc {
     font-size: 14px;
-font-family: Source Han Sans CN-Regular, Source Han Sans CN;
-font-weight: 400;
-color: #252B3A;
-line-height: 28px;
-margin-top: 60px;
-margin-bottom: 60px;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-weight: 400;
+    color: #252B3A;
+    line-height: 28px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
-.market-img{
+
+.market-img {
     margin-top: 26px;
     margin-bottom: 26px;
+    max-width: 100%;
 }
