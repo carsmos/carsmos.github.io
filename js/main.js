@@ -183,18 +183,30 @@ $(document).ready(function () {
     /* -------------------------------------------------------------------
         Owl Carusel js
      ------------------------------------------------------------------ */
-
+    
 
     $('.active-dash-carusel').owlCarousel({
         items: 1,
-        loop: true,
+        loop: false,
         margin: 30,
         autoplay: true,
         autoplayTimeout: 4000,
         autoplayHoverPause: true,
         smartSpeed: 800,
-        animateOut: 'fadeOut'
-    });
+        animateOut: 'fadeOut',
+        autoHeight: true
+    }).on('changed.owl.carousel', function(event) {
+         var currentItemIndex = event.item.index;
+         var count = event.item.count;
+         var minimumItemIndex = currentItemIndex - event.page.size;
+         var maximumItemIndex = currentItemIndex + event.page.size;
+         if (currentItemIndex === count - 1) {
+             setTimeout(function () {
+                 $('.active-dash-carusel').trigger('to.owl.carousel', [0, 800, true]);
+             }, 4000);
+         }
+     });
+
 
 
     $('.active-review-carusel').owlCarousel({
@@ -523,5 +535,52 @@ $(document).ready(function () {
         $(".contact-info").css("display", "block");
         $(".show-btn").css("display", "none");
     });
+    $('.gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
 
+    });
+    $('.gallery1').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+
+    });
+    $('.gallery2').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+
+    });
+    $('.gallery3').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+
+    });
+    $('.gallery4').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+
+    });
+    $('.gallery5').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+
+    });
 });

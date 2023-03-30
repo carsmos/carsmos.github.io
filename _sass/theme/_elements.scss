@@ -165,7 +165,7 @@
     }
 }
 .generic-margin {
-    margin-bottom: 10px;
+    margin: 2px 0;
     width: 251.54px;
 }
 
@@ -815,4 +815,29 @@
     &:active {
         background: #E4D5FF;
     }
+}
+
+.market-title {
+    font-size: 32px;
+    font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+    font-weight: bold;
+    color: #252B3A;
+    line-height: 40px;
+    margin-top: 60px;
+}
+
+.market-desc {
+    font-size: 14px;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-weight: 400;
+    color: #252B3A;
+    line-height: 28px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.market-img {
+    margin-top: 26px;
+    margin-bottom: 26px;
+    max-width: 100%;
 }

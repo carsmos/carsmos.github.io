@@ -1,5 +1,5 @@
 <!-- Start marketing-section -->
-<section class="marketing-section section-gap section-bgcolor" style = "padding-bottom: 120px;">
+<!-- <section class="marketing-section section-gap section-bgcolor" style = "padding-bottom: 120px;">
     <div class="row feature-left-wrapr justify-content-sm-between">
     <h1 style="text-align: center;margin-bottom: 60px;color: #252B3A;font-weight: bold;font-size: 32px;">
         {{ site.data.marketing.title }}
@@ -15,8 +15,27 @@
     </p>
     <div style="width: 1280px;background: #FFF;padding: 26px 16px;margin: 60px auto 0;">
         <img class="img-fluid item" src="{{ site.data.marketing.image_one | relative_url }}" alt="" style="width: 400px;margin-right: 80px;">
-        <img class="img-fluid item" src="{{ site.data.marketing.image_two | relative_url }}" alt="" style="width: 748px;">
+        <img class="img-fluid item col-lg-6" src="{{ site.data.marketing.image_two | relative_url }}" alt="" style="width: 748px;">
     </div>
-    </div>
-</section>
+     </div>
+</section> -->
 <!-- End marketing-section -->
+<section class="marketing-section section-gap section-bgcolor">
+    <div class="container">
+        <div class="row text-sm-center">
+            <div class="market-title">{{ site.data.marketing.title }}</div>
+            <div class="market-desc">
+                {{ site.data.marketing.description1 }}
+                <br>
+                {{ site.data.marketing.description2 }}
+                <br>
+                {{ site.data.marketing.description3 }}
+            </div>
+        </div>
+        <div class="row justify-content-sm-around gallery" style="background-color:#FFFFFF">
+            <a href="{{ site.data.marketing.image_one | relative_url }}" class="magnific"style="width: 400px;"><img class="market-img" src="{{ site.data.marketing.image_one | relative_url }}" alt=""> </a>
+            <a href="{{ site.data.marketing.image_two | relative_url }}" class="magnific" style="width: 748px;">
+                <img class="market-img" src="{{ site.data.marketing.image_two | relative_url }}" alt="">
+            </a>
+        </div>
+</section>  
