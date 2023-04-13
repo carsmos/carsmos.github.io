@@ -223,19 +223,20 @@
 
 #header7 .nav-menu2 > li > a {
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
   font-weight:normal;
   font-size: 12px;
   text-transform: uppercase;
   outline: none;
   padding-bottom: 16px;
   border-bottom: 2px solid rgba(0,0,0,0);
+  font-family: Source Han Sans CN-Bold, Source Han Sans CN;
 }
 
 #header7 .nav-menu2 > li:hover{
   >a{
     font-weight: bold;
-    border-bottom: 2px solid #FFF;
+    border-bottom: 2px solid #fff;
   }
 }
 

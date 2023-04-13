@@ -2,29 +2,42 @@
 ######## 2023 Race Intro  ###########
 #####################################
 
-title: "元遨CARSMOS全球开源智能驾驶2023大赛介绍"
-#image: "https://user-images.githubusercontent.com/99924265/219509901-34f8bff0-6c4b-4c7f-937b-696de3680d01.jpg"
+title: "全球开源自动驾驶算法大赛"
 image: '/img/race/race-tip.png'
+arrow-right: '/img/race/arrow-right.svg'
+title1: '<br><br>基于元遨开源项目(<a href="https://www.carsmos.cn">https://www.carsmos.cn</a>)的自动驾驶仿真平台Oasis和中间件Dora,
+        <br>在仿真环境下为参赛队伍提供多个预定义的场景，通过不同的场景测试自动驾驶算法在城市区域内各种复杂交通环境下的感知、规划和决策能力。
+        <br>仿真竞赛优胜队伍将被邀请参加线下车辆挑战赛。'
 details:
-  - label: "大赛报名链接:"
-    value: '<a href="https://race.carsmos.cn/">
-      https://race.carsmos.cn/
-      </a>（需要 GitHub 账号）'
-  - label: "大赛联系人:"
+  - label: "大赛报名链接"
+    value: '<a href="https://competition.atomgit.com/">
+      https://competition.atomgit.com/
+      </a>'
+  - label: "大赛联系人"
     value: '<a href="mailto:race@carsmos.ai">
       race@carsmos.ai
       </a>'
-  - label: "主办方:"
-    value: '<a href="https://www.openatom.org/home">
+  - label: "主办方"
+    value: '<a href="https://www.miit.gov.cn">
+      工信部
+      </a>'    
+  - label: "承办方"
+    value: '<a href="https://www.openatom.org">
       开放原子开源基金会
-      </a> - <a href="http://carsmos.ai">
-      CARSMOS 元遨开源智能驾驶项目组
+      </a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://rs.ieee.org/technical-activities/technical-committees/electric-autonomous-vehicles.html">
+      IEEE电动和自动驾驶汽车技术委员会
       </a>'
-  - label: "大赛时间:"
-    value: "2023.2 - 2023.6"
+  - label: "技术支撑单位"
+    value: '<a href="https://guardstrike.com">深信科创</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="">Futerewei</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.shlab.org.cn">上海AI实验室</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://group.iiis.tsinghua.edu.cn">清华Mars Lab</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="">OpenEV</a>'   
+  - label: "赞助单位"
+    value: "XXXXXXXX"
 
 signup_button_text: "立即报名"
-signup_button_link: "https://race.carsmos.cn/"
+signup_button_link: "https://competition.atomgit.com/"    
 
 info_button_text: "Get more info...(PPT)"
 info_button_link: "/Race2023/全球开源自动驾驶算法大赛V1.pdf"
@@ -32,3 +45,6 @@ page_title: 'IEEE Race 2023 开源智驾算法大赛'
 title_links:
   - name: 'IEEE Race 2023 开源智驾算法大赛'
     link: '#point'
+
+
+

@@ -8,7 +8,7 @@ product_video_image: 'img/whitepaper2022.png'
 product_video_video: 'vdo/appbv.mp4'
 product_video_btn_one_link: 'whitepaper2022/CARSMOS-whitepaper-2022-12.pdf'
 product_video_btn_one_text:  'Carsmos Whitepaper 2022'
-product_video_btn_two_link: 'Race2023/全球开源自动驾驶算法大赛V1.pdf'
+product_video_btn_two_link: '/Race2023/'
 product_video_btn_two_text:  'IEEE/Carsmos Race 2023'
 
 # hero-section-blog
