@@ -23,7 +23,8 @@
 
 #header2 {
   .i18n {
-    color: #FFF;
+    /*color: #FFF; */
+    color: $black;
     cursor: pointer;
     position: relative;
     padding: 25px 0 20px;
@@ -214,7 +215,8 @@
 
 #header2 .nav-menu2 > li > a {
   text-decoration: none;
-  color: $white;
+  /*color: $white;*/
+  color: $black;
   font-weight:normal;
   font-size: 12px;
   text-transform: uppercase;
@@ -226,7 +228,7 @@
 #header2 .nav-menu2 > li:hover{
   >a{
     font-weight: bold;
-    border-bottom: 2px solid #FFF;
+    border-bottom: 2px solid #252B3A;
   }
 }
 

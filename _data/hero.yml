@@ -2,10 +2,11 @@
 # sass [ only one image ]
 
 # product_video [ video type mp4 ]
-product_video_name: 'CARSMOS: <br>Open-Source Smart Mobility'
+product_video_name: 'CARSMOS:<br>Open-Source Smart Mobility'
 product_video_text: 'CARSMOS (CARS Mobility Operating System) is a project group in autonomous driving to provide an advanced, standard, and open-sourced platform to solve the existing problems of closed sources and fragmentation in smart car research, education, and industrial cooperation'
 product_video_image: 'img/whitepaper2022.png'
 product_video_video: 'vdo/appbv.mp4'
+home_banner: 'img/hero/home-banner.png'
 product_video_btn_one_link: 'whitepaper2022/CARSMOS-whitepaper-2022-12.pdf'
 product_video_btn_one_text:  'Carsmos Whitepaper 2022'
 product_video_btn_two_link: '/Race2023/'
@@ -24,5 +25,7 @@ blog_slider:
     title: '技术交流'
     category: '算法大赛'
 
-blog_slider_image: 'img/hero/hero-blog4.png'
+blog_slider_image: 'img/hero/banner-news.png'
 blog_slider_title: '项目进展'
+
+bg_title: 'CARSMOS'

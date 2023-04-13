@@ -5,7 +5,7 @@
 
 .pages{
   #header7{
-    background: linear-gradient(90deg, #452E9F 0%, #151762 100%);
+    /*background: linear-gradient(90deg, #452E9F 0%, #151762 100%);*/
   }
 }
 
@@ -22,7 +22,7 @@
 
 #header7 {
   .i18n {
-    color: #FFF;
+    color: $black;
     cursor: pointer;
     position: relative;
     padding: 25px 0 20px;
@@ -223,7 +223,7 @@
 
 #header7 .nav-menu2 > li > a {
   text-decoration: none;
-  color: #fff;
+  color: $black;
   font-weight:normal;
   font-size: 12px;
   text-transform: uppercase;
@@ -236,7 +236,7 @@
 #header7 .nav-menu2 > li:hover{
   >a{
     font-weight: bold;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #252B3A;
   }
 }
 

@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 {% include head.html %}
-{%- assign logo1 = 'img/carsmos-logo-white.png' -%}
-{%- assign logo2 = 'img/carsmos-logo-blue.png' -%}
-{%- assign bg2 = 'img/footer/page-top-bg2.jpg' -%}
-{%- assign bg3 = 'img/footer/page-top-bg3.png' -%}
-{%- assign i18nIconWhite = '/img/i18n-white.png' -%}
+{%- assign logo1 = 'img/logo.svg' -%}
+{%- assign logo2 = 'img/logo.svg' -%}
+{%- assign i18nIconWhite = '/img/i18n-black.png' -%}
 {%- assign i18nIconBlack = '/img/i18n-black.png' -%}
 {%- assign checkIcon = '/img/check.png' -%}
 
@@ -30,6 +28,14 @@
     <!-- Start page top -->
     <section class="page-top-section1">
         <div class="page-top-section2">
+            <p>{{ site.data.hero.bg_title}}</p>
+            <div class="page-top-bg">
+                <span> {{ site.data.menu_title.title1}} </span>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="page-top-section1">
+        <div class="page-top-section2">
             {% if site.data.menus.locale == 'English' %}
             <img src="{{ site.data.footer.page_top_en | relative_url }}" />
             {% else %}
@@ -39,10 +45,7 @@
                 <span> {{ site.data.menu_title.title1}} </span>
             </div>
         </div>
-    </section>
-    <div>
-        <div id="point"></div> <img class="head-sep" src="{{ site.page_bottom | relative_url }}" />
-    </div>
+    </section> -->
     <!-- End page top -->
     {{ content }}
     {% include footer.html %}

@@ -286,7 +286,8 @@
     }
     .content {
       position: absolute;
-      top: 16%;
+      /*top: 16%;*/
+      top: 24%;
       width: 100%;
       z-index: 10;
       @media (max-width: 767px) {
@@ -299,13 +300,15 @@
         }
       }
       h1 {
-        color: $white;
+        /*color: $white;*/
+        color: $black;
         @media (max-width: 991px) {
           font-size: 30px !important;
         }
       }
       p {
-        color: $white;
+        /*color: $white;*/
+        color: $black;
       }
       @media (max-width: 767px) {
         margin-bottom: 50px;
@@ -884,4 +887,11 @@
   border-left: 1px solid #e9ecef;
   display: inline-block;
   height: 12px;
+}
+.hero-section-bg{
+  background: url(../img/hero/home-banner.png) center/cover;
+  height: 900px;
+  @media (max-width: 575px){
+  background: url(../img/hero/home-banner.png);
+  }
 }

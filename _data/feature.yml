@@ -4,26 +4,26 @@
 ####################################
 ######  feature Section   ######
 ####################################
-- image: 'img/feature/i1.png'
+- image: 'img/feature/i1.svg'
   title: 'Complexity challenge'
   description: 'With 500 million lines of code, smart car software is one of the most complex pieces of software ever created by humans, and it is also the epitomizer of AI applications. Building a software technology system for intelligent vehicles is an unprecedented challenge.'
 
-- image: 'img/feature/i2.png'
+- image: 'img/feature/i2.svg'
   title: 'Supply chain security'
   description: 'The automotive industry is faced with the supply chain security problem of lack of core and soul, but in the future technological route, there are strategic choices similar to climbing the north and south slopes of Mount Everest.'
 
-- image: 'img/feature/i3.png'
+- image: 'img/feature/i3.svg'
   title: 'Technical route'
   description: 'Bicycle intelligence vs vehicle road coordination two development routes, each has its own merits, suitable for different national conditions and development stages.'
 
-- image: 'img/feature/i4.png'
+- image: 'img/feature/i4.svg'
   title: 'Lack of professionals'
   description: 'The smart car industry needs millions of high-end software talents. There is a huge gap between the needs of college education, vocational education and industry. At the same time, smart cars also need the support of theoretical research, especially the theoretical research of AI, but the gap between academia and the industry in terms of AI research and development infrastructure is getting wider and wider.'
 
-- image: 'img/feature/i5.png'
+- image: 'img/feature/i5.svg'
   title: 'Regulation and Standards'
   description: 'Smart cars need the escort of supervision and standards to reduce the safety and trust problems caused by immature new technologies. The country needs to establish a standard and platform system that matches the scale of the smart car industry.'
 
-- image: 'img/feature/i6.png'
+- image: 'img/feature/i6.svg'
   title: 'Open source platform'
   description: 'As a neutral, non-profit, and global collaborative platform, the open source platform has formed a de facto standard in global industries such as cloud computing, smartphones, and AI, and built an ecological value worth trillions of dollars. Many challenges of smart cars also need to be solved through open source platforms.'
