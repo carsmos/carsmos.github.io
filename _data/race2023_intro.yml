@@ -6,14 +6,13 @@ title: "2023 IEEE OpenAtom Competition on Autonomous Driving Algorithms"
 #image: "https://user-images.githubusercontent.com/99924265/219509901-34f8bff0-6c4b-4c7f-937b-696de3680d01.jpg"
 image: '/img/race/race-tip.png'
 arrow-right: '/img/race/arrow-right.svg'
-title1: '<br><br>Based on the autopilot simulation platform Oasis and middleware Dora of the Carsmos open source project 
-        (<a href="https://www.carsmos.ai">https://www.carsmos.ai</a>),
+title1: '<br><br>Based on the autopilot simulation platform Oasis and middleware Dora of the Carsmos open source project,
         <br>it provides multiple predefined scenarios for the participating teams in the simulation environment, and tests the autopilot algorithm through different scenarios Perception, planning and decision-making capabilities in various complex traffic environments in urban areas.
         <br>The winning teams of the simulation competition will be invited to participate in the offline vehicle challenge.'
 details:
   - label: "Competition registration link"
-    value: '<a href="https://competition.atomgit.com/">
-      https://competition.atomgit.com/
+    value: '<a href="https://competition.atomgit.com">
+      https://competition.atomgit.com
       </a>'
   - label: "Contest Contact"
     value: '<a href="mailto:race@carsmos.ai">
@@ -24,19 +23,15 @@ details:
       Ministry of Industry and Information Technology
       </a>'    
   - label: "Undertaker"
-    value: '<a href="https://www.openatom.org">
-      Open Atom Open Source Foundation
-      </a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://rs.ieee.org/technical-activities/technical-committees/electric-autonomous-vehicles.html">
-      IEEE Technical Committee on Electric and Autonomous Vehicles
-      </a>'
+    value: '<a href="https://www.openatom.org">Open Atom Open Source Foundation</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://rs.ieee.org/technical-activities/technical-committees/electric-autonomous-vehicles.html">IEEE Technical Committee on Electric and Autonomous Vehicles</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://guardstrike.com">GUARDSTRIKE</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.futurewei.com/">Futurewei</a>'
   - label: "Technical support unit"
-    value: '<a href="https://guardstrike.com">GUARDSTRIKE</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;<a href="">Futurewei</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.shlab.org.cn">Shanghai AI Lab</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://group.iiis.tsinghua.edu.cn">Tsinghua MARS Lab</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;<a href="">OpenEV</a>'   
-  - label: "Sponsor"
-    value: "XXXXX"
+    value: '<a href="https://www.shlab.org.cn">Shanghai AI Lab</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://group.iiis.tsinghua.edu.cn/~marslab/#/">Tsinghua MARS Lab</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://openev.sourceforge.net/">OpenEV</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://aws.amazon.com/cn/">AWS</a>'   
 
 signup_button_text: "Sign Up"
 signup_button_link: "https://competition.atomgit.com/"

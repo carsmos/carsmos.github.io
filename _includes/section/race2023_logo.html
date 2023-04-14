@@ -1,11 +1,10 @@
 
     <section class="race-logo-section section-gap" id = "race-date-point">
         <div class="container">
-            <div class="row justify-content-center section-title-wrap race_logo">
-                <img style = "padding: 33px 95px;" src="{{ site.data.race2023_logo.shenxin | relative_url }}" alt="">
-                <img style = "padding: 22px 95px;" src="{{ site.data.race2023_logo.future_wei | relative_url }}" alt="">
-                <img style = "padding: 10px 95px;" src="{{ site.data.race2023_logo.gongxinbu | relative_url }}" alt="">
-                <img style = "padding: 22px 95px; border-right: 0px" src="{{ site.data.race2023_logo.openatom | relative_url }}" alt="">
+            <div class="row section-title-wrap race_logo">
+                {% for li in site.data.race2023_logo.logos %}
+                   <a href="{{ li.link }}"><img src="{{ li.logo |relative_url}}" alt=""></a>
+                {% endfor %}  
             </div>
         </div>
     </section>

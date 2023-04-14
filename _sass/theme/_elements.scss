@@ -164,6 +164,7 @@
         color: $title-color;
     }
 }
+
 .generic-margin {
     margin: 14px 0;
     width: 251.54px;
@@ -228,6 +229,7 @@
         color: $white;
     }
 }
+
 .pr-btn2 {
     margin: 0px 5px;
     padding: 8px 25px;
@@ -654,6 +656,7 @@
     background: url(../img/footer/banner1.png) center/cover;
     position: relative;
     height: 296px;
+
     .page-top-nav {
         text-align: right;
         top: 80%;
@@ -672,6 +675,7 @@
         }
     }
 }
+
 .page-top-section1 {
     img {
         width: 100%;
@@ -708,7 +712,7 @@
 }
 
 .page-top-bg {
-    background: linear-gradient(124deg, #FFFFFF 0%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(124deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
     margin-top: 40px;
     border-radius: 0px 0px 0px 0px;
     opacity: 1;
@@ -750,6 +754,7 @@
     line-height: 30px;
     vertical-align: middle;
 }
+
 .title1 {
     font-size: 14px;
     font-family: Source Han Sans CN-Regular, Source Han Sans CN;
@@ -778,22 +783,27 @@
     opacity: 1;
     border: 2px solid #8A4FF6;
     margin: 5px 0;
-    background-color:#8A4FF6;
+    background-color: #8A4FF6;
 }
-.section-bgcolor{
-    background-color:#F1F5FE;
+
+.section-bgcolor {
+    background-color: #F1F5FE;
 }
-.des-b a{
+
+.des-b a {
     color: #252B3A;
     text-decoration: none;
 }
-.des-b{
+
+.des-b {
     clear: both;
 }
-.des-b a:hover{
+
+.des-b a:hover {
     color: #8A4FF6;
     text-decoration: underline;
 }
+
 .genric-btn5 {
     background-color: #ffffff;
     color: $title-color;
@@ -828,8 +838,9 @@
         background: #E4D5FF;
     }
 }
+
 .genric-btn6 {
-    
+
     background: linear-gradient(124deg, #8D54F6 0%, #7327F5 100%);
     color: #f9fafb;
     font-weight: 600;
@@ -876,50 +887,57 @@
     margin-bottom: 26px;
     max-width: 100%;
 }
+
 .bonus {
     font-size: 36px;
-font-family: Source Han Sans CN-Heavy, Source Han Sans CN;
-font-weight: 800;
-color: #8A4FF6;
+    font-family: Source Han Sans CN-Heavy, Source Han Sans CN;
+    font-weight: 800;
+    color: #8A4FF6;
     line-height: 28px;
 }
 
 .bonus-unit {
     font-size: 16px;
-font-family: Source Han Sans CN-Bold, Source Han Sans CN;
-font-weight: bold;
-color: #8A4FF6;
+    font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+    font-weight: bold;
+    color: #8A4FF6;
     margin-top: 15px;
 }
+
 .bonus-row {
-   margin-top: 50px;
-   margin-bottom: 15px;
-    img{
-    vertical-align: baseline;
+    margin-top: 50px;
+    margin-bottom: 15px;
+
+    img {
+        vertical-align: baseline;
     }
-   @media(max-width: 500px) {
-            width: 200px;
-    } 
+
+    @media(max-width: 500px) {
+        width: 200px;
+    }
 
 }
+
 .bonus-pool {
     font-size: 16px;
-font-family: Source Han Sans CN-Regular, Source Han Sans CN;
-font-weight: 400;
-color: #252B3A;
-line-height: 20px;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-weight: 400;
+    color: #252B3A;
+    line-height: 20px;
     padding: 0 11px;
 }
+
 .bonus-left {
     background: #FFFFFF;
-box-shadow: 0px 0px 10px 1px rgba(138,79,246,0.08);
-border-radius: 10px 10px 10px 10px;
-margin: 50px 0;
-display: flex;
-position: relative;
-height: 90px;
-align-items: center;
+    box-shadow: 0px 0px 10px 1px rgba(138, 79, 246, 0.08);
+    border-radius: 10px 10px 10px 10px;
+    margin: 50px 0;
+    display: flex;
+    position: relative;
+    height: 90px;
+    align-items: center;
 }
+
 .bonus-tip {
     background: #8A4FF6;
     border-radius: 10px 10px 10px 10px;
@@ -931,29 +949,32 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    @media(max-width:500px){
-    height: 58px;
+
+    @media(max-width: 500px) {
+        height: 58px;
     }
 
 }
-.bonus2{
+
+.bonus2 {
     font-size: 16px;
-font-family: Source Han Sans CN-Regular, Source Han Sans CN;
-font-weight: 400;
-color: #252B3A;
-display: flex;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-weight: 400;
+    color: #252B3A;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 40%;
 }
+
 .bonus3 {
 
     font-size: 16px;
-font-family: Source Han Sans CN-Regular, Source Han Sans CN;
-font-weight: 400;
-color: #8A4FF6;
-line-height: 20px;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-weight: 400;
+    color: #8A4FF6;
+    line-height: 20px;
 
     justify-content: center;
     display: flex;
@@ -961,22 +982,71 @@ line-height: 20px;
     flex-wrap: wrap;
     width: 32%;
 }
+
 .bonus4 {
     font-size: 36px;
-font-family: Source Han Sans CN-Heavy, Source Han Sans CN;
-font-weight: 800;
-color: #8A4FF6;
+    font-family: Source Han Sans CN-Heavy, Source Han Sans CN;
+    font-weight: 800;
+    color: #8A4FF6;
     line-height: 28px;
     margin: 0 12px;
-    @media(max-width:500px){
-    font-size:24px;
+
+    @media(max-width: 500px) {
+        font-size: 24px;
     }
-    @media(max-width:380px){
-    font-size:20px;
+
+    @media(max-width:380px) {
+        font-size: 20px;
     }
 }
-.race_logo img{
-    width: 320px;
+.race_logo {
+    justify-content: flex-start;
+    @media(max-width: 500px) {
+        justify-content: center;
+    }
+}
+
+.race_logo a {
+    width: 263px;
     border-right: 1px solid #EDEDED;
-    height: 100px;
+    margin-bottom: 20px;
+
+    @media(max-width: 500px) {
+        border-right: 0px solid #EDEDED;
+        border-bottom: 1px solid #EDEDED;
+    }
+
+    img {
+        height: 100px;
+        padding: 15px 60px;
+    }
+}
+
+.race_logo a:nth-child(5) {
+    border-right: 0px solid #EDEDED;
+}
+
+.race_logo a:last-child {
+    border-right: 0px solid #EDEDED;
+}
+
+.race_logo a:nth-child(1) img {
+    padding: 0px 60px;
+}
+
+.race_logo a:nth-child(4) img {
+    padding: 24px 0px;
+}
+
+.race_logo a:nth-child(6) img {
+    padding: 0px 20px;
+    width: 150px;
+}
+
+.race_logo a:nth-child(7) img {
+    padding: 28px 0px;
+}
+
+.race_logo a:nth-child(8) img {
+    padding: 24px 0px;
 }
