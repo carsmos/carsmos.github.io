@@ -11,8 +11,8 @@
 
 
 #header2 {
-  padding-left:7%;
-  padding-right:7%;
+  /*padding-left:7%;
+  padding-right:7%;*/
   position: fixed;
   left: 0;
   top: 0;
@@ -23,10 +23,11 @@
 
 #header2 {
   .i18n {
-    color: #FFF;
+    /*color: #FFF; */
+    color: $black;
     cursor: pointer;
     position: relative;
-    padding: 25px 0 20px;
+    padding: 25px 20px 20px;
     margin-right: 25px;
     .i18n-2{
       display: none;
@@ -116,11 +117,11 @@
     .logo-1 {
       padding: 0;
       margin: 0;
-      width:80%;
+      width:100%;
       display: inline-block;
     }
     .logo-2 {
-      width:80%;
+      width:100%;
       display: none;
     }
   }
@@ -214,7 +215,8 @@
 
 #header2 .nav-menu2 > li > a {
   text-decoration: none;
-  color: $white;
+  /*color: $white;*/
+  color: $black;
   font-weight:normal;
   font-size: 12px;
   text-transform: uppercase;
@@ -226,7 +228,7 @@
 #header2 .nav-menu2 > li:hover{
   >a{
     font-weight: bold;
-    border-bottom: 2px solid #FFF;
+    border-bottom: 2px solid #252B3A;
   }
 }
 

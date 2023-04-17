@@ -5,13 +5,13 @@
 
 .pages{
   #header7{
-    background: linear-gradient(90deg, #452E9F 0%, #151762 100%);
+    /*background: linear-gradient(90deg, #452E9F 0%, #151762 100%);*/
   }
 }
 
 #header7 {
-  padding-left:7%;
-  padding-right:7%;
+  /*padding-left:7%;
+  padding-right:7%;*/
   position: fixed;
   left: 0;
   top: 0;
@@ -22,13 +22,13 @@
 
 #header7 {
   .i18n {
-    color: #FFF;
+    color: $black;
     cursor: pointer;
     position: relative;
-    padding: 25px 0 20px;
+    padding: 25px 20px 20px;
     margin-right: 25px;
     @media (max-width: 1000px){
-       padding: 5px 0 20px;
+       padding: 8px 20px 20px;
     }
     .i18n-2{
       display: none;
@@ -121,11 +121,11 @@
     .logo-1 {
       padding: 0;
       margin: 0;
-      width:80%;
+      width:100%;
       display: inline-block;
     }
     .logo-2 {
-      width:80%;
+      width:100%;
       display: none;
     }
   }
@@ -223,19 +223,20 @@
 
 #header7 .nav-menu2 > li > a {
   text-decoration: none;
-  color: #FFF;
+  color: $black;
   font-weight:normal;
   font-size: 12px;
   text-transform: uppercase;
   outline: none;
   padding-bottom: 16px;
   border-bottom: 2px solid rgba(0,0,0,0);
+  font-family: Source Han Sans CN-Bold, Source Han Sans CN;
 }
 
 #header7 .nav-menu2 > li:hover{
   >a{
     font-weight: bold;
-    border-bottom: 2px solid #FFF;
+    border-bottom: 2px solid #252B3A;
   }
 }
 

@@ -4,26 +4,26 @@
 ####################################
 ######  feature Section   ######
 ####################################
-- image: 'img/feature/i1.png'
+- image: 'img/feature/i1.svg'
   title: '复杂度挑战'
   description: '智能汽车软件全站已经有5亿行代码,是人类创造的最复杂的软件之一,也是AI应用的集大成者。为智能汽车建立软件技术体系是前所未有的挑战。'
 
-- image: 'img/feature/i2.png'
+- image: 'img/feature/i2.svg'
   title: '供应链安全'
   description: '能汽车产业面临着缺芯少魂的供应链安全问题，但是在未来技术路线上，存在类似攀登珠穆朗玛峰北坡和南坡的战略选择。'
 
-- image: 'img/feature/i3.png'
+- image: 'img/feature/i3.svg'
   title: '技术路线'
   description: '单车智能vs车路协同两条发展路线,各有千秋，适合不同国情和发展阶段。'
 
-- image: 'img/feature/i4.png'
+- image: 'img/feature/i4.svg'
   title: '专业人才匮乏'
   description: '智能汽车产业需要数以百万计的高端软件人才。高校教育、职业教育与产业的需求差距巨大。同时,智能汽车也需要理论研究的支撑,尤其是AI的理论研究,但是学术界在AI研发基础设施上和产业界的差距越来越大。'
 
-- image: 'img/feature/i5.png'
+- image: 'img/feature/i5.svg'
   title: '监管与标准'
   description: '智能汽车需要监管和标准的保驾护航才能降低新技术不成熟带来的安全和信任问题。国家需要建立与智能汽车产业规模相匹配的标准和平台体系。'
 
-- image: 'img/feature/i6.png'
+- image: 'img/feature/i6.svg'
   title: '开源平台'
   description: '开源平台作为中立、非盈利、全球协作平台,已经在云计算、智能手机、AI等全球产业,形成了事实标准,构建出了价值万亿美元的生态价值。智能汽车的诸多挑战也需要通过开源平台来解决。'

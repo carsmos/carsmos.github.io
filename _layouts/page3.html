@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 {% include head.html %}
-{%- assign logo1 = 'img/carsmos-logo-white.png' -%}
-{%- assign logo2 = 'img/carsmos-logo-blue.png' -%}
-{%- assign bg2 = 'img/footer/page-top-bg2.jpg' -%}
-{%- assign bg3 = 'img/footer/page-top-bg3.png' -%}
-{%- assign i18nIconWhite = '/img/i18n-white.png' -%}
+{%- assign logo1 = 'img/logo.svg' -%}
+{%- assign logo2 = 'img/logo.svg' -%}
+{%- assign i18nIconWhite = '/img/i18n-black.png' -%}
 {%- assign i18nIconBlack = '/img/i18n-black.png' -%}
 {%- assign checkIcon = '/img/check.png' -%}
 
 <body class="version2 pages">
     <!-- start Header Area -->
     <header id="header7">
-        <div class="container-fluid">
+        <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-between">
                 <div id="logo" class="d-flex align-items-center my-2 my-lg-0 text-white text-decoration-none">
                     <a href="{{ '/' | relative_url }}">
@@ -29,20 +27,15 @@
     <!-- End Header Area -->
     <!-- Start page top -->
     <section class="page-top-section1">
+        <div class="container">
         <div class="page-top-section2">
-            {% if site.data.menus.locale == 'English' %}
-            <img src="{{ site.data.footer.page_top_en | relative_url }}" />
-            {% else %}
-            <img src="{{ site.data.footer.page_top_zh_cn | relative_url }}" />
-            {% endif %}
+            <p>{{ site.data.hero.bg_title}}</p>
             <div class="page-top-bg">
                 <span> {{ site.data.menu_title.title3}} </span>
             </div>
         </div>
+        </div>
     </section>
-    <div>
-        <div id="point"></div> <img class="head-sep" src="{{ site.page_bottom | relative_url }}" />
-    </div>
     <!-- End page top -->
     {{ content }}
     {% include footer.html %}

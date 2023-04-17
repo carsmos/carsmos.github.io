@@ -1,31 +1,33 @@
 <!-- Start hero-section -->
 <section class="hero-section-bg relative">
-    <div class="vdo-section">
+    <!-- <div class="vdo-section">
         <div class="hero-vdo" data-vide-bg="{{ site.data.hero.product_video_video | relative_url }}"
             data-vide-options="loop: true, muted: true">
         </div>
-    </div>
+    </div> -->
+
     <div class="content">
         <div class="container">
             <div class="row align-items-center relative">
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <!-- <h1 class=" pt-5"> -->
-                    <h1>    
+                    <h1 style="font-size: 42px;">    
                         {{ site.data.hero.product_video_name }}
                     </h1>
-                    <p class="pt-20 pb-20 mw-510">
+                    <p class="pt-80 pb-40 mw-510">
                         {{ site.data.hero.product_video_text }}
                     </p>
                     <a href="{{ site.data.hero.product_video_btn_one_link | relative_url }}" class="genric-btn2 generic-margin"
-                    style="margin-right: 24px; background: rgba(0,0,0,0); border: 1px solid #FFF; border-radius: 2px; color: #FFF !important;">{{
+                    style="margin-right: 24px; background: rgba(0,0,0,0); border: 1px solid #8A4FF6; border-radius: 2px; color: #8A4FF6 !important;">{{
                         site.data.hero.product_video_btn_one_text }}</a>
+                    <br>    
                     <a href="{{ site.data.hero.product_video_btn_two_link | relative_url }}" class="genric-btn2 generic-margin">{{
                         site.data.hero.product_video_btn_two_text }}</a>
                 </div>
 
-                <div class="col-lg-6">
+                <!-- <div class="col-lg-6">
                     <img class="hero-img9" src="{{ site.data.hero.product_video_image | relative_url }}" alt="">
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

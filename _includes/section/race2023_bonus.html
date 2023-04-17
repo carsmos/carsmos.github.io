@@ -1,0 +1,43 @@
+<section id="features" class="feature-section pb-60 pt-60 section-bgcolor">
+    <div class="container">
+        <div class="row justify-content-center section-title-wrap" style="margin-bottom: 30px;">
+            <div class="col-lg-12">
+                <h1>{{ site.data.race2023_bonus.title }}</h1>
+            </div>
+            <div class="bonus-row">
+                <img src="{{ site.data.race2023_bonus.left-line | relative_url }}" alt="">
+                <p class="bonus" style="margin-left: 20px;">{{ site.data.race2023_bonus.bonus }}</p>
+                <p class="bonus-unit" style="margin: 10px 20px 10px 9px;">{{ site.data.race2023_bonus.bonus-unit }}</p>
+                <img src="{{ site.data.race2023_bonus.right-line | relative_url }}" alt="">
+            </div>
+            <div class="">
+                <img src="{{ site.data.race2023_bonus.left-arrow | relative_url }}" alt="">
+                <span class="bonus-pool">{{ site.data.race2023_bonus.bonus-pool }}</span>
+                <img src="{{ site.data.race2023_bonus.right-arrow | relative_url }}" alt="">
+            </div>
+        </div>
+        <div class="row justify-content-sm-between">
+            <div class="col-lg-7">
+                {% for li in site.data.race2023_bonus.bonus-sections %}
+                <div class="bonus-left">
+                    <div class="bonus-tip">
+                       <img src="{{ li.tip | relative_url }}" alt=""> 
+                    </div>
+                    <div class="bonus2">
+                       <span>{{ li.d1 }}</span>
+                       <span>{{ li.d2 }}</span>
+                    </div>   
+                    <div  class="bonus3">
+                        <span>{{ li.d3 }}</span>
+                        <span class="bonus4">{{ li.d4 }}</span>
+                        <span>{{ li.d5 }}</span>
+                    </div>
+                </div>
+                {% endfor%}
+            </div>
+            <div class="col-lg-5" style="margin-top: 61px;">
+                <img class="img-fluid" style = "max-width: 100%;"src="{{ site.data.race2023_bonus.reward-image | relative_url }}" alt="" >
+            </div>
+        </div>
+    </div>
+</section>

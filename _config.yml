@@ -15,8 +15,8 @@ baseurl             : "" # the subpath of your site, e.g. /blog
 url                 : "https://carsmos.ai" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
 favicon             : 'img/carsmos-favicon.png'
 
-title_tip: 'img/title-tip.png'
-title_tip1: 'img/title-tip1.png'
+title_tip: 'img/title-tip.svg'
+title_tip1: 'img/title-tip1.svg'
 
 repository: carsmos/carsmos.github.io
 

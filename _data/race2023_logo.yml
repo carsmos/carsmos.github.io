@@ -1,0 +1,23 @@
+#####################################
+######## 2023 Race logo ###########
+#####################################
+logos:
+  - logo: 'img/race/gongxinbu_logo.jpg'
+    link: 'https://www.miit.gov.cn'
+  - logo: 'img/race/openatom_logo.png'
+    link: 'https://www.openatom.org'
+  - logo: 'img/race/IEEE_logo.svg'
+    link: 'https://rs.ieee.org/technical-activities/technical-committees/electric-autonomous-vehicles.html'    
+  - logo: 'img/race/shenxin_logo.png'
+    link: 'https://guardstrike.com'
+  - logo: 'img/race/future_wei_logo.png'
+    link: 'https://www.futurewei.com/'
+    
+  - logo: 'img/race/shanghai_ailab_logo.jpg'
+    link: 'https://www.shlab.org.cn'
+  - logo: 'img/race/qinghua_marslab_logo.png'
+    link: 'http://group.iiis.tsinghua.edu.cn/~marslab/#/'
+  - logo: 'img/race/openev_logo.jpg'
+    link: 'https://openev.sourceforge.net/' 
+  - logo: 'img/race/AWS_logo.svg'
+    link: 'https://aws.amazon.com/cn/'       
