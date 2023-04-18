@@ -22,10 +22,10 @@ details:
       工信部
       </a>'    
   - label: "承办方"
-    value: '<a href="https://www.openatom.org">开放原子开源基金会</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://rs.ieee.org/technical-activities/technical-committees/electric-autonomous-vehicles.html">IEEE电动和自动驾驶汽车技术委员会</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://guardstrike.com">深信科创</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.futurewei.com/">Futurewei</a>'
+    value: '<a href="https://guardstrike.com">深信科创</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.futurewei.com/">Futurewei</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.openatom.org">开放原子开源基金会</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://rs.ieee.org/technical-activities/technical-committees/electric-autonomous-vehicles.html">IEEE电动和自动驾驶汽车技术委员会</a>'
   - label: "技术支撑单位"
     value: '<a href="https://www.shlab.org.cn">上海AI实验室</a>
             &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://group.iiis.tsinghua.edu.cn/~marslab/#/">清华Mars Lab</a>

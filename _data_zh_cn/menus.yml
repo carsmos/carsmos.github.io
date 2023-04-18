@@ -54,17 +54,17 @@ header:
         title: "技术执行委员会(TEC)"
         link: "/governance/tec/"
 
-      - name: "PMC"
-        title: "项目工作委员会(PMC)"
-        link: "/governance/pmc/"
+      # - name: "PMC"
+      #   title: "项目工作委员会(PMC)"
+      #   link: "/governance/pmc/"
 
-      - name: "charter"
-        title: "元遨开源项目章程"
-        link: "/governance/charter/"
+      # - name: "charter"
+      #   title: "元遨开源项目章程"
+      #   link: "/governance/charter/"
 
-      - name: "members"
-        title: "元遨合作伙伴"
-        link: "/governance/members/"
+      # - name: "members"
+      #   title: "元遨合作伙伴"
+      #   link: "/governance/members/"
 
   - name: "blog"
     title: "新闻"

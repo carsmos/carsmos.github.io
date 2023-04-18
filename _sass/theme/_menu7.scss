@@ -25,10 +25,15 @@
     color: $black;
     cursor: pointer;
     position: relative;
-    padding: 25px 20px 20px;
-    margin-right: 25px;
+    /*padding: 25px 20px 20px;
+    margin-right: 25px;*/
+    margin-left: 0;
+    min-width: 130px;
+    text-align: right;
+    height: 78px;
+    padding: 25px 0 20px;
     @media (max-width: 1000px){
-       padding: 8px 20px 20px;
+       padding: 16px 40px 30px;
     }
     .i18n-2{
       display: none;
@@ -56,6 +61,7 @@
         padding: 0 14px;
         line-height: 40px;
         border-radius: 2px;
+        text-align: left;
         a {
           color: #252B3A;
         }
@@ -225,7 +231,7 @@
   text-decoration: none;
   color: $black;
   font-weight:normal;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   outline: none;
   padding-bottom: 16px;

@@ -23,10 +23,10 @@ details:
       Ministry of Industry and Information Technology
       </a>'    
   - label: "Undertaker"
-    value: '<a href="https://www.openatom.org">Open Atom Open Source Foundation</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://rs.ieee.org/technical-activities/technical-committees/electric-autonomous-vehicles.html">IEEE Technical Committee on Electric and Autonomous Vehicles</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://guardstrike.com">GUARDSTRIKE</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.futurewei.com/">Futurewei</a>'
+    value: '<a href="https://guardstrike.com">GUARDSTRIKE</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.futurewei.com/">Futurewei</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.openatom.org">Open Atom Open Source Foundation</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://rs.ieee.org/technical-activities/technical-committees/electric-autonomous-vehicles.html">IEEE Technical Committee on Electric and Autonomous Vehicles</a>'
   - label: "Technical support unit"
     value: '<a href="https://www.shlab.org.cn">Shanghai AI Lab</a>
             &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://group.iiis.tsinghua.edu.cn/~marslab/#/">Tsinghua MARS Lab</a>

@@ -62,7 +62,7 @@
     }
 
     p {
-        max-width: 820px;
+        /*max-width: 820px;*/
         margin-left: auto;
         margin-right: auto;
         display: inline-block;
@@ -754,6 +754,15 @@
     line-height: 30px;
     vertical-align: middle;
 }
+#title-right {
+    font-size: 24px;
+    font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+    font-weight: bold;
+    color: #252B3A;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: right;
+}
 
 .title1 {
     font-size: 14px;
@@ -763,12 +772,9 @@
     line-height: 28px;
 }
 
-.title-img {
-    margin-left: -40px;
-}
-
 .des-common {
     font-size: 14px;
+    color: #252B3A;
 }
 
 .des-t {
@@ -781,7 +787,7 @@
     width: 16px;
     height: 0px;
     opacity: 1;
-    border: 2px solid #8A4FF6;
+    border: 1px solid #8A4FF6;
     margin: 5px 0;
     background-color: #8A4FF6;
 }
@@ -999,54 +1005,34 @@
         font-size: 20px;
     }
 }
+.bonus-box {
+    background: #F8FAFF;border-radius: 10px;
+    box-shadow: 4px 4px 3px #fff, -4px -4px 3px #fff, -4px 4px 3px #fff, 4px -4px 3px #fff;
+}
 .race_logo {
     justify-content: flex-start;
-    @media(max-width: 500px) {
-        justify-content: center;
-    }
 }
 
 .race_logo a {
     width: 263px;
-    border-right: 1px solid #EDEDED;
-    margin-bottom: 20px;
-
-    @media(max-width: 500px) {
-        border-right: 0px solid #EDEDED;
-        border-bottom: 1px solid #EDEDED;
-    }
-
-    img {
-        height: 100px;
-        padding: 15px 60px;
+    margin-bottom: 90px;
+    @media(max-width: 768px) {
+        width: 150px;
     }
 }
-
-.race_logo a:nth-child(5) {
-    border-right: 0px solid #EDEDED;
+.race2023_intro-section 
+{
+    @media(max-width: 768px) {
+        img {
+            display: none;
+        }
+    }
 }
-
-.race_logo a:last-child {
-    border-right: 0px solid #EDEDED;
-}
-
-.race_logo a:nth-child(1) img {
-    padding: 0px 60px;
-}
-
-.race_logo a:nth-child(4) img {
-    padding: 24px 0px;
-}
-
-.race_logo a:nth-child(6) img {
-    padding: 0px 20px;
-    width: 150px;
-}
-
-.race_logo a:nth-child(7) img {
-    padding: 28px 0px;
-}
-
-.race_logo a:nth-child(8) img {
-    padding: 24px 0px;
+.bonus-margin {
+    margin-top: 61px;
+    @media(max-width: 768px) {
+        img {
+            display: none;
+        }
+    }
 }

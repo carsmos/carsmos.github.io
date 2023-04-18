@@ -54,17 +54,17 @@ header:
         title: "Technical Executive Committee"
         link: "/governance/tec/"
 
-      - name: "PMC"
-        title: "Program Managment Committee"
-        link: "/governance/pmc/"
+      # - name: "PMC"
+      #   title: "Program Managment Committee"
+      #   link: "/governance/pmc/"
 
-      - name: "charter"
-        title: "Project Charter"
-        link: "/governance/charter/"
+      # - name: "charter"
+      #   title: "Project Charter"
+      #   link: "/governance/charter/"
 
-      - name: "members"
-        title: "Project Members"
-        link: "/governance/members/"
+      # - name: "members"
+      #   title: "Project Members"
+      #   link: "/governance/members/"
 
   - name: "blog"
     title: "news"

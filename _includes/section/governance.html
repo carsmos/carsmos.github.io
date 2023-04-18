@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <img class="title-img" src="{{ site.title_tip | relative_url }}" />
+                <img src="{{ site.title_tip | relative_url }}" />
                 <span id="title">{{ site.data.tsc.title }} </span>
                 <div class="des-common">
                     <br><div>{{ site.data.tsc.description }} </div>
@@ -26,29 +26,23 @@
 <!-- Start TEC section -->
 <section class="tec-section section-gap section-bgcolor"id = "tec-point">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6 text-center gallery1">
-                <a href="{{ site.data.tec.image | relative_url }}" class="magnific"><img class="img-fluid" src="{{ site.data.tec.image | relative_url }}" alt="" ></a>
-            </div>
-            <div class="col-lg-6 text-end">
-                <br><span id="title">{{ site.data.tec.title }} </span>
-                <img src="{{ site.title_tip1 | relative_url }}" />
-                <div class="des-common">
-                    <br><div>{{ site.data.tec.description }} </div>
-                    {% for li in site.data.tec.des_lists %}
-                    <br>
-                    <div class="des-t">{{ li.title }}</div>
-                    <div class="float-end des-m"></div>
-                    <div class = "des-b">{{ li.des }}</div>
-                    {% endfor %}
-                </div>
+        <div id="title-right">
+            <span>{{ site.data.tec.title }} </span>
+            <img src="{{ site.title_tip1 | relative_url }}" />
+        </div>
+        <div class="des-common text-end">    
+            <br>
+            <div>{{ site.data.tec.description }} </div>
+            <br>
+            <div class="col-lg-auto text-center gallery1">
+                <a href="{{ site.data.tec.image2 | relative_url }}" class="magnific"><img class="img-fluid" src="{{ site.data.tec.image | relative_url }}" alt="" ></a>
             </div>
         </div>
     </div>
 </section>
 <!-- End TEC section -->
 <!-- Start PMC section -->
-<section class="pmc-section section-gap" id = "pmc-point">
+<!-- <section class="pmc-section section-gap" id = "pmc-point">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
@@ -69,10 +63,10 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- End PMC section -->
 <!-- Start Charter section -->
-<section class="charter-section section-gap section-bgcolor" id = "charter-point">
+<!-- <section class="charter-section section-gap section-bgcolor" id = "charter-point">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 text-center gallery3">
@@ -93,10 +87,10 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- End Charter section -->
 <!-- Start members section -->
-<section class="members-section section-gap" id = "members-point">
+<!-- <section class="members-section section-gap" id = "members-point">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
@@ -118,5 +112,5 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- End members section -->

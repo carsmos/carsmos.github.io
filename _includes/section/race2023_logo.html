@@ -1,7 +1,7 @@
 
-    <section class="race-logo-section section-gap" id = "race-date-point">
+    <section class="race-logo-section pt-100 pb-10" id = "race-date-point">
         <div class="container">
-            <div class="row section-title-wrap race_logo">
+            <div class="row race_logo">
                 {% for li in site.data.race2023_logo.logos %}
                    <a href="{{ li.link }}"><img src="{{ li.logo |relative_url}}" alt=""></a>
                 {% endfor %}  
