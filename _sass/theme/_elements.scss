@@ -62,7 +62,7 @@
     }
 
     p {
-        max-width: 820px;
+        /*max-width: 820px;*/
         margin-left: auto;
         margin-right: auto;
         display: inline-block;
@@ -755,6 +755,17 @@
     vertical-align: middle;
 }
 
+#title-right {
+    font-size: 24px;
+    font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+    font-weight: bold;
+    color: #252B3A;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
 .title1 {
     font-size: 14px;
     font-family: Source Han Sans CN-Regular, Source Han Sans CN;
@@ -763,12 +774,9 @@
     line-height: 28px;
 }
 
-.title-img {
-    margin-left: -40px;
-}
-
 .des-common {
     font-size: 14px;
+    color: #252B3A;
 }
 
 .des-t {
@@ -781,7 +789,7 @@
     width: 16px;
     height: 0px;
     opacity: 1;
-    border: 2px solid #8A4FF6;
+    border: 1px solid #8A4FF6;
     margin: 5px 0;
     background-color: #8A4FF6;
 }
@@ -839,27 +847,44 @@
     }
 }
 
-.genric-btn6 {
+@keyframes breath {
+    0% {
+        transform: scale(1);
+    }
 
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.genric-btn6 {
     background: linear-gradient(124deg, #8D54F6 0%, #7327F5 100%);
     color: #f9fafb;
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 14px;
     display: inline-block;
-    width: 150px;
-    padding: 4px 14px;
-    border-radius: 2px 2px 2px 2px;
-    line-height: 24px;
+    padding: 2px 40px;
+    border-radius: 6px 6px 6px 6px;
+    animation: breath 2s linear infinite;
+    height: 40px;
+    line-height: 36px;
 
-    &:hover {
+    /*&:hover {
         background: $offwhite;
         color: $title-color;
         border: 1px solid blue;
-    }
+    }*/
 
     &:active {
         background: #E4D5FF;
+    }
+
+    @media (max-width: 766px) {
+        margin: 10px 0px;
     }
 }
 
@@ -999,54 +1024,235 @@
         font-size: 20px;
     }
 }
-.race_logo {
-    justify-content: flex-start;
-    @media(max-width: 500px) {
-        justify-content: center;
-    }
+
+.bonus-box {
+    background: #F8FAFF;
+    border-radius: 10px;
+    box-shadow: 4px 4px 3px #fff, -4px -4px 3px #fff, -4px 4px 3px #fff, 4px -4px 3px #fff;
 }
 
-.race_logo a {
-    width: 263px;
-    border-right: 1px solid #EDEDED;
-    margin-bottom: 20px;
+.race-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
-    @media(max-width: 500px) {
-        border-right: 0px solid #EDEDED;
-        border-bottom: 1px solid #EDEDED;
+    @media(max-width: 766px) {
+        justify-content: center;
+    }
+
+}
+
+.logo-box {
+    margin-bottom: 40px;
+}
+
+.race-flex>.logo-box:nth-of-type(1) {
+    width: 200px;
+}
+
+.race-flex>.logo-box:nth-of-type(2) {
+    width: 1010px;
+}
+
+.race-flex>.logo-box:nth-of-type(3) {
+    width: 200px;
+}
+
+.race-flex>.logo-box:nth-of-type(4) {
+    width: 740px;
+}
+
+.logo-top {
+    background: linear-gradient(124deg, #8D54F6 0%, #7327F5 100%);
+    border-radius: 4px 4px 4px 4px;
+    height: 40px;
+    font-size: 14px;
+    font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.logo-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media(max-width: 766px) {
+        justify-content: center;
     }
 
     img {
-        height: 100px;
-        padding: 15px 60px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.06);
+        border-radius: 4px 4px 4px 4px;
+        padding: 10px 20px;
+    }
+
+    span {
+        display: inline-block;
+        margin-top: 16px;
+    }
+
+    span:hover {
+        color: #8A4FF6;
     }
 }
 
-.race_logo a:nth-child(5) {
-    border-right: 0px solid #EDEDED;
+.logo-bottom-a {
+    width: 200px;
+    font-size: 14px;
+    font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+    font-weight: bold;
+    color: #252B3A;
+    line-height: 28px;
+    text-align: center;
 }
 
-.race_logo a:last-child {
-    border-right: 0px solid #EDEDED;
+.logo-border {
+    border: 1px solid #FFFFFF;
+    width: 16px;
 }
 
-.race_logo a:nth-child(1) img {
-    padding: 0px 60px;
+.logo-label {
+    margin: 10px 0px 8px 0px;
 }
 
-.race_logo a:nth-child(4) img {
-    padding: 24px 0px;
+.logo-inner {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        margin: 10px 0px;
+    }
+
+    margin-left: 16px;
+    margin-right: 13px;
 }
 
-.race_logo a:nth-child(6) img {
-    padding: 0px 20px;
-    width: 150px;
+.intro-box {
+    background: #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 1;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    position: relative;
+    top: -20px;
+
+    p {
+        font-size: 16px;
+        font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+        font-weight: bold;
+        color: #8A4FF6;
+        line-height: 28px;
+        margin-top: 60px;
+    }
 }
 
-.race_logo a:nth-child(7) img {
-    padding: 28px 0px;
+.intro-span {
+    display: inline-block;
+    margin: 30px 0px 40px;
+    font-size: 14px;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-weight: 400;
+    color: #252B3A;
+    line-height: 28px;
 }
 
-.race_logo a:nth-child(8) img {
-    padding: 24px 0px;
+.race-intro {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    a:hover {
+        color: white;
+    }
+}
+
+.intro-1 {
+    background: #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    opacity: 1;
+    border: 1px solid #E8DBFF;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    font-size: 14px;
+    width: 431px;
+    justify-content: center;
+
+    @media (max-width: 766px) {
+        margin: 10px 0px 50px 15px;
+        border: 0px;
+    }
+}
+
+.intro-left {
+    background: #E8DBFF;
+    text-align: center;
+    font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+    font-weight: bold;
+    color: #8A4FF6;
+    line-height: 40px;
+    border-radius: 6px 0px 0px 6px;
+
+    @media (max-width: 766px) {
+        padding: 0 57px;
+        width: 300px;
+    }
+}
+
+.intro-arrow {
+    border: 20px solid;
+    border-color: transparent transparent transparent #e8dbff;
+}
+
+.intro-a {
+    flex: auto;
+    font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+    font-weight: 400;
+    color: #8A4FF6;
+    width: 210px;
+
+    a {
+        color: #252B3A;
+        text-decoration: none;
+        line-height: 40px;
+    }
+
+    a:hover {
+        color: #8A4FF6;
+        text-decoration: underline;
+    }
+
+    @media (max-width: 766px) {
+        margin: 10px 30px 10px 0px;
+        background: #FFFFFF;
+        border-radius: 6px 6px 6px 6px;
+        opacity: 1;
+        border: 1px solid #E8DBFF;
+        height: 40px;
+    }
+}
+
+.bonus-margin {
+    margin-top: 61px;
+
+    @media(max-width: 768px) {
+        img {
+            display: none;
+        }
+    }
+}
+
+.race_title {
+    font-size: 28px;
+    font-family: PingFang SC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #252B3A;
+    line-height: 40px;
+    padding-top: 143px;
 }

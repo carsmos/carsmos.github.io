@@ -895,3 +895,11 @@
   background: url(../img/hero/home-banner.png);
   }
 }
+.h1-phone {
+  h1{
+    @media (max-width: 766px) {
+        width: 250px;
+        line-height: 40px;
+    }
+  }
+}

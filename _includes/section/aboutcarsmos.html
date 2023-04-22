@@ -2,10 +2,12 @@
 <!-- Start aboutcarsmos section -->
 <section class="aboutcarsmos-section section-gap">
     <div class="container">
+        <div id="title">
+            <img src="{{ site.title_tip | relative_url }}" />
+            <span>{{ site.data.aboutcarsmos.title }} </span>
+        </div>
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <img class="title-img" src="{{ site.title_tip | relative_url }}" />
-                <span id="title">{{ site.data.aboutcarsmos.title }} </span>
                 <div class="des-common">
                     <br><div>{{ site.data.aboutcarsmos.description }} </div>
                     {% for li in site.data.aboutcarsmos.des_lists %}

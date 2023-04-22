@@ -2,14 +2,15 @@
 <!-- Start overview section -->
 <section class="overview-section section-gap section-bgcolor"> 
     <div class="container">
+        <div id="title-right">
+            <span>{{ site.data.overview.title }} </span>
+            <img src="{{ site.title_tip1 | relative_url }}" />
+        </div>
         <div class="row align-items-center">
             <div class="col-lg-6 text-center gallery">
                 <a href="{{ site.data.overview.image | relative_url }}" class="magnific"><img class="img-fluid" src="{{ site.data.overview.image | relative_url }}" alt="" ></a>
             </div>
             <div class="col-lg-6 text-end">
-                <br>
-                <span id="title">{{ site.data.overview.title }} </span>
-                <img src="{{ site.title_tip1 | relative_url }}" />
                 <div class="des-common">
                     <br><div>{{ site.data.overview.description }} </div>
                     {% for li in site.data.overview.des_lists %}

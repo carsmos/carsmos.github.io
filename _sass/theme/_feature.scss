@@ -44,7 +44,7 @@
     }
     &:hover {
         background: linear-gradient(180deg, #ECE4FA 0%, #FFFFFF 100%);
-        border: 2px solid $primary-color;
+        border: 1px solid $primary-color;
 		.icon {
 			span {
 				background: $offwhite;
@@ -86,4 +86,7 @@
     font-weight: 400;
     color: #575D6C;
     line-height: 28px;
+}
+.feature-bg{
+    background: linear-gradient(180deg, #EFF2F7 0%, #FFFFFF 100%);
 }

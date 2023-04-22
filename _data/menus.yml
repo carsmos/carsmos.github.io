@@ -53,34 +53,36 @@ header:
       - name: "TEC"
         title: "Technical Executive Committee"
         link: "/governance/tec/"
+      - name: "EWG"
+        title: "Education Work Group"
+        link: "/governance/ewg/"  
+      # - name: "PMC"
+      #   title: "Program Managment Committee"
+      #   link: "/governance/pmc/"
 
-      - name: "PMC"
-        title: "Program Managment Committee"
-        link: "/governance/pmc/"
+      # - name: "charter"
+      #   title: "Project Charter"
+      #   link: "/governance/charter/"
 
-      - name: "charter"
-        title: "Project Charter"
-        link: "/governance/charter/"
-
-      - name: "members"
-        title: "Project Members"
-        link: "/governance/members/"
+      # - name: "members"
+      #   title: "Project Members"
+      #   link: "/governance/members/"
 
   - name: "blog"
-    title: "news"
+    title: "dynamics"
     link: "/blog/"
 
   - name: "Race2023"
     title: "Race2023"
     link: "/Race2023/"
-    # menu-has-children:
-    #   - name: 'Race2023PPT'
-    #     title: 'IEEE Race2023 PPT'
-    #     link: '/Race2023/全球开源自动驾驶算法大赛V1.pdf'
+    menu-has-children:
+      - name: 'Development document'
+        title: 'Development document'
+        link: 'https://docs.carsmos.cn'
 
-    #   - name: 'Race2023Page'
-    #     title: 'Race2023 Sign Up'
-    #     link: '/Race2023/Race2023-intro'
+      - name: 'Entry point'
+        title: 'Entry point'
+        link: 'https://competition.atomgit.com'
 
 lang_menu_en: "https://www.carsmos.ai"
 lang_menu_zh_cn: "https://www.carsmos.cn"
