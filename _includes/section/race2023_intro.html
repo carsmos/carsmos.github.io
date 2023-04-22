@@ -1,36 +1,21 @@
-<section class="race2023_intro-section section-gap">
+<section class="race2023_intro-section pb-100 section-bgcolor">
     <div class="container">
-        <div class="col-lg-auto">
-            <img class="title-img" src="{{ site.title_tip | relative_url }}" />
-            <span id="title">{{ site.data.race2023_intro.title }} </span>
-            <span class="title1">{{site.data.race2023_intro.title1}}</span>
-        </div>        
-        <div class="row align-items-center">
-            <div class="col-lg-7">
-                <div class="des-common">
-                    {% for li in site.data.race2023_intro.details %}
-                    <br>
-                    <div class="des-t">{{ li.label }}</div>
-                    <div class="des-m"></div>
-                    <div class="des-b">{{ li.value }}</div>
-                    {% endfor %}
-                    <br>
+        <div class="col-lg-auto intro-box">
+            <p>{{ site.data.race2023_intro.title }} </p>
+            <span class="intro-span">{{site.data.race2023_intro.title1}}</span>
+            <div class="race-intro">
+                {% for li in site.data.race2023_intro.details %}
+                <div class="intro-1">
+                    <div class="intro-left">{{ li.label }}</div>
+                    <span class="intro-arrow"></span>
+                    <div class="intro-a">{{ li.value }}</div>
+                </div>
+                {% endfor %}
+                <div>
                     <a href="{{ site.data.race2023_intro.signup_button_link }}" class="genric-btn6">
                         {{site.data.race2023_intro.signup_button_text}}
-                        <img style="margin-left:30px;vertical-align: middle;" src="{{ site.data.race2023_intro.arrow-right | relative_url }}" />
                     </a>
-                    <!-- <a href="{{ site.data.race2023_intro.info_button_link }}" class="genric-btn5">
-                        {{ site.data.race2023_intro.info_button_text }}
-                    </a> -->
                 </div>
-            </div>
-            <!-- <div class="col-lg-5 text-center gallery">
-                <br>
-                <a href="{{ site.data.race2023_intro.image | relative_url }}" class="magnific" style="width:450px;">
-                    <img class="img-fluid" style = "max-width: 100%;"src="{{ site.data.race2023_intro.image | relative_url }}" alt="" ></a>
-            </div> -->
-            <div class="col-lg-4 text-center">
-                <img class="img-fluid" style = "max-width: 100%;"src="{{ site.data.race2023_intro.image | relative_url }}" alt="" >
             </div>
         </div>
     </div>

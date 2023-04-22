@@ -8,6 +8,7 @@
                 <span id="title">{{ site.data.tsc.title }} </span>
                 <div class="des-common">
                     <br><div>{{ site.data.tsc.description }} </div>
+                    <br>
                     {% for li in site.data.tsc.des_lists %}
                     <br>
                     <div class="des-t">{{ li.title }}</div>
@@ -35,12 +36,36 @@
             <div>{{ site.data.tec.description }} </div>
             <br>
             <div class="col-lg-auto text-center gallery1">
-                <a href="{{ site.data.tec.image2 | relative_url }}" class="magnific"><img class="img-fluid" src="{{ site.data.tec.image | relative_url }}" alt="" ></a>
+                <a href="{{ site.data.tec.image | relative_url }}" class="magnific"><img class="img-fluid" src="{{ site.data.tec.image | relative_url }}" alt="" ></a>
             </div>
         </div>
     </div>
 </section>
 <!-- End TEC section -->
+<!-- Start EWG section -->
+<section class="ewg-section section-gap">
+    <div class="container">
+        <div class="title">
+            <img src="{{ site.title_tip | relative_url }}" />
+            <span id="title">{{ site.data.ewg.title }} </span>
+        </div>    
+        <div class="des-common text-start">    
+            <br>
+            <div>{{ site.data.ewg.description }} </div>
+            {% for li in site.data.ewg.des_lists %}
+                    <br>
+                    <div class="des-t">{{ li.title }}</div>
+                    <div class="des-m"></div>
+                    <div class = "des-b">{{ li.des }}</div>
+            {% endfor %}
+            <br>
+            <div class="col-lg-auto text-center gallery2">
+                <a href="{{ site.data.ewg.image | relative_url }}" class="magnific"><img class="img-fluid" src="{{ site.data.ewg.image | relative_url }}" alt="" ></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End EWG section -->
 <!-- Start PMC section -->
 <!-- <section class="pmc-section section-gap" id = "pmc-point">
     <div class="container">

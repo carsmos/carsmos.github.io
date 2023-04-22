@@ -156,7 +156,7 @@ $(document).ready(function () {
      ------------------------------------------------------------------ */
 
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 40) {
             $('#header').addClass('header-scrolled');
         } else {
             $('#header').removeClass('header-scrolled');
@@ -164,7 +164,7 @@ $(document).ready(function () {
     });
 
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 40) {
             $('#header2').addClass('header-scrolled');
         } else {
             $('#header2').removeClass('header-scrolled');
@@ -172,7 +172,7 @@ $(document).ready(function () {
     });
 
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 40) {
             $('#header7').addClass('header-scrolled');
         } else {
             $('#header7').removeClass('header-scrolled');

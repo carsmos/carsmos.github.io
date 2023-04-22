@@ -1,47 +1,111 @@
-
 /*--------------------------------------------------------------
 # Points
 --------------------------------------------------------------*/
 
-.important-points-section{
-  @media(max-width:575px){
-    margin:15px;
-  }
+.important-points-section {
+    @media(max-width: 575px) {
+        margin: 15px;
+    }
 }
 
-.single-points{
-  border:1px solid #d0e4f7;
+.single-points {
+    /*border:1px solid #d0e4f7;
   padding:60px 30px;
-  @include transition();
-  @media(max-width:991px){
-    margin-bottom: 24px;
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-  h4{
-    margin:30px 0px;
+  @include transition();*/
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.06);
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #FFFFFF;
+    padding: 28px 30px;
     @include transition();
-  }
-  &:hover{
-    cursor:pointer;
-    z-index: 2;
-    background:$white;
-    box-shadow: 0px 10px 30px 0px rgba(135, 170, 218, 0.3);
-    transform:scale(1.1);
-    h4{
-      color:$primary-color2;
+    margin-bottom: 52px;
+    width: 270px;
+
+    @media(max-width: 991px) {
+        margin-bottom: 24px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
-  }
+
+    h4 {
+        margin: 30px 0px;
+        @include transition();
+        font-size: 16px;
+        font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+        font-weight: bold;
+        color: #252B3A;
+        line-height: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+        font-weight: 400;
+        color: #575D6C;
+        line-height: 28px;
+    }
+
+    &:hover {
+        cursor: pointer;
+        z-index: 2;
+        background: linear-gradient(180deg, #ECE4FA 0%, #fff 100%);
+        box-shadow: 0px 10px 30px 0px rgba(135, 170, 218, 0.3);
+        transform: scale(1.1);
+
+        h4 {
+            color: $primary-color2;
+        }
+    }
 }
 
 
-.about-left{
-  padding: 80px 0px;
-  max-width:500px;
-  padding-left: 50px;
-  @media(max-width:991px){
-    padding-left:15px;
-    padding-top: 0px;
-  }
+.about-left {
+    padding: 80px 0px;
+    max-width: 500px;
+    padding-left: 50px;
+
+    @media(max-width: 991px) {
+        padding-left: 15px;
+        padding-top: 0px;
+    }
+}
+
+.points-image {
+    width: 40px;
+    height: 40px;
+    margin: 110px 20px;
+}
+
+.points-image-bo {
+    margin: -44px 110px;
+    float: right;
+
+    @media (max-width: 766px) {
+        display: none;
+    }
+}
+
+.points-box>.points-image:last-child {
+    display: none;
+}
+
+.points-box {
+    justify-content: center;
+
+    @media (max-width: 766px) {
+        .points-image {
+            display: none;
+        }
+    }
+
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+
+    @media (max-width: 766px) {
+        flex-direction: row;
+    }
 }
