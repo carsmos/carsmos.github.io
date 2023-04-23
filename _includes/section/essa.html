@@ -9,8 +9,10 @@
                 </div>
             </div>
             <div class="col-lg-6 text-end">
-                <span id="title">{{ site.data.essa.title }} </span>
+                <div id="title-right">
+                <span>{{ site.data.essa.title }} </span>
                 <img src="{{ site.title_tip1 | relative_url }}" />
+                </div>
                 <div class="des-common">
                     <br><div>{{ site.data.essa.description }} </div>
                     {% for li in site.data.essa.des_lists %}

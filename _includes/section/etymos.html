@@ -4,8 +4,10 @@
     <div class="container">
         <div class="row align-items-center">
              <div class="col-lg-6">
-                <img class="title-img" src="{{ site.title_tip | relative_url }}" />
-                <span id="title">{{ site.data.etymos.title }} </span>
+                <div id="title">
+                <img src="{{ site.title_tip | relative_url }}" />
+                <span>{{ site.data.etymos.title }} </span>
+                </div>
                 <div class="des-common">
                     <br><div>{{ site.data.etymos.description }} </div>
                     {% for li in site.data.etymos.des_lists %}
