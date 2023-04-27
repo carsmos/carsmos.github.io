@@ -5,58 +5,87 @@
 title: "Competition Dates (Tentative)"
 description: "Here is a list of important dates for the 2023 Carsmos competition. These are tentative and still subject to changes."
 image: "img/title-icon.png"
-
-# points:
-#   - title: "2023.04.15"
-#     icon: "img/racedates/1-team-talk.png"
-#     description: "The preliminary online competition starts, and the participating teams register."
-#   - title: "2023.04.21"
-#     icon: "img/racedates/2-online-training.png"
-#     description: "Online training for participating teams."
-#   - title: "2023.04.28"
-#     icon: "img/racedates/3-qa-call.png"
-#     description: "Online Q&A session."
-#   - title: "2023.05.22"
-#     icon: "img/racedates/4-deadline.png"
-#     description: "Deadline for the submission of preliminary projects for online competition."
-#   - title: "2023.06.01"
-#     icon: "img/racedates/5-announce.png"
-#     description: "The preliminary review finishes, and the list of finalists for the offline competition will be announced."
-#   - title: "2023.07.30"
-#     icon: "img/racedates/6-final-deadline.png"
-#     description: "The submission deadline for final projects for the offline competition."
-#   - title: "2023.08.15"
-#     icon: "img/racedates/7-results.png"
-#     description: "The final results for the offline competition."
-#   - title: "2023.08.22"
-#     icon: "img/racedates/8-summit.png"
-#     description: "Open Atom Global Open Source Summit, exhibition competition, expert defense to determine the final rankings and awards."
-points-1:
-  - title: "2023.04.15"
+time-tip: 'img/race/time-tip.svg'
+points:
+  - title: "2023.05"
     icon: "img/racedates/01.png"
     description: "The preliminary online competition starts, and the participating teams register."
-  - title: "2023.04.21"
+  - title: "2023.05"
     icon: "img/racedates/02.png"
     description: "Online training for participating teams."
-  - title: "2023.04.28"
+  - title: "2023.05"
+    icon: "img/racedates/03.png"
+    description: "Online Q&A session."  
+  - title: "2023.06-2023.07"
+    icon: "img/racedates/04.png"
+    description: "The submission of preliminary projects for online competition." 
+  - title: "2023.07.31"
+    icon: "img/racedates/05.png"
+    description: "The preliminary review finishes, and the list of finalists for the offline competition will be announced."     
+  - title: "2023.08"
+    icon: "img/racedates/06.png"
+    description: "The submission for final projects for the offline competition."  
+  - title: "2023.08.31"
+    icon: "img/racedates/07.png"
+    description: "The final results for the offline competition." 
+points-1:
+  - title: "2023.05"
+    icon: "img/racedates/01.png"
+    description: "The preliminary online competition starts, and the participating teams register."
+  - title: "2023.05"
     icon: "img/racedates/03.png"
     description: "Online Q&A session."
-  - title: "2023.05.22"
-    icon: "img/racedates/04.png"
-    description: "Deadline for the submission of preliminary projects for online competition."
-points-2:    
-  - title: "2023.06.01"
+  - title: "2023.07.31"
     icon: "img/racedates/05.png"
     description: "The preliminary review finishes, and the list of finalists for the offline competition will be announced."
-  - title: "2023.07.30"
-    icon: "img/racedates/06.png"
-    description: "The submission deadline for final projects for the offline competition."
-  - title: "2023.08.15"
+  - title: "2023.08.31"
     icon: "img/racedates/07.png"
-    description: "The final results for the offline competition."
-  - title: "2023.08.22"
-    icon: "img/racedates/08.png"
-    description: "Open Atom Global Open Source Summit, exhibition competition, expert defense to determine the final rankings and awards."
-right-tip: 'img/racedates/right.svg'
-left-tip: 'img/racedates/left.svg'
-bottom-tip: 'img/racedates/bottom.svg'
+    description: "The final results for the offline competition."  
+points-2:    
+  - title: "2023.05"
+    icon: "img/racedates/02.png"
+    description: "Online training for participating teams."
+  - title: "2023.06-2023.07"
+    icon: "img/racedates/04.png"
+    description: "The submission of preliminary projects for online competition."    
+  - title: "2023.08"
+    icon: "img/racedates/06.png"
+    description: "The submission for final projects for the offline competition."
+  # - title: "2023.08.22"
+  #   icon: "img/racedates/08.png"
+  #   description: "Open Atom Global Open Source Summit, exhibition competition, expert defense to determine the final rankings and awards."
+# right-tip: 'img/racedates/right.svg'
+# left-tip: 'img/racedates/left.svg'
+# bottom-tip: 'img/racedates/bottom.svg'
+
+# title-1: '2023.05'
+# icon-1: "img/racedates/01.png"
+# description-1: "The preliminary online competition starts, and the participating teams register."
+
+
+# title-2: '2023.05'
+# icon-2: "img/racedates/02.png"
+# description-2: "Online training for participating teams."
+
+# title-3: '2023.05'
+# icon-3: "img/racedates/03.png"
+# description-3: "Online Q&A session."
+
+# title-4: '2023.06-2023.07'
+# icon-4: "img/racedates/04.png"
+# description-4: "The submission of preliminary projects for online competition."
+
+# title-5: '2023.07.31'
+# icon-5: "img/racedates/05.png"
+# description-5: "The preliminary review finishes, and the list of finalists for the offline competition will be announced."
+
+# title-6: '2023.08'
+# icon-6: "img/racedates/06.png"
+# description-6: "The submission for final projects for the offline competition."
+
+# title-7: '2023.08.31'
+# icon-7: "img/racedates/07.png"
+# description-7: "The final results for the offline competition."
+
+
+

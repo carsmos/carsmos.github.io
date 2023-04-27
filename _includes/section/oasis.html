@@ -10,8 +10,10 @@
             </div>
             <div class="col-lg-6 text-end">
                 <br>
-                <span id="title">{{ site.data.oasis.title }} </span>
+                <div id="title-right">
+                <span>{{ site.data.oasis.title }} </span>
                 <img src="{{ site.title_tip1 | relative_url }}" />
+                </div>
                 <div class="des-common">
                     <br><div>{{ site.data.oasis.description }} </div>
                     {% for li in site.data.oasis.des_lists %}

@@ -18,8 +18,8 @@
                 </ul>
             </li>
             {%- else -%}
-            <li>
-                <a href="{{ menu.link }}">{{ menu.title }}</a>
+            <li class="menu-has-children">
+                <a href="{{ menu.link }}">{{ menu.title }}</a>  
             </li>
             {%- endif -%}
             {%- endfor -%}

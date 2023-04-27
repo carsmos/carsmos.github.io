@@ -2,12 +2,13 @@
 ######## 2023 Race Intro  ###########
 #####################################
 
-title: "Global Open Source Autonomous Driving Algorithm Competition"
+title: "2023 IEEE & OpenAtom Competition on Open-Source Autonomous Driving Algorithms"
 #image: "https://user-images.githubusercontent.com/99924265/219509901-34f8bff0-6c4b-4c7f-937b-696de3680d01.jpg"
 image: '/img/race/race-tip.png'
 arrow-right: '/img/race/arrow-right.svg'
-title1: 'Based on the autopilot simulation platform Oasis and middleware Dora of the Carsmos open source project,
-        <br>it provides multiple predefined scenarios for the participating teams in the simulation environment, and tests the autopilot algorithm through different scenarios Perception, 
+title1: 'Based on the autopilot middleware Dora and simulation platform Oasis of the Carsmos open source project,
+        <br>it provides multiple predefined scenarios for participating teams in a simulation environment, 
+        <br>and test the perception, planning, and decision-making abilities of the autonomous driving algorithms submitted by each team in various complex traffic environments within urban areas through different scenarios, 
         <br>planning and decision-making capabilities in various complex traffic environments in urban areas.
         <br>The winning teams of the simulation competition will be invited to participate in the offline vehicle challenge.'
 details:

@@ -9,11 +9,11 @@ hero: blog_details
 <section class="blog-post section-gap">
     <div class="container">
         {% for post in paginator.posts %}
-        <div class="row" style="border-top: 1px solid #8A8E99;padding: 32px 0;">
+        <div class="row justify-content-center" style="border-top: 1px solid #8A8E99;padding: 32px 0;">
             {% if post.image %}
             <img style="width: 320px;height: 180px;" src="{{ post.image | relative_url }}" alt="Card image cap">
             {% endif %}
-            <div style="flex: 1">
+            <div style="flex: 1;margin: 0px 30px;">
                 <a href="{{ post.url }}">
                     <br>
                     <h4 class="card-title mb-15">
