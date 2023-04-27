@@ -200,7 +200,7 @@
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.06);
     border-radius: 10px 10px 10px 10px;
     border: 1px solid #FFFFFF;
-    padding: 10px;
+    padding: 15px;
     width: 240px;
     height: 260px;
 
@@ -246,6 +246,7 @@
     align-items: center;
     position: relative;
     z-index: 1;
+    height: 29px;
 }
 
 .date-img {
@@ -275,7 +276,7 @@
     display: none;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .pc {
         display: none;
     }
@@ -283,4 +284,7 @@
     .mobile {
         display: contents;
     }
+}
+.border-1 {
+    border: 2px solid red;
 }
