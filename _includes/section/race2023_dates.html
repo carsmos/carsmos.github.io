@@ -12,7 +12,7 @@
                 </p>
             </div>
         </div>
-        <div class="row points-box">
+        <!--         <div class="row points-box">
             {% for item in site.data.race2023_dates.points-1 %}
             <div class="single-points">
                 <img src="{{ item.icon | relative_url }}" alt="">
@@ -34,7 +34,138 @@
             </div>
             <img class="points-image" src="{{ site.data.race2023_dates.left-tip | relative_url}}" alt="">
             {% endfor %}
+        </div> -->
+        <div class="pc">
+            <div class="row-date justify-content-sm-between">
+                {% for item in site.data.race2023_dates.points-1 %}
+                <div class="date-box">
+                    <div class="date-top">
+                        <img src="{{ item.icon | relative_url }}" alt="">
+                        <h4>{{ item.title }}</h4>
+                        <p>{{ item.description }}</p>
+                    </div>
+                    <div class="date-line"></div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="date-center">
+                <div class="date-img"><img src="{{ site.data.race2023_dates.time-tip | relative_url }}" alt=""></div>
+                <div class="date-img"><img src="{{ site.data.race2023_dates.time-tip | relative_url }}" alt=""></div>
+                <div class="date-img"><img src="{{ site.data.race2023_dates.time-tip | relative_url }}" alt=""></div>
+                <div class="date-img"><img src="{{ site.data.race2023_dates.time-tip | relative_url }}" alt=""></div>
+                <div class="date-img"><img src="{{ site.data.race2023_dates.time-tip | relative_url }}" alt=""></div>
+                <div class="date-img"><img src="{{ site.data.race2023_dates.time-tip | relative_url }}" alt=""></div>
+                <div class="date-img"><img src="{{ site.data.race2023_dates.time-tip | relative_url }}" alt=""></div>
+            </div>
+            <div class="date-line-2">
+                <div class="date-line-3"></div>
+            </div>
+            <div class="row-date justify-content-center">
+                {% for item in site.data.race2023_dates.points-2 %}
+                <div class="date-box-1">
+                    <div class="date-line"></div>
+                    <div class="date-top">
+                        <img src="{{ item.icon | relative_url }}" alt="">
+                        <h4>{{ item.title }}</h4>
+                        <p>{{ item.description }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
         </div>
+        <div class="mobile">
+            <div class="row-date justify-content-center">
+                {% for item in site.data.race2023_dates.points %}
+                <div class="date-box">
+                    <div class="date-top" style="margin-bottom: 10px;">
+                        <img src="{{ item.icon | relative_url }}" alt="">
+                        <h4>{{ item.title }}</h4>
+                        <p>{{ item.description }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <!--         <div class="mobile">
+        <div class="time">
+            <div class="time-box">
+                <div class="time-top">
+                    <img src="{{ site.data.race2023_dates.icon-1 | relative_url }}" alt="">
+                    <h4>{{ site.data.race2023_dates.title-1}}</h4>
+                    <p>{{ site.data.race2023_dates.description-1 }}</p>
+                </div>
+                <div class="time-line"></div>
+                <div class="time-bottom">
+                    <img src="{{ site.data.race2023_dates.time-tip | relative_url }}" alt="">
+                </div>
+            </div>
+            <div class="time-box time-box-margin">
+                <div class="time-bottom">
+                    <img src="{{ site.data.race2023_dates.time-tip | relative_url }}" alt="">
+                </div>
+                <div class="time-line"></div>
+                <div class="time-top">
+                    <img src="{{ site.data.race2023_dates.icon-2 | relative_url }}" alt="">
+                    <h4>{{ site.data.race2023_dates.title-2}}</h4>
+                    <p>{{ site.data.race2023_dates.description-2 }}</p>
+                </div>   
+            </div>
+            <div class="time-box">
+                <div class="time-top">
+                    <img src="{{ site.data.race2023_dates.icon-3 | relative_url }}" alt="">
+                    <h4>{{ site.data.race2023_dates.title-3}}</h4>
+                    <p>{{ site.data.race2023_dates.description-3 }}</p>
+                </div>
+                <div class="time-line"></div>
+                <div class="time-bottom">
+                    <img src="{{ site.data.race2023_dates.time-tip | relative_url }}" alt="">
+                </div>
+            </div>
+            <div class="time-box time-box-margin">
+                <div class="time-bottom">
+                    <img src="{{ site.data.race2023_dates.time-tip | relative_url }}" alt="">
+                </div>
+                <div class="time-line"></div>
+                <div class="time-top">
+                    <img src="{{ site.data.race2023_dates.icon-4 | relative_url }}" alt="">
+                    <h4>{{ site.data.race2023_dates.title-4}}</h4>
+                    <p>{{ site.data.race2023_dates.description-4 }}</p>
+                </div>   
+            </div>
+            <div class="time-box">
+                <div class="time-top">
+                    <img src="{{ site.data.race2023_dates.icon-5 | relative_url }}" alt="">
+                    <h4>{{ site.data.race2023_dates.title-5}}</h4>
+                    <p>{{ site.data.race2023_dates.description-5 }}</p>
+                </div>
+                <div class="time-line"></div>
+                <div class="time-bottom">
+                    <img src="{{ site.data.race2023_dates.time-tip | relative_url }}" alt="">
+                </div>
+            </div>
+            <div class="time-box time-box-margin">
+                <div class="time-bottom">
+                    <img src="{{ site.data.race2023_dates.time-tip | relative_url }}" alt="">
+                </div>
+                <div class="time-line"></div>
+                <div class="time-top">
+                    <img src="{{ site.data.race2023_dates.icon-6 | relative_url }}" alt="">
+                    <h4>{{ site.data.race2023_dates.title-6}}</h4>
+                    <p>{{ site.data.race2023_dates.description-6 }}</p>
+                </div>   
+            </div>
+            <div class="time-box">
+                <div class="time-top">
+                    <img src="{{ site.data.race2023_dates.icon-7 | relative_url }}" alt="">
+                    <h4>{{ site.data.race2023_dates.title-7}}</h4>
+                    <p>{{ site.data.race2023_dates.description-7 }}</p>
+                </div>
+                <div class="time-line"></div>
+                <div class="time-bottom">
+                    <img src="{{ site.data.race2023_dates.time-tip | relative_url }}" alt="">
+                </div>
+            </div>
+        </div> -->
     </div>
 </section>
 <!-- End race 2023 dates section -->

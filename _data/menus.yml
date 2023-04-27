@@ -1,7 +1,7 @@
 header:
-  - name: "Home"
-    title: "Home"
-    link: "/"
+  # - name: "Home"
+  #   title: "Home"
+  #   link: "/"
   - name: "intro"
     title: "CARSMOS"
     link: "/intro/carsmos/"

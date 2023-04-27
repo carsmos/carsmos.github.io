@@ -18,7 +18,8 @@ $(document).ready(function () {
         animation: {
             opacity: 'show'
         },
-        speed: 400
+        delay: 100,
+        speed: 100
     });
 
 

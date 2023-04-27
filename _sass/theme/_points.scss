@@ -9,9 +9,6 @@
 }
 
 .single-points {
-    /*border:1px solid #d0e4f7;
-  padding:60px 30px;
-  @include transition();*/
     background: #FFFFFF;
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.06);
     border-radius: 10px 10px 10px 10px;
@@ -24,6 +21,7 @@
     @media(max-width: 991px) {
         margin-bottom: 24px;
         width: 340px;
+
         &:last-child {
             margin-bottom: 0;
         }
@@ -82,7 +80,7 @@
     margin: -44px 110px;
     float: right;
 
-    @media (max-width: 766px) {
+    @media (max-width: 1000px) {
         display: none;
     }
 }
@@ -92,9 +90,9 @@
 }
 
 .points-box {
-    justify-content: center;
+    justify-content: flex-start;
 
-    @media (max-width: 766px) {
+    @media (max-width: 1000px) {
         .points-image {
             display: none;
         }
@@ -105,7 +103,184 @@
 .row-reverse {
     flex-direction: row-reverse;
 
-    @media (max-width: 766px) {
+    @media (max-width: 1000px) {
         flex-direction: row;
+    }
+}
+
+.time-box {
+    width: 182px;
+}
+
+.time-box-margin {
+    margin-top: 335px;
+}
+
+.time-top {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.06);
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #FFFFFF;
+    padding: 5px 15px;
+    height: 285px;
+
+    h4 {
+        margin: 25px 0px;
+        @include transition();
+        font-size: 16px;
+        font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+        font-weight: bold;
+        color: #252B3A;
+        line-height: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+        font-weight: 400;
+        color: #575D6C;
+        line-height: 28px;
+    }
+
+    &:hover {
+        cursor: pointer;
+        z-index: 2;
+        background: linear-gradient(180deg, #ECE4FA 0%, #fff 100%);
+        box-shadow: 0px 10px 30px 0px rgba(135, 170, 218, 0.3);
+        transform: scale(1.1);
+
+        h4 {
+            color: $primary-color2;
+        }
+    }
+}
+
+.time-line {
+    height: 50px;
+    width: 1px;
+    border: 1px solid #8A4FF6;
+    margin: 0px 90px;
+}
+
+.time-bottom {
+    border-top: 6px solid #8A4FF6;
+    border-bottom: 2px solid #8A4FF6;
+    height: 12px;
+    position: relative;
+
+    img {
+        position: absolute;
+        left: 75px;
+        top: -19px;
+    }
+}
+
+.time {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.date-box {
+    width: 209px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date-box-1 {
+    width: 209px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 77px;
+}
+
+.date-top {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.06);
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    width: 240px;
+    height: 260px;
+
+    h4 {
+        margin: 25px 0px;
+        @include transition();
+        font-size: 16px;
+        font-family: Source Han Sans CN-Bold, Source Han Sans CN;
+        font-weight: bold;
+        color: #252B3A;
+        line-height: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+        font-weight: 400;
+        color: #575D6C;
+        line-height: 28px;
+    }
+
+    &:hover {
+        cursor: pointer;
+        z-index: 2;
+        background: linear-gradient(180deg, #ECE4FA 0%, #fff 100%);
+        box-shadow: 0px 10px 30px 0px rgba(135, 170, 218, 0.3);
+        transform: scale(1.1);
+
+        h4 {
+            color: $primary-color2;
+        }
+    }
+}
+
+.date-line {
+    height: 50px;
+    border-left: 1px solid #8A4FF6;
+}
+
+.date-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.date-img {
+    width: 14%;
+    text-align: center;
+}
+
+.date-line-2 {
+    position: relative;
+}
+
+.date-line-3 {
+    border-top: 6px solid #8A4FF6;
+    border-bottom: 2px solid #8A4FF6;
+    height: 12px;
+    position: absolute;
+    top: -19px;
+    width: 100%;
+}
+
+.row-date {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .pc {
+        display: none;
+    }
+
+    .mobile {
+        display: contents;
     }
 }
