@@ -36,10 +36,10 @@ points:
 # left-tip: 'img/racedates/left.svg'
 # bottom-tip: 'img/racedates/bottom.svg'
 points-1:
-  - title: "2023.05"
+  - title: "2023.06"
     icon: "img/racedates/01.png"
     description: "初赛（线上比赛）启动<br>参赛团队报名"
-  - title: "2023.05"
+  - title: "2023.06"
     icon: "img/racedates/03.png"
     description: "在线问答会"
   - title: "2023.07.31"
