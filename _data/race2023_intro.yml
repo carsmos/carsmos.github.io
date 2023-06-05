@@ -13,7 +13,7 @@ title1: 'Based on the autopilot middleware Dora and simulation platform Oasis of
         <br>The winning teams of the simulation competition will be invited to participate in the offline vehicle challenge.'
 details:
   - label: "Competition registration link"
-    value: '<a href="https://competition.atomgit.com">
+    value: '<a href="https://competition.atomgit.com/competitionInfo?id=2e1cce10c89711edb4b22fd906d12a1e">
       https://competition.atomgit.com
       </a>'
   - label: "Contest Contact"
@@ -21,7 +21,7 @@ details:
       race@carsmos.ai
       </a>'
 signup_button_text: "SIGN UP Now"
-signup_button_link: "https://competition.atomgit.com/"
+signup_button_link: "https://competition.atomgit.com/competitionInfo?id=2e1cce10c89711edb4b22fd906d12a1e"
 
 info_button_text: "Get more info...(PPT)"
 info_button_link: "/Race2023/全球开源自动驾驶算法大赛V1.pdf"
