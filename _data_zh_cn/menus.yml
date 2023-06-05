@@ -84,7 +84,7 @@ header:
 
       - name: 'Entry point'
         title: '报名入口'
-        link: 'https://competition.atomgit.com'
+        link: 'https://competition.atomgit.com/competitionInfo?id=2e1cce10c89711edb4b22fd906d12a1e'
 lang_menu_en: "https://www.carsmos.ai"
 lang_menu_zh_cn: "https://www.carsmos.cn"
 locale: '简体中文'

@@ -30,7 +30,8 @@ social_links:
     link: '#'
     icon: "fab fa-dribbble"           
 name: 'CARSMOS工作组'
-copyright_text: © 2023 深信科创 陕ICP备19024193号-6
+# copyright_text: © 2023 深信科创 陕ICP备19024193号-6
+copyright_text: 陕ICP备19024193号-6
 company_url: 'https://beian.miit.gov.cn/' 
 
 
