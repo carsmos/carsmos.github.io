@@ -29,7 +29,22 @@ org:
     logo:
       - image: 'img/race/AWS_logo.png'
         link: 'https://aws.amazon.com/cn/' 
-        label: 'AWS'     
+        label: 'AWS'
+  - title: '社区合作'
+    icon: 'img/race/org5.png'
+    logo:
+      - image: 'img/race/datawhale.png'
+        link: 'https://datawhale.club/#/'
+        label: 'Datawhale'
+      - image: 'img/race/juejin.png'
+        link: 'https://juejin.cn/'
+        label: '稀土掘金'
+      - image: 'img/race/kaiyuanshe.png'
+        link: 'https://kaiyuanshe.github.io/'
+        label: '开源社'
+      - image: 'img/race/csdn.png'
+        link: 'https://www.csdn.com/'
+        label: 'CSDN' 
   - title: '技术支撑单位'
     icon: 'img/race/org4.png'
     logo:
