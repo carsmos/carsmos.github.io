@@ -12,6 +12,8 @@ title_links:
     link: '/intro/aboutcarsmos/'
   - name: 'Carsmos Overview'
     link: '#point'
+  - name: 'Carsmos Whitepaper'
+    link: '/whitepaper2022/CARSMOS-whitepaper-2022-12.pdf'
 des_lists:
   - title: 'EDIT EV Low Speed Electric Skateboard Chassis'
   - title: 'PULSAR Open Electrical and Electronic Architecture'
