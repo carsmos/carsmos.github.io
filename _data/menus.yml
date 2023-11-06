@@ -14,6 +14,10 @@ header:
         title: "Carsmos Overview"
         link: "/intro/overview/"
 
+      - name: "whitepaper"
+        title: "Carsmos Whitepaper"
+        link: '/whitepaper2022/CARSMOS-whitepaper-2022-12.pdf'
+
   - name: "projects"
     title: "Projects"
     link: "/projects/"

@@ -12,6 +12,8 @@ title_links:
     link: '/intro/aboutcarsmos/'
   - name: '元遨概述'
     link: '#point'
+  - name: "白皮书"
+    link: "/whitepaper2022/CARSMOS-whitepaper-2022-12.pdf"
 des_lists:
   - title: 'EDIT EV低速电动滑板底盘'
   - title: 'PULSAR开放电子电气架构'
